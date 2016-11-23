@@ -13,7 +13,7 @@ public class FirstTest {
 
     @Test
     public void driverK(){
-        System.setProperty("webdriver.chrome.driver", "A:\\kits\\IT/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "A:\\kits\\IT\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.get("http://www.compendiumdev.co.uk/selenium/");
         assertTrue(driver.getTitle().startsWith("Selenium"));

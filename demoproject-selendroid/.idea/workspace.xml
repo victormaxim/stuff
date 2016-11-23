@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6fe0c5b2-4718-4873-825c-302db6e1b129" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mywork/target/classes/projector.class" afterPath="$PROJECT_DIR$/../mywork/target/classes/projector.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mywork/target/classes/regex.class" afterPath="$PROJECT_DIR$/../mywork/target/classes/regex.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mywork/target/classes/regexA.class" afterPath="$PROJECT_DIR$/../mywork/target/classes/regexA.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Java/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mywork/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../mywork/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mywork/src/test/java/com/alex/FirstTest.java" afterPath="$PROJECT_DIR$/../mywork/src/test/java/com/alex/FirstTest.java" />
     </list>
     <ignored path="demoproject-selendroid.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -521,7 +527,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
