@@ -8,7 +8,7 @@ public class Butoane extends Applet implements ActionListener
 {
 
 public Button b1 = new Button("Buton 1");
-public Button b2 = new Button("Buton 2x");
+public Button b2 = new Button("Buton 2");
 
 public void init(){
     add(b1);
