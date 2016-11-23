@@ -1,0 +1,130 @@
+﻿
+text:Hint: It's a 2016 Chevy special edition.
+style:Arial,Helvetica,sans-serif#11px#13px#53565a<
+ 
+text:Hint: It's a 2016 Chevy special edition
+style:Arial,Helvetica,sans-serif#11px#13px#53565a<
+ 
+text:THE SILVERADO AND COLORADO MIDNIGHT EDITIONS ARE BACK IN BLACK. 
+style:Arial,Helvetica,sans-serif#26px#30px#ffffff<
+BOLD
+ 
+text:SILVERADO
+style:Arial,Helvetica,sans-serif#26px#30px#ffffff<
+ 
+text:COLORADO
+style:Arial,Helvetica,sans-serif#26px#30px#ffffff<
+ 
+text:Get ready to own the night because the new 2016 Silverado, Silverado HD and Colorado Midnight Editions are here. These enigmatic, special edition trucks turn heads almost as quickly as they drive. Darkened good looks create an aura of mystery while the Z71 package provides real off-road capability from a tuned suspension, skid plates and an automatic locking rear differential.
+style:Arial,Helvetica,sans-serif#16px#20px#53565a<
+ 
+text:Silverado
+style:Arial,Helvetica,sans-serif#16px#20px#53565a<
+ 
+text:Silverado HD
+style:Arial,Helvetica,sans-serif#16px#20px#53565a<
+ 
+text:Colorado
+style:Arial,Helvetica,sans-serif#16px#20px#53565a<
+ 
+text:Meet the Silverado
+style:Arial,Helvetica,sans-serif#20px#22px#f1f1f1<
+BOLD
+ 
+text:Meet the Colorado
+style:Arial,Helvetica,sans-serif#20px#22px#f1f1f1<
+BOLD
+ 
+text:CHEVROLET GOES THE EXTRA MILE FOR AN OWNER ON #DAYITFORWARD.
+style:#26px#30px#ffffff<
+BOLD
+ 
+
+text:Last month Chevrolet asked the world,"How would you make someone's life better with one extra day?" That's how we met Mike McHale. He's a racing enthusiast who has gone through a lot of challenges in life. When we heard his story we decided to grant a  special wish for him. Find  out how we surprised Mike and  see other #DayItForward surprises on  ChevyDayItForward.com.
+
+style:Arial,Helvetica,sans-serif#16px#20px#53565a<
+ 
+text:ChevyDayItForward.com
+style:Arial,Helvetica,sans-serif#16px#20px#53565a<
+ 
+text:Watch It Now
+style:Arial,Helvetica,sans-serif#20px#22px#f1f1f1<
+BOLD
+ 
+text:THE 1LE CAMARO TRACK PACK IS BACK.
+style:Arial,Helvetica,sans-serif#26px#30px#ffffff<
+BOLD
+ 
+
+text:Track days will be a lot more fun for Camaro drivers with two distinct 1LE Performance Packages: available  for 2017 on the Camaro SS V8 or the LT V6 models — both equipped with  manual transmissions. No other competitor offers a V6 track package. Camaro  chief engineer Al Oppenheiser shares the formula: "Start with a lightweight,  stiff structure and then add higher levels of suspension stiffness and damping,  more aggressive tires, higher down force, more powerful brakes and more  cooling."
+
+style:Arial,Helvetica,sans-serif#16px#20px#53565a<
+ 
+text:1LE Performance Packages
+style:Arial,Helvetica,sans-serif#16px#20px#53565a<
+ 
+text:Check It Out
+style:Arial,Helvetica,sans-serif#20px#22px#f1f1f1<
+BOLD
+ 
+text:Traverse
+style:Arial,Helvetica,sans-serif#11px#13px#53565a<
+BOLD
+ 
+text:Equinox
+style:Arial,Helvetica,sans-serif#11px#13px#53565a<
+BOLD
+ 
+text:Cruze
+style:Arial,Helvetica,sans-serif#11px#13px#53565a<
+BOLD
+ 
+text:Malibu
+style:Arial,Helvetica,sans-serif#11px#13px#53565a<
+BOLD
+ 
+text:Silverado 1500
+style:Arial,Helvetica,sans-serif#11px#13px#53565a<
+BOLD
+ 
+text:CLICK TO CHAT >
+style:Arial,Helvetica,sans-serif#12px#20px#53565a<
+ 
+
+text:BUILD & PRICE  >
+
+style:Arial,Helvetica,sans-serif#12px#20px#53565a<
+ 
+text:CURRENT OFFERS >
+style:Arial,Helvetica,sans-serif#12px#20px#53565a<
+ 
+text:FOLLOW CHEVROLET
+style:Arial,Helvetica,sans-serif#14px#20px#53565a<
+BOLD
+ 
+
+text:
+You are receiving this email advertisement because you are a valued Chevrolet owner or have expressed interest in Chevrolet.
+
+Unsubscribe | Copyright & Trademark | GM Privacy Statement
+
+Chevrolet | 100 Renaissance Center | 482.A00.MAR | Detroit, MI 48265 | 1-800-222-1020
+© 2016 General Motors. All Rights Reserved.
+
+style:Arial,Helvetica,sans-serif#11px#12px#53565a<
+ 
+text:Unsubscribe
+style:Arial,Helvetica,sans-serif#11px#12px#53565a<
+ 
+text:Copyright & Trademark
+style:Arial,Helvetica,sans-serif#11px#12px#53565a<
+ 
+text:GM Privacy Statement
+style:Arial,Helvetica,sans-serif#11px#12px#53565a<
+ 
+text:Chevrolet
+style:Arial,Helvetica,sans-serif#11px#12px#53565a<
+ 
+text:1-800-222-1020
+style:Arial,Helvetica,sans-serif#11px#12px#53565a<
+ 
