@@ -2,17 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6fe0c5b2-4718-4873-825c-302db6e1b129" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mywork/target/classes/projector.class" afterPath="$PROJECT_DIR$/../mywork/target/classes/projector.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mywork/target/classes/regex.class" afterPath="$PROJECT_DIR$/../mywork/target/classes/regex.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mywork/target/classes/regexA.class" afterPath="$PROJECT_DIR$/../mywork/target/classes/regexA.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Java/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mywork/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../mywork/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mywork/src/test/java/com/alex/FirstTest.java" afterPath="$PROJECT_DIR$/../mywork/src/test/java/com/alex/FirstTest.java" />
+      <change type="MODIFICATION" beforePath="A:/Work/git/Java/.idea/workspace.xml" afterPath="A:/Work/git/Java/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="A:/Work/git/mywork/.idea/workspace.xml" afterPath="A:/Work/git/mywork/.idea/workspace.xml" />
     </list>
     <ignored path="demoproject-selendroid.iws" />
     <ignored path=".idea/workspace.xml" />
-    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="A:/Work/git/demoproject-selendroid/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +33,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="A:/Work/git" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -48,8 +43,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/io/selendroid/demo/mobileweb/selendroid.java" />
-        <option value="$PROJECT_DIR$/src/main/java/io/selendroid/demo/mobileweb/MobileWebTest.java" />
+        <option value="A:/Work/git/demoproject-selendroid/src/main/java/io/selendroid/demo/mobileweb/selendroid.java" />
+        <option value="A:/Work/git/demoproject-selendroid/src/main/java/io/selendroid/demo/mobileweb/MobileWebTest.java" />
       </list>
     </option>
   </component>
@@ -94,14 +89,7 @@
       <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demoproject-selendroid" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
+        <subPane />
       </pane>
       <pane id="Scope" />
     </panes>
@@ -109,7 +97,7 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="A:/Work/git/demoproject-selendroid" />
   </component>
   <component name="RunManager" selected="JUnit.MobileWebTest.shouldSearchWithEbay">
     <configuration default="false" name="MobileWebTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -282,7 +270,7 @@
       <option name="MAIN_CLASS_NAME" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="A:/Work/git/demoproject-selendroid" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
@@ -527,7 +515,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -575,7 +563,7 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/selendroid/demo/SelendroidIntegrationTest.java">
+    <entry file="file://A:/Work/git/demoproject-selendroid/src/main/java/io/selendroid/demo/SelendroidIntegrationTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="35" column="38" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
@@ -583,7 +571,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/selendroid/demo/mobileweb/MobileWebTest.java">
+    <entry file="file://A:/Work/git/demoproject-selendroid/src/main/java/io/selendroid/demo/mobileweb/MobileWebTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -591,7 +579,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/selendroid/demo/mobileweb/selendroid.java">
+    <entry file="file://A:/Work/git/demoproject-selendroid/src/main/java/io/selendroid/demo/mobileweb/selendroid.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="684">
           <caret line="61" column="41" selection-start-line="61" selection-start-column="41" selection-end-line="61" selection-end-column="41" />
@@ -599,7 +587,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/selendroid/demo/nativeui/UserDO.java">
+    <entry file="file://A:/Work/git/demoproject-selendroid/src/main/java/io/selendroid/demo/nativeui/UserDO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
@@ -607,7 +595,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/selendroid/demo/nativeui/UserRegistrationTest.java">
+    <entry file="file://A:/Work/git/demoproject-selendroid/src/main/java/io/selendroid/demo/nativeui/UserRegistrationTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
           <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
@@ -615,7 +603,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demoproject-selendroid.iml">
+    <entry file="file://A:/Work/git/demoproject-selendroid/demoproject-selendroid.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
@@ -623,7 +611,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://A:/Work/git/demoproject-selendroid/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
@@ -631,7 +619,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://A:/Work/git/demoproject-selendroid/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
@@ -639,7 +627,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demoproject-selendroid.iml">
+    <entry file="file://A:/Work/git/demoproject-selendroid/demoproject-selendroid.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
@@ -647,7 +635,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/selendroid/demo/nativeui/UserDO.java">
+    <entry file="file://A:/Work/git/demoproject-selendroid/src/main/java/io/selendroid/demo/nativeui/UserDO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
@@ -655,7 +643,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/selendroid/demo/nativeui/UserRegistrationTest.java">
+    <entry file="file://A:/Work/git/demoproject-selendroid/src/main/java/io/selendroid/demo/nativeui/UserRegistrationTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
           <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
@@ -663,7 +651,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/selendroid/demo/SelendroidIntegrationTest.java">
+    <entry file="file://A:/Work/git/demoproject-selendroid/src/main/java/io/selendroid/demo/SelendroidIntegrationTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
           <caret line="35" column="38" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
@@ -671,7 +659,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/selendroid/demo/mobileweb/selendroid.java">
+    <entry file="file://A:/Work/git/demoproject-selendroid/src/main/java/io/selendroid/demo/mobileweb/selendroid.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="123">
           <caret line="61" column="41" selection-start-line="61" selection-start-column="41" selection-end-line="61" selection-end-column="41" />
@@ -680,7 +668,7 @@
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/io/selendroid/selendroid-common/0.15.0/selendroid-common-0.15.0.jar!/io/selendroid/common/SelendroidCapabilities.class" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/selendroid/demo/mobileweb/MobileWebTest.java">
+    <entry file="file://A:/Work/git/demoproject-selendroid/src/main/java/io/selendroid/demo/mobileweb/MobileWebTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="34" column="37" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />

@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc6d0e51-ca0f-447b-92b0-ebee44d67e9f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mywork/target/classes/projector.class" afterPath="$PROJECT_DIR$/../mywork/target/classes/projector.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mywork/target/classes/regex.class" afterPath="$PROJECT_DIR$/../mywork/target/classes/regex.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mywork/target/classes/regexA.class" afterPath="$PROJECT_DIR$/../mywork/target/classes/regexA.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../demoproject-selendroid/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../demoproject-selendroid/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../demoproject-selendroid/.idea/workspace.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mywork/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../mywork/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mywork/src/test/java/com/alex/FirstTest.java" afterPath="$PROJECT_DIR$/../mywork/src/test/java/com/alex/FirstTest.java" />
     </list>
     <ignored path="Java.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -464,7 +459,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
