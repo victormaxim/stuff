@@ -20,7 +20,7 @@ public class projector {
         driver.get("http://www.google.com/");
 
         try {
-            driver.wait(5000);
+            driver.wait(35000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }

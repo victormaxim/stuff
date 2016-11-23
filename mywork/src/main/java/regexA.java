@@ -20,7 +20,7 @@ public class regexA {
 String cauta = new String();
         String s = new String();
         definitii = new HashMap<String, String>();
-        definitii.put("starts.with", "^");
+        definitii.put("starts with", "^");
         definitii.put("ends with", "$");
         definitii.put("isn't", "[^");
 

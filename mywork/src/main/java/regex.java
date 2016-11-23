@@ -27,7 +27,6 @@ String cauta = new String();
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         System.out.println("Enter String");
 
-
 //        try {
 //            s = br.readLine();
 //        } catch (IOException e) {
