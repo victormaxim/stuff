@@ -6,6 +6,8 @@ import javax.swing.JDialog;
 import javax.swing.JButton;
 import java.awt.event.*;
 
+import static jFrames.SimpleInputUser.prompt;
+
 /**
  * Class jFrames.SimpleInput - input class for input of simple input types
  * via simple dialog box.  
@@ -32,10 +34,9 @@ public class SimpleInput
     
     /**
      ** String input from the user via a simple dialog.
-     ** @param prompt the message string to be displayed inside dialog    
      ** @return String input from the user.
      **/
-    public String getString(String prompt)
+    public String getString()
     {
         Object[] commentArray = {prompt, EMPTY_STRING, EMPTY_STRING};
         Object[] options = { "OK" };

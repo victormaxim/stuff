@@ -12,7 +12,7 @@ import org.openqa.selenium.interactions.Actions;
 //static WebDriver driver = new FirefoxDriver();
 		
 		
-	public class Popup {	
+	class Popup {
 			@Test
 			public void simpleOrder() throws Exception{
 			WebDriver driver = new FirefoxDriver();
