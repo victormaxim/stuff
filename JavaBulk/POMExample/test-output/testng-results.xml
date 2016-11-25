@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="7997" started-at="2014-07-07T10:31:14Z" finished-at="2014-07-07T10:31:22Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="7997" started-at="2014-07-07T10:31:14Z" finished-at="2014-07-07T10:31:22Z">
+      <class name="test.Test99GuruLoginWithPageFactory">
+        <test-method status="PASS" signature="setup()[pri:0, instance:test.Test99GuruLoginWithPageFactory@2f8891c4]" name="setup" is-config="true" duration-ms="6341" started-at="2014-07-07T16:01:14Z" finished-at="2014-07-07T16:01:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test_Home_Page_Appear_Correct()[pri:0, instance:test.Test99GuruLoginWithPageFactory@2f8891c4]" name="test_Home_Page_Appear_Correct" duration-ms="1643" started-at="2014-07-07T16:01:21Z" finished-at="2014-07-07T16:01:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Home_Page_Appear_Correct -->
+      </class> <!-- test.Test99GuruLoginWithPageFactory -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

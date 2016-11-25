@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=java.lang.String\ getString()
+comment0.text=\r\n\ String\ input\ from\ the\ user\ via\ a\ simple\ dialog.\r\n\ @param\ prompt\ the\ message\ string\ to\ be\ displayed\ inside\ dialog\ \ \ \ \r\n\ @return\ String\ input\ from\ the\ user.\r\n
+comment1.params=prompt
+comment1.target=char\ getChar(java.lang.String)
+comment1.text=\r\n\ char\ input\ from\ the\ user\ via\ a\ simple\ dialog.\r\n\ @param\ prompt\ the\ message\ string\ to\ be\ displayed\ inside\ dialog\ \ \r\n\ @return\ char\ input\ from\ the\ user.\r\n
+comment2.params=prompt\ trueText\ falseText
+comment2.target=boolean\ getBoolean(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment2.text=\r\n\ boolean\ selection\ from\ the\ user\ via\ a\ simple\ dialog.\ \ \r\n\ @param\ \ prompt\ message\ to\ appear\ in\ dialog\r\n\ @param\ \ trueText\ message\ to\ appear\ on\ true\ "button"\r\n\ @param\ \ falseText\ message\ to\ appear\ on\ "false"\ button\r\n\ @return\ boolean\ selection\ from\ the\ user\r\n
+comment3.params=prompt
+comment3.target=boolean\ getBoolean(java.lang.String)
+comment3.text=\r\n\ boolean\ selection\ from\ the\ user\ via\ a\ simple\ dialog.\r\n\ @param\ \ prompt\ message\ to\ appear\ in\ dialog\r\n\ @return\ boolean\ selection\ from\ the\ user\r\n
+comment4.params=prompt
+comment4.target=int\ getInt(java.lang.String)
+comment4.text=\r\n\ returns\ integer\ input\ from\ the\ user\ via\ a\ simple\ dialog.\r\n\ @param\ prompt\ the\ message\ string\ to\ be\ displayed\ inside\ dialog\r\n\ @return\ the\ input\ integer\r\n
+comment5.params=prompt
+comment5.target=float\ getFloat(java.lang.String)
+comment5.text=\r\n\ returns\ a\ float\ input\ from\ the\ user\ via\ a\ simple\ dialog.\r\n\ @param\ prompt\ the\ message\ string\ to\ be\ displayed\ inside\ dialog\r\n\ @return\ the\ input\ float\r\n
+numComments=6
