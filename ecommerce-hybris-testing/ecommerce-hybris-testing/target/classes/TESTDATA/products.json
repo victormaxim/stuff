@@ -1,0 +1,155 @@
+[
+  {
+	"itemNumber": "CLN278",
+	"productName": "Coarse Bristle PRO-SWEEP Broom Head",
+	"colorSelect": false,
+	"styleWithImageSelect": false,
+	"styleSelect": false,
+	"sizeSelect": true,
+	"lengthSelect": false,
+
+	"discontinuedNoReplace": false,
+	"discontinuedWReplace": false,
+	"callForQuote": false,
+	"sampleProduct": false,
+	"requiredAccesories": false,
+	"autoshipable": false
+  },
+
+  {
+	"itemNumber": "CAB712",
+	"productName": "PIG® Flammable Safety Cabinet",
+	"colorSelect": true,
+	"styleWithImageSelect": false,
+	"styleSelect": false,
+	"sizeSelect": false,
+	"lengthSelect": false,
+
+	"discontinuedNoReplace": false,
+	"discontinuedWReplace": false,
+	"callForQuote": false,
+	"sampleProduct": false,
+	"requiredAccesories": false,
+	"autoshipable": false
+  },
+
+  {
+	"itemNumber": "CAN479",
+	"productName": "BRUTE® Big Wheel® Container",
+	"colorSelect": true,
+	"styleWithImageSelect": false,
+	"styleSelect": false,
+	"sizeSelect": false,
+	"lengthSelect": false,
+
+	"discontinuedNoReplace": false,
+	"discontinuedWReplace": false,
+	"callForQuote": false,
+	"sampleProduct": false,
+	"requiredAccesories": false,
+	"autoshipable": false
+  },
+
+  {
+	"itemNumber": "MAT608",
+	"productName": "PIG® Chat Mat® Gray Absorbent Roll",
+	"colorSelect": false,
+	"styleWithImageSelect": false,
+	"styleSelect": true,
+	"sizeSelect": false,
+	"lengthSelect": false,
+
+	"discontinuedNoReplace": false,
+	"discontinuedWReplace": false,
+	"callForQuote": false,
+	"sampleProduct": false,
+	"requiredAccesories": false,
+	"autoshipable": false
+  },
+
+  {
+	"itemNumber": "CAB413",
+	"productName": "Justrite® Slimline Flammable Safety Cabinet",
+	"colorSelect": true,
+	"styleWithImageSelect": true,
+	"styleSelect": false,
+	"sizeSelect": false,
+	"lengthSelect": false,
+
+	"discontinuedNoReplace": false,
+	"discontinuedWReplace": false,
+	"callForQuote": false,
+	"sampleProduct": false,
+	"requiredAccesories": false,
+	"autoshipable": false
+  },
+
+  {
+	"itemNumber": "FLM277",
+	"productName": "Comfort King Anti-Fatigue Mat Roll",
+	"colorSelect": true,
+	"styleWithImageSelect": false,
+	"styleSelect": false,
+	"sizeSelect": false,
+	"lengthSelect": true,
+
+	"discontinuedNoReplace": false,
+	"discontinuedWReplace": false,
+	"callForQuote": false,
+	"sampleProduct": false,
+	"requiredAccesories": false,
+	"autoshipable": false
+  },
+
+  {
+	"itemNumber": "404",
+	"productName": "PIG® Original Absorbent Sock",
+	"colorSelect": false,
+	"styleWithImageSelect": false,
+	"styleSelect": false,
+	"sizeSelect": false,
+	"lengthSelect": false,
+
+	"discontinuedNoReplace": false,
+	"discontinuedWReplace": false,
+	"callForQuote": false,
+	"sampleProduct": false,
+	"requiredAccesories": false,
+	"autoshipable": false
+  },
+
+  {
+	"itemNumber": "GEN572",
+	"productName": "PIG® Picker",
+	"colorSelect": false,
+	"styleWithImageSelect": false,
+	"styleSelect": false,
+	"sizeSelect": false,
+	"lengthSelect": false,
+
+	"discontinuedNoReplace": false,
+	"discontinuedWReplace": false,
+	"callForQuote": false,
+	"sampleProduct": false,
+	"requiredAccesories": false,
+	"autoshipable": false
+  },
+
+  {
+	"itemNumber": "PAK296",
+	"productName": "PIG® Custom Collapse-A-Tainer® Containment System",
+	"colorSelect": false,
+	"styleWithImageSelect": false,
+	"styleSelect": false,
+	"sizeSelect": false,
+	"lengthSelect": false,
+
+	"discontinuedNoReplace": false,
+	"discontinuedWReplace": false,
+	"callForQuote": true,
+	"sampleProduct": false,
+	"requiredAccesories": false,
+	"autoshipable": false
+  }
+  
+]

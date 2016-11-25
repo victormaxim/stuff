@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="cart.CartTest" failures="1" tests="1" time="60.625" errors="0">
+  <properties/>
+  <testcase name="TC888_addToCartRequiredAccessory" time="43.257" classname="cart.CartTest">
+    <failure type="java.lang.AssertionError" message="The following asserts failed:
+null">
+      <![CDATA[java.lang.AssertionError: The following asserts failed:
+null
+	at cart.CartTest.TC888_addToCartRequiredAccessory(CartTest.java:374)
+... Removed 23 stack frames]]>
+    </failure>
+  </testcase>
+</testsuite>

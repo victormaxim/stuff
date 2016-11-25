@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="5" skipfailedinvocationCounts="false" verbose="1" name="Failed suite [newpigdemo]" junit="false" annotations="JDK">
+  <test name="cart.CartTest(failed)" junit="false" annotations="JDK">
+    <classes>
+      <class name="cart.CartTest">
+        <methods>
+          <include name="after"/>
+          <include name="before"/>
+          <include name="TC888_addToCartRequiredAccessory"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

@@ -1,0 +1,21 @@
+<testng-results>
+  <reporter-output>
+  </reporter-output>
+  <suite name="newpigdemo">
+    <groups>
+      <group name="smoke">
+        <method signature="checkout.CheckoutTest.TC4530_loginAndCheckoutFieldsValidation()" name="TC4530_loginAndCheckoutFieldsValidation" class="checkout.CheckoutTest"/>
+      </group>
+    </groups>
+    <test name="checkout.CheckoutTest">
+      <class name="checkout.CheckoutTest">
+        <test-method status="PASS" signature="TC4530_loginAndCheckoutFieldsValidation()" name="TC4530_loginAndCheckoutFieldsValidation" duration-ms="3523" started-at="2015-06-25T14:02:50Z" description="4530 - Checkout - Not logged in User - Login and Checkout - fields validations" finished-at="2015-06-25T14:02:53Z">
+        </test-method>
+        <test-method status="PASS" signature="after()" name="after" is-config="true" duration-ms="1243" started-at="2015-06-25T14:02:53Z" finished-at="2015-06-25T14:02:54Z">
+        </test-method>
+        <test-method status="PASS" signature="before()" name="before" is-config="true" duration-ms="16141" started-at="2015-06-25T14:02:33Z" finished-at="2015-06-25T14:02:50Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>

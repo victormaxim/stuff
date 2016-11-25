@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="checkout.CheckoutTest" failures="0" tests="1" time="20.907" errors="0">
+  <properties/>
+  <testcase name="TC4530_loginAndCheckoutFieldsValidation" time="3.523" classname="checkout.CheckoutTest"/>
+</testsuite>
