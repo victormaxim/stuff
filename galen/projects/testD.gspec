@@ -1,0 +1,8 @@
+@objects
+    navbar_item-*       #mds-cmp-1stlevelnavigation li
+
+= Global Nav =
+    @forEach [navbar_item-*] as navBar, next as nextNavBar
+        ${navBar}:
+            left-of ${nextNavBar} 12px
+            aligned horizontally all ${nextNavBar}

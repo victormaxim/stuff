@@ -1,0 +1,1197 @@
+{
+  "testId" : "1-buick.gspec",
+  "name" : "Buick.gspec",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Simple check",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "check  Buick.gspec --url file:///C:/work/GM/Buick/BRAND_2015_Buick_E2_Thank_You/Template_2015_BUICK_ThankYou_Email.html --size 1024x768 --htmlreport reports",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "Check layout: Buick.gspec included tags: ",
+          "status" : "error",
+          "time" : 1454576028139,
+          "sections" : [ {
+            "name" : "Buick Logo: visibility and image comparison",
+            "objects" : [ {
+              "name" : "logo_img",
+              "specs" : [ {
+                "status" : "error",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 38
+                },
+                "name" : "image file imgs/chevy.jpg, error 40%, tolerance 99",
+                "errors" : [ "Element does not look like \"imgs/chevy.jpg\". There are 79.09% mismatching pixels but max allowed is 40%" ],
+                "highlight" : [ "logo_img" ],
+                "imageComparison" : {
+                  "actualImage" : "layout-2-logo_img-actual.png",
+                  "expectedImage" : "layout-3-logo_img-expected.png",
+                  "comparisonMapImage" : "layout-4-logo_img-map.png"
+                }
+              } ]
+            } ]
+          }, {
+            "name" : "Masthead image: visibility and width",
+            "objects" : [ {
+              "name" : "masthead_img-1",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 42
+                },
+                "name" : "visible",
+                "highlight" : [ "masthead_img-1" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 43
+                },
+                "name" : "width 500px",
+                "highlight" : [ "masthead_img-1" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Menu items: visibility, alignment",
+            "objects" : [ {
+              "name" : "menu_item-1",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 48
+                },
+                "name" : "visible",
+                "highlight" : [ "menu_item-1" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 49
+                },
+                "name" : "left-of menu_item-2 0px",
+                "highlight" : [ "menu_item-1", "menu_item-2" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 50
+                },
+                "name" : "aligned horizontally all menu_item-2",
+                "highlight" : [ "menu_item-1", "menu_item-2" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Call to action button: alignment on page and between them, visibility. Exists on all templates",
+            "objects" : [ {
+              "name" : "CTA_button-1",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 56
+                },
+                "name" : "visible",
+                "highlight" : [ "CTA_button-1" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 57
+                },
+                "name" : "above CTA_button-2 20px",
+                "highlight" : [ "CTA_button-1", "CTA_button-2" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 58
+                },
+                "name" : "aligned vertically all CTA_button-2",
+                "highlight" : [ "CTA_button-1", "CTA_button-2" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 59
+                },
+                "name" : "centered horizontally inside viewport",
+                "highlight" : [ "CTA_button-1", "viewport" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Social icons: visibility and alignment",
+            "objects" : [ {
+              "name" : "social_icons-1",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 65
+                },
+                "name" : "visible",
+                "highlight" : [ "social_icons-1" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 66
+                },
+                "name" : "left-of social_icons-2 35px",
+                "highlight" : [ "social_icons-1", "social_icons-2" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 67
+                },
+                "name" : "aligned horizontally all social_icons-2",
+                "highlight" : [ "social_icons-1", "social_icons-2" ]
+              } ]
+            }, {
+              "name" : "social_icons-2",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 65
+                },
+                "name" : "visible",
+                "highlight" : [ "social_icons-2" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 66
+                },
+                "name" : "left-of social_icons-3 35px",
+                "highlight" : [ "social_icons-2", "social_icons-3" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 67
+                },
+                "name" : "aligned horizontally all social_icons-3",
+                "highlight" : [ "social_icons-2", "social_icons-3" ]
+              } ]
+            }, {
+              "name" : "social_icons-3",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 65
+                },
+                "name" : "visible",
+                "highlight" : [ "social_icons-3" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 66
+                },
+                "name" : "left-of social_icons-4 35px",
+                "highlight" : [ "social_icons-3", "social_icons-4" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 67
+                },
+                "name" : "aligned horizontally all social_icons-4",
+                "highlight" : [ "social_icons-3", "social_icons-4" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Tables: width and alignment",
+            "objects" : [ {
+              "name" : "tables-1",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 73
+                },
+                "name" : "visible",
+                "highlight" : [ "tables-1" ]
+              }, {
+                "status" : "error",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 74
+                },
+                "name" : "width 501px",
+                "errors" : [ "\"tables-1\" width is 500px instead of 501px" ],
+                "highlight" : [ "tables-1" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 75
+                },
+                "name" : "aligned vertically all tables-2",
+                "highlight" : [ "tables-1", "tables-2" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 76
+                },
+                "name" : "centered horizontally inside viewport",
+                "highlight" : [ "tables-1", "viewport" ]
+              } ]
+            }, {
+              "name" : "tables-2",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 73
+                },
+                "name" : "visible",
+                "highlight" : [ "tables-2" ]
+              }, {
+                "status" : "error",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 74
+                },
+                "name" : "width 501px",
+                "errors" : [ "\"tables-2\" width is 500px instead of 501px" ],
+                "highlight" : [ "tables-2" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 75
+                },
+                "name" : "aligned vertically all tables-3",
+                "highlight" : [ "tables-2", "tables-3" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 76
+                },
+                "name" : "centered horizontally inside viewport",
+                "highlight" : [ "tables-2", "viewport" ]
+              } ]
+            }, {
+              "name" : "tables-3",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 73
+                },
+                "name" : "visible",
+                "highlight" : [ "tables-3" ]
+              }, {
+                "status" : "error",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 74
+                },
+                "name" : "width 501px",
+                "errors" : [ "\"tables-3\" width is 500px instead of 501px" ],
+                "highlight" : [ "tables-3" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 75
+                },
+                "name" : "aligned vertically all tables-4",
+                "highlight" : [ "tables-3", "tables-4" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 76
+                },
+                "name" : "centered horizontally inside viewport",
+                "highlight" : [ "tables-3", "viewport" ]
+              } ]
+            }, {
+              "name" : "tables-4",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 73
+                },
+                "name" : "visible",
+                "highlight" : [ "tables-4" ]
+              }, {
+                "status" : "error",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 74
+                },
+                "name" : "width 501px",
+                "errors" : [ "\"tables-4\" width is 500px instead of 501px" ],
+                "highlight" : [ "tables-4" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 75
+                },
+                "name" : "aligned vertically all tables-5",
+                "highlight" : [ "tables-4", "tables-5" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 76
+                },
+                "name" : "centered horizontally inside viewport",
+                "highlight" : [ "tables-4", "viewport" ]
+              } ]
+            }, {
+              "name" : "tables-5",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 73
+                },
+                "name" : "visible",
+                "highlight" : [ "tables-5" ]
+              }, {
+                "status" : "error",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 74
+                },
+                "name" : "width 501px",
+                "errors" : [ "\"tables-5\" width is 500px instead of 501px" ],
+                "highlight" : [ "tables-5" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 75
+                },
+                "name" : "aligned vertically all tables-6",
+                "highlight" : [ "tables-5", "tables-6" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 76
+                },
+                "name" : "centered horizontally inside viewport",
+                "highlight" : [ "tables-5", "viewport" ]
+              } ]
+            }, {
+              "name" : "tables-6",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 73
+                },
+                "name" : "visible",
+                "highlight" : [ "tables-6" ]
+              }, {
+                "status" : "error",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 74
+                },
+                "name" : "width 501px",
+                "errors" : [ "\"tables-6\" width is 500px instead of 501px" ],
+                "highlight" : [ "tables-6" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 75
+                },
+                "name" : "aligned vertically all tables-7",
+                "highlight" : [ "tables-6", "tables-7" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 76
+                },
+                "name" : "centered horizontally inside viewport",
+                "highlight" : [ "tables-6", "viewport" ]
+              } ]
+            }, {
+              "name" : "tables-7",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 73
+                },
+                "name" : "visible",
+                "highlight" : [ "tables-7" ]
+              }, {
+                "status" : "error",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 74
+                },
+                "name" : "width 501px",
+                "errors" : [ "\"tables-7\" width is 500px instead of 501px" ],
+                "highlight" : [ "tables-7" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 75
+                },
+                "name" : "aligned vertically all tables-8",
+                "highlight" : [ "tables-7", "tables-8" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 76
+                },
+                "name" : "centered horizontally inside viewport",
+                "highlight" : [ "tables-7", "viewport" ]
+              } ]
+            }, {
+              "name" : "tables-8",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 73
+                },
+                "name" : "visible",
+                "highlight" : [ "tables-8" ]
+              }, {
+                "status" : "error",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 74
+                },
+                "name" : "width 501px",
+                "errors" : [ "\"tables-8\" width is 500px instead of 501px" ],
+                "highlight" : [ "tables-8" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 75
+                },
+                "name" : "aligned vertically all tables-9",
+                "highlight" : [ "tables-8", "tables-9" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 76
+                },
+                "name" : "centered horizontally inside viewport",
+                "highlight" : [ "tables-8", "viewport" ]
+              } ]
+            }, {
+              "name" : "tables-9",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 73
+                },
+                "name" : "visible",
+                "highlight" : [ "tables-9" ]
+              }, {
+                "status" : "error",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 74
+                },
+                "name" : "width 501px",
+                "errors" : [ "\"tables-9\" width is 500px instead of 501px" ],
+                "highlight" : [ "tables-9" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 75
+                },
+                "name" : "aligned vertically all tables-10",
+                "highlight" : [ "tables-9", "tables-10" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 76
+                },
+                "name" : "centered horizontally inside viewport",
+                "highlight" : [ "tables-9", "viewport" ]
+              } ]
+            }, {
+              "name" : "tables-10",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 73
+                },
+                "name" : "visible",
+                "highlight" : [ "tables-10" ]
+              }, {
+                "status" : "error",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 74
+                },
+                "name" : "width 501px",
+                "errors" : [ "\"tables-10\" width is 500px instead of 501px" ],
+                "highlight" : [ "tables-10" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 75
+                },
+                "name" : "aligned vertically all tables-11",
+                "highlight" : [ "tables-10", "tables-11" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 76
+                },
+                "name" : "centered horizontally inside viewport",
+                "highlight" : [ "tables-10", "viewport" ]
+              } ]
+            }, {
+              "name" : "tables-11",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 73
+                },
+                "name" : "visible",
+                "highlight" : [ "tables-11" ]
+              }, {
+                "status" : "error",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 74
+                },
+                "name" : "width 501px",
+                "errors" : [ "\"tables-11\" width is 500px instead of 501px" ],
+                "highlight" : [ "tables-11" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 75
+                },
+                "name" : "aligned vertically all tables-12",
+                "highlight" : [ "tables-11", "tables-12" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 76
+                },
+                "name" : "centered horizontally inside viewport",
+                "highlight" : [ "tables-11", "viewport" ]
+              } ]
+            }, {
+              "name" : "tables-12",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 73
+                },
+                "name" : "visible",
+                "highlight" : [ "tables-12" ]
+              }, {
+                "status" : "error",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 74
+                },
+                "name" : "width 501px",
+                "errors" : [ "\"tables-12\" width is 500px instead of 501px" ],
+                "highlight" : [ "tables-12" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 75
+                },
+                "name" : "aligned vertically all tables-13",
+                "highlight" : [ "tables-12", "tables-13" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 76
+                },
+                "name" : "centered horizontally inside viewport",
+                "highlight" : [ "tables-12", "viewport" ]
+              } ]
+            }, {
+              "name" : "tables-13",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 73
+                },
+                "name" : "visible",
+                "highlight" : [ "tables-13" ]
+              }, {
+                "status" : "error",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 74
+                },
+                "name" : "width 501px",
+                "errors" : [ "\"tables-13\" width is 500px instead of 501px" ],
+                "highlight" : [ "tables-13" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 75
+                },
+                "name" : "aligned vertically all tables-14",
+                "highlight" : [ "tables-13", "tables-14" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 76
+                },
+                "name" : "centered horizontally inside viewport",
+                "highlight" : [ "tables-13", "viewport" ]
+              } ]
+            }, {
+              "name" : "tables-14",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 73
+                },
+                "name" : "visible",
+                "highlight" : [ "tables-14" ]
+              }, {
+                "status" : "error",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 74
+                },
+                "name" : "width 501px",
+                "errors" : [ "\"tables-14\" width is 500px instead of 501px" ],
+                "highlight" : [ "tables-14" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 75
+                },
+                "name" : "aligned vertically all tables-15",
+                "highlight" : [ "tables-14", "tables-15" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 76
+                },
+                "name" : "centered horizontally inside viewport",
+                "highlight" : [ "tables-14", "viewport" ]
+              } ]
+            }, {
+              "name" : "tables-15",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 73
+                },
+                "name" : "visible",
+                "highlight" : [ "tables-15" ]
+              }, {
+                "status" : "error",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 74
+                },
+                "name" : "width 501px",
+                "errors" : [ "\"tables-15\" width is 500px instead of 501px" ],
+                "highlight" : [ "tables-15" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 75
+                },
+                "name" : "aligned vertically all tables-16",
+                "highlight" : [ "tables-15", "tables-16" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 76
+                },
+                "name" : "centered horizontally inside viewport",
+                "highlight" : [ "tables-15", "viewport" ]
+              } ]
+            }, {
+              "name" : "tables-16",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 73
+                },
+                "name" : "visible",
+                "highlight" : [ "tables-16" ]
+              }, {
+                "status" : "error",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 74
+                },
+                "name" : "width 501px",
+                "errors" : [ "\"tables-16\" width is 500px instead of 501px" ],
+                "highlight" : [ "tables-16" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 75
+                },
+                "name" : "aligned vertically all tables-17",
+                "highlight" : [ "tables-16", "tables-17" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 76
+                },
+                "name" : "centered horizontally inside viewport",
+                "highlight" : [ "tables-16", "viewport" ]
+              } ]
+            }, {
+              "name" : "tables-17",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 73
+                },
+                "name" : "visible",
+                "highlight" : [ "tables-17" ]
+              }, {
+                "status" : "error",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 74
+                },
+                "name" : "width 501px",
+                "errors" : [ "\"tables-17\" width is 500px instead of 501px" ],
+                "highlight" : [ "tables-17" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 75
+                },
+                "name" : "aligned vertically all tables-18",
+                "highlight" : [ "tables-17", "tables-18" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 76
+                },
+                "name" : "centered horizontally inside viewport",
+                "highlight" : [ "tables-17", "viewport" ]
+              } ]
+            }, {
+              "name" : "tables-18",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 73
+                },
+                "name" : "visible",
+                "highlight" : [ "tables-18" ]
+              }, {
+                "status" : "error",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 74
+                },
+                "name" : "width 501px",
+                "errors" : [ "\"tables-18\" width is 500px instead of 501px" ],
+                "highlight" : [ "tables-18" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 75
+                },
+                "name" : "aligned vertically all tables-19",
+                "highlight" : [ "tables-18", "tables-19" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 76
+                },
+                "name" : "centered horizontally inside viewport",
+                "highlight" : [ "tables-18", "viewport" ]
+              } ]
+            }, {
+              "name" : "tables-19",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 73
+                },
+                "name" : "visible",
+                "highlight" : [ "tables-19" ]
+              }, {
+                "status" : "error",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 74
+                },
+                "name" : "width 501px",
+                "errors" : [ "\"tables-19\" width is 500px instead of 501px" ],
+                "highlight" : [ "tables-19" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 75
+                },
+                "name" : "aligned vertically all tables-20",
+                "highlight" : [ "tables-19", "tables-20" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 76
+                },
+                "name" : "centered horizontally inside viewport",
+                "highlight" : [ "tables-19", "viewport" ]
+              } ]
+            }, {
+              "name" : "tables-20",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 73
+                },
+                "name" : "visible",
+                "highlight" : [ "tables-20" ]
+              }, {
+                "status" : "error",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 74
+                },
+                "name" : "width 501px",
+                "errors" : [ "\"tables-20\" width is 500px instead of 501px" ],
+                "highlight" : [ "tables-20" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 75
+                },
+                "name" : "aligned vertically all tables-21",
+                "highlight" : [ "tables-20", "tables-21" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 76
+                },
+                "name" : "centered horizontally inside viewport",
+                "highlight" : [ "tables-20", "viewport" ]
+              } ]
+            }, {
+              "name" : "tables-21",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 73
+                },
+                "name" : "visible",
+                "highlight" : [ "tables-21" ]
+              }, {
+                "status" : "error",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 74
+                },
+                "name" : "width 501px",
+                "errors" : [ "\"tables-21\" width is 500px instead of 501px" ],
+                "highlight" : [ "tables-21" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 75
+                },
+                "name" : "aligned vertically all tables-22",
+                "highlight" : [ "tables-21", "tables-22" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 76
+                },
+                "name" : "centered horizontally inside viewport",
+                "highlight" : [ "tables-21", "viewport" ]
+              } ]
+            }, {
+              "name" : "tables-22",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 73
+                },
+                "name" : "visible",
+                "highlight" : [ "tables-22" ]
+              }, {
+                "status" : "error",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 74
+                },
+                "name" : "width 501px",
+                "errors" : [ "\"tables-22\" width is 500px instead of 501px" ],
+                "highlight" : [ "tables-22" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 75
+                },
+                "name" : "aligned vertically all tables-23",
+                "highlight" : [ "tables-22", "tables-23" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 76
+                },
+                "name" : "centered horizontally inside viewport",
+                "highlight" : [ "tables-22", "viewport" ]
+              } ]
+            }, {
+              "name" : "tables-23",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 73
+                },
+                "name" : "visible",
+                "highlight" : [ "tables-23" ]
+              }, {
+                "status" : "error",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 74
+                },
+                "name" : "width 501px",
+                "errors" : [ "\"tables-23\" width is 500px instead of 501px" ],
+                "highlight" : [ "tables-23" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 75
+                },
+                "name" : "aligned vertically all tables-24",
+                "highlight" : [ "tables-23", "tables-24" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 76
+                },
+                "name" : "centered horizontally inside viewport",
+                "highlight" : [ "tables-23", "viewport" ]
+              } ]
+            }, {
+              "name" : "tables-24",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 73
+                },
+                "name" : "visible",
+                "highlight" : [ "tables-24" ]
+              }, {
+                "status" : "error",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 74
+                },
+                "name" : "width 501px",
+                "errors" : [ "\"tables-24\" width is 500px instead of 501px" ],
+                "highlight" : [ "tables-24" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 75
+                },
+                "name" : "aligned vertically all tables-25",
+                "highlight" : [ "tables-24", "tables-25" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "Buick.gspec",
+                  "lineNumber" : 76
+                },
+                "name" : "centered horizontally inside viewport",
+                "highlight" : [ "tables-24", "viewport" ]
+              } ]
+            } ]
+          } ],
+          "objects" : {
+            "menu_item-2" : {
+              "area" : [ 498, 54, 249, 34 ]
+            },
+            "tables-10" : {
+              "area" : [ 247, 730, 500, 87 ]
+            },
+            "tables-17" : {
+              "area" : [ 247, 1074, 500, 29 ]
+            },
+            "tables-18" : {
+              "area" : [ 247, 1103, 500, 25 ]
+            },
+            "tables-15" : {
+              "area" : [ 247, 965, 500, 89 ]
+            },
+            "tables-16" : {
+              "area" : [ 247, 1054, 500, 20 ]
+            },
+            "CTA_button-1" : {
+              "area" : [ 351, 650, 292, 30 ]
+            },
+            "social_icons-2" : {
+              "area" : [ 429, 1202, 50, 50 ]
+            },
+            "tables-13" : {
+              "area" : [ 247, 851, 500, 89 ]
+            },
+            "masthead_img-1" : {
+              "area" : [ 247, 88, 500, 394 ]
+            },
+            "social_icons-1" : {
+              "area" : [ 344, 1202, 50, 50 ]
+            },
+            "tables-14" : {
+              "area" : [ 247, 940, 500, 25 ]
+            },
+            "menu_item-1" : {
+              "area" : [ 247, 54, 251, 34 ]
+            },
+            "social_icons-4" : {
+              "area" : [ 599, 1202, 50, 50 ]
+            },
+            "tables-11" : {
+              "area" : [ 247, 817, 500, 14 ]
+            },
+            "CTA_button-2" : {
+              "area" : [ 351, 700, 292, 30 ]
+            },
+            "social_icons-3" : {
+              "area" : [ 514, 1202, 50, 50 ]
+            },
+            "tables-12" : {
+              "area" : [ 247, 831, 500, 20 ]
+            },
+            "tables-19" : {
+              "area" : [ 247, 1128, 500, 49 ]
+            },
+            "tables-20" : {
+              "area" : [ 247, 1177, 500, 25 ]
+            },
+            "tables-21" : {
+              "area" : [ 247, 1202, 500, 50 ]
+            },
+            "tables-1" : {
+              "area" : [ 247, 9, 500, 45 ]
+            },
+            "tables-3" : {
+              "area" : [ 247, 88, 500, 394 ]
+            },
+            "tables-2" : {
+              "area" : [ 247, 54, 500, 34 ]
+            },
+            "tables-5" : {
+              "area" : [ 247, 507, 500, 108 ]
+            },
+            "tables-24" : {
+              "area" : [ 247, 1387, 500, 10 ]
+            },
+            "tables-4" : {
+              "area" : [ 247, 482, 500, 25 ]
+            },
+            "tables-25" : {
+              "area" : [ 247, 1397, 500, 10 ]
+            },
+            "tables-7" : {
+              "area" : [ 247, 650, 500, 30 ]
+            },
+            "tables-22" : {
+              "area" : [ 247, 1252, 500, 35 ]
+            },
+            "tables-6" : {
+              "area" : [ 247, 615, 500, 35 ]
+            },
+            "tables-23" : {
+              "area" : [ 247, 1287, 500, 100 ]
+            },
+            "tables-9" : {
+              "area" : [ 247, 700, 500, 30 ]
+            },
+            "logo_img" : {
+              "area" : [ 271, 9, 120, 45 ]
+            },
+            "tables-8" : {
+              "area" : [ 247, 680, 500, 20 ]
+            },
+            "viewport" : {
+              "area" : [ 0, 0, 994, 1416 ]
+            }
+          },
+          "screenshot" : "layout-1-screenshot.png",
+          "type" : "layout"
+        } ],
+        "time" : 1454576019508,
+        "type" : "node"
+      } ],
+      "time" : 1454576008242,
+      "type" : "node"
+    } ]
+  }
+}

@@ -1,0 +1,705 @@
+<html>
+    <head>
+        <title>Galen Reports</title>
+        <link rel="stylesheet" type="text/css" href="report.css"></link>
+        <script src="jquery-1.11.2.min.js"></script>
+        <script src="handlebars-v2.0.0.js"></script>
+        <script src="galen-report.js"></script>
+        <script>
+var reportData = {
+  "testId" : "1-cadillac-c.gspec",
+  "name" : "cadillac_C.gspec",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Simple check",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "check  cadillac_C.gspec --url file:///C:/work/GM/Cadillac/CRM_2015_Cadillac_November_eNewsletter/Template_Owners_that_are_XT5_Handraisers.html --size 1024x768 --htmlreport reports --include desktop",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "Check layout: cadillac_C.gspec included tags: desktop",
+          "status" : "error",
+          "time" : 1452530305103,
+          "includedTags" : [ "desktop" ],
+          "sections" : [ {
+            "name" : "Navbar",
+            "objects" : [ {
+              "name" : "navbar_item-1",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "cadillac_C.gspec",
+                  "lineNumber" : 24
+                },
+                "name" : "visible",
+                "highlight" : [ "navbar_item-1" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "cadillac_C.gspec",
+                  "lineNumber" : 31
+                },
+                "name" : "left-of navbar_item-2 0px",
+                "highlight" : [ "navbar_item-1", "navbar_item-2" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "cadillac_C.gspec",
+                  "lineNumber" : 32
+                },
+                "name" : "aligned horizontally all navbar_item-2",
+                "highlight" : [ "navbar_item-1", "navbar_item-2" ]
+              } ]
+            }, {
+              "name" : "navbar_item-2",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "cadillac_C.gspec",
+                  "lineNumber" : 24
+                },
+                "name" : "visible",
+                "highlight" : [ "navbar_item-2" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "cadillac_C.gspec",
+                  "lineNumber" : 31
+                },
+                "name" : "left-of navbar_item-3 0px",
+                "highlight" : [ "navbar_item-2", "navbar_item-3" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "cadillac_C.gspec",
+                  "lineNumber" : 32
+                },
+                "name" : "aligned horizontally all navbar_item-3",
+                "highlight" : [ "navbar_item-2", "navbar_item-3" ]
+              } ]
+            }, {
+              "name" : "navbar_item-3",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "cadillac_C.gspec",
+                  "lineNumber" : 24
+                },
+                "name" : "visible",
+                "highlight" : [ "navbar_item-3" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "cadillac_C.gspec",
+                  "lineNumber" : 31
+                },
+                "name" : "left-of navbar_item-4 0px",
+                "highlight" : [ "navbar_item-3", "navbar_item-4" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "cadillac_C.gspec",
+                  "lineNumber" : 32
+                },
+                "name" : "aligned horizontally all navbar_item-4",
+                "highlight" : [ "navbar_item-3", "navbar_item-4" ]
+              } ]
+            }, {
+              "name" : "navbar_item-4",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "cadillac_C.gspec",
+                  "lineNumber" : 24
+                },
+                "name" : "visible",
+                "highlight" : [ "navbar_item-4" ]
+              } ]
+            } ]
+          }, {
+            "name" : "App Icons",
+            "objects" : [ {
+              "name" : "app_icon-1",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "cadillac_C.gspec",
+                  "lineNumber" : 36
+                },
+                "name" : "visible",
+                "highlight" : [ "app_icon-1" ]
+              } ]
+            }, {
+              "name" : "app_icon-2",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "cadillac_C.gspec",
+                  "lineNumber" : 36
+                },
+                "name" : "visible",
+                "highlight" : [ "app_icon-2" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Logo",
+            "objects" : [ {
+              "name" : "caddy_logo_img",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "cadillac_C.gspec",
+                  "lineNumber" : 40
+                },
+                "name" : "image file imgs/logo.jpg, error 12px",
+                "highlight" : [ "caddy_logo_img" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Masthead",
+            "objects" : [ {
+              "name" : "masthead_img",
+              "specs" : [ {
+                "status" : "error",
+                "place" : {
+                  "filePath" : "cadillac_C.gspec",
+                  "lineNumber" : 45
+                },
+                "name" : "width 650px",
+                "errors" : [ "\"masthead_img\" width is 600px instead of 650px" ],
+                "highlight" : [ "masthead_img" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Tables",
+            "objects" : [ {
+              "name" : "container_table-1",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "cadillac_C.gspec",
+                  "lineNumber" : 52
+                },
+                "name" : "width 650px",
+                "highlight" : [ "container_table-1" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "cadillac_C.gspec",
+                  "lineNumber" : 63
+                },
+                "name" : "aligned vertically all container_table-2",
+                "highlight" : [ "container_table-1", "container_table-2" ]
+              } ]
+            }, {
+              "name" : "container_table-2",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "cadillac_C.gspec",
+                  "lineNumber" : 52
+                },
+                "name" : "width 650px",
+                "highlight" : [ "container_table-2" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "cadillac_C.gspec",
+                  "lineNumber" : 63
+                },
+                "name" : "aligned vertically all container_table-3",
+                "highlight" : [ "container_table-2", "container_table-3" ]
+              } ]
+            }, {
+              "name" : "container_table-3",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "cadillac_C.gspec",
+                  "lineNumber" : 52
+                },
+                "name" : "width 650px",
+                "highlight" : [ "container_table-3" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "cadillac_C.gspec",
+                  "lineNumber" : 63
+                },
+                "name" : "aligned vertically all container_table-4",
+                "highlight" : [ "container_table-3", "container_table-4" ]
+              } ]
+            }, {
+              "name" : "container_table-4",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "cadillac_C.gspec",
+                  "lineNumber" : 52
+                },
+                "name" : "width 650px",
+                "highlight" : [ "container_table-4" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "cadillac_C.gspec",
+                  "lineNumber" : 63
+                },
+                "name" : "aligned vertically all container_table-5",
+                "highlight" : [ "container_table-4", "container_table-5" ]
+              } ]
+            }, {
+              "name" : "container_table-5",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "cadillac_C.gspec",
+                  "lineNumber" : 52
+                },
+                "name" : "width 650px",
+                "highlight" : [ "container_table-5" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "cadillac_C.gspec",
+                  "lineNumber" : 63
+                },
+                "name" : "aligned vertically all container_table-6",
+                "highlight" : [ "container_table-5", "container_table-6" ]
+              } ]
+            }, {
+              "name" : "container_table-6",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "cadillac_C.gspec",
+                  "lineNumber" : 52
+                },
+                "name" : "width 650px",
+                "highlight" : [ "container_table-6" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "cadillac_C.gspec",
+                  "lineNumber" : 63
+                },
+                "name" : "aligned vertically all container_table-7",
+                "highlight" : [ "container_table-6", "container_table-7" ]
+              } ]
+            }, {
+              "name" : "container_table-7",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "cadillac_C.gspec",
+                  "lineNumber" : 52
+                },
+                "name" : "width 650px",
+                "highlight" : [ "container_table-7" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "cadillac_C.gspec",
+                  "lineNumber" : 63
+                },
+                "name" : "aligned vertically all container_table-8",
+                "highlight" : [ "container_table-7", "container_table-8" ]
+              } ]
+            }, {
+              "name" : "container_table-8",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "cadillac_C.gspec",
+                  "lineNumber" : 52
+                },
+                "name" : "width 650px",
+                "highlight" : [ "container_table-8" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "cadillac_C.gspec",
+                  "lineNumber" : 63
+                },
+                "name" : "aligned vertically all container_table-9",
+                "highlight" : [ "container_table-8", "container_table-9" ]
+              } ]
+            }, {
+              "name" : "container_table-9",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "cadillac_C.gspec",
+                  "lineNumber" : 52
+                },
+                "name" : "width 650px",
+                "highlight" : [ "container_table-9" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "cadillac_C.gspec",
+                  "lineNumber" : 63
+                },
+                "name" : "aligned vertically all container_table-10",
+                "highlight" : [ "container_table-9", "container_table-10" ]
+              } ]
+            }, {
+              "name" : "container_table-10",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "cadillac_C.gspec",
+                  "lineNumber" : 52
+                },
+                "name" : "width 650px",
+                "highlight" : [ "container_table-10" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "cadillac_C.gspec",
+                  "lineNumber" : 63
+                },
+                "name" : "aligned vertically all container_table-11",
+                "highlight" : [ "container_table-10", "container_table-11" ]
+              } ]
+            }, {
+              "name" : "container_table-11",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "cadillac_C.gspec",
+                  "lineNumber" : 52
+                },
+                "name" : "width 650px",
+                "highlight" : [ "container_table-11" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "cadillac_C.gspec",
+                  "lineNumber" : 63
+                },
+                "name" : "aligned vertically all navbar_table",
+                "highlight" : [ "container_table-11", "navbar_table" ]
+              } ]
+            }, {
+              "name" : "navbar_table",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "cadillac_C.gspec",
+                  "lineNumber" : 57
+                },
+                "name" : "width 650px",
+                "highlight" : [ "navbar_table" ]
+              } ]
+            } ]
+          } ],
+          "objects" : {
+            "navbar_item-2" : {
+              "area" : [ 384, 62, 125, 40 ]
+            },
+            "navbar_item-1" : {
+              "area" : [ 244, 62, 140, 40 ]
+            },
+            "container_table-2" : {
+              "area" : [ 172, 103, 650, 379 ]
+            },
+            "container_table-1" : {
+              "area" : [ 172, 0, 650, 62 ]
+            },
+            "container_table-4" : {
+              "area" : [ 172, 882, 650, 230 ]
+            },
+            "container_table-11" : {
+              "area" : [ 172, 2602, 650, 184 ]
+            },
+            "container_table-3" : {
+              "area" : [ 172, 482, 650, 400 ]
+            },
+            "container_table-10" : {
+              "area" : [ 172, 2462, 650, 62 ]
+            },
+            "container_table-6" : {
+              "area" : [ 172, 1463, 650, 230 ]
+            },
+            "container_table-5" : {
+              "area" : [ 172, 1112, 650, 351 ]
+            },
+            "container_table-8" : {
+              "area" : [ 172, 2037, 650, 305 ]
+            },
+            "container_table-7" : {
+              "area" : [ 172, 1693, 650, 344 ]
+            },
+            "caddy_logo_img" : {
+              "area" : [ 246, 121, 272, 42 ]
+            },
+            "container_table-9" : {
+              "area" : [ 172, 2342, 650, 120 ]
+            },
+            "navbar_item-4" : {
+              "area" : [ 636, 62, 128, 40 ]
+            },
+            "navbar_item-3" : {
+              "area" : [ 509, 62, 127, 40 ]
+            },
+            "app_icon-2" : {
+              "area" : [ 409, 780, 122, 44 ]
+            },
+            "navbar_table" : {
+              "area" : [ 172, 62, 650, 41 ]
+            },
+            "app_icon-1" : {
+              "area" : [ 276, 780, 122, 44 ]
+            },
+            "masthead_img" : {
+              "area" : [ 197, 180, 600, 302 ]
+            }
+          },
+          "screenshot" : "layout-1-screenshot.png",
+          "type" : "layout"
+        } ],
+        "time" : 1452530299358,
+        "type" : "node"
+      } ],
+      "time" : 1452530290328,
+      "type" : "node"
+    } ]
+  }
+};
+        </script>
+        <script>
+
+            $(function () {
+                var galenReport = createGalenReport();
+                galenReport.render("main", reportData);
+            });
+        </script>
+    </head>
+    <body>
+        <script id="report-tpl" type="text/x-handlebars-template">
+            <ul class="report-nodes">
+            {{#each report.nodes}}
+                {{renderNode this}}
+            {{/each}}
+            </ul>
+        </script>
+        <script id="report-node-tpl" type="text/x-handlebars-template">
+            <li>
+                <span class="report-time">{{formatReportTime time}}</span>
+                <a class="expand-link node-expand-button node-status-{{status}} contains-children-{{hasChildElements nodes}} collapsed" href="#">{{status}}</a>
+                <div class="node-name node-status-{{status}}">{{name}}</div>
+                {{#if extras}}
+                    {{renderNodeExtras extras}}
+                {{/if}}
+                {{#if stacktrace}}
+                    <div class="stacktrace">{{stacktrace}}</div>
+                {{/if}}
+                {{#if attachments}}
+                    <ul class="report-node-attachments">
+                        {{#each attachments}}
+                            <li>
+                                <a class="icon-sprite-before node-attachment" href="{{this}}">{{this}}</a>
+                            </li>
+                        {{/each}}
+                    </ul>
+                {{/if}}
+                <div class="node-details expand-container">
+                    {{#if nodes}}
+                        <ul class="report-nodes">
+                            {{#each nodes}}
+                                {{renderNode this}}
+                            {{/each}}
+                        </ul>
+                    {{/if}}
+                </div>
+            </li>
+        </script>
+        <script id="report-node-text-tpl" type="text/x-handlebars-template">
+            <li>
+                <div class="node-simple-text">
+                    {{name}}
+                </div>
+            </li>
+        </script>
+        <script id="report-layout-tpl" type="text/x-handlebars-template">
+            <li>
+                <span class="report-time">{{formatReportTime time}}</span>
+                <a class="expand-link node-expand-button node-status-label node-status-info contains-children-true collapsed" href="#">LAYOUT</a>
+                <div class="node-name">{{name}}</div>
+                <div class="node-horizontal-menu" data-layout-id="{{layoutId}}"><a class="layout-heatmap-link" href="#">Heat Map</a></div>
+                <div class="node-details expand-container">
+                    {{renderSublayout this}}
+                </div>
+            </li>
+        </script>
+        <script id="report-layout-sublayout-tpl" type="text/x-handlebars-template">
+            <div class="layout-report" data-layout-id="{{layoutId}}" data-screenshot="{{screenshot}}">
+                <ul class="layout-sections">
+                    {{#each sections}}
+                        {{renderLayoutSection this}}
+                    {{/each}}
+                </ul>
+            </div>
+        </script>
+        <script id="report-layout-section-tpl" type="text/x-handlebars-template">
+            <li>
+                <a class="layout-section icon-sprite-before expand-link contains-children-true" href="#">{{name}}</a>
+                <div class="layout-details expand-container">
+                    {{#if sections}}
+                        <ul class="layout-sections">
+                        {{#each sections}}
+                            {{renderLayoutSection this}}
+                        {{/each}}
+                        </ul>
+                    {{/if}}
+                    {{#if objects}}
+                        <ul class="layout-objects">
+                            {{#each objects}}
+                                {{renderLayoutObject this}}
+                            {{/each}}
+                        </ul>
+                    {{/if}}
+                </div>
+            </li>
+        </script>
+
+        <script id="report-layout-object-tpl" type="text/x-handlebars-template">
+            <li>
+                <a class="layout-object icon-sprite-before expand-link contains-children-true" href="#">{{name}}</a>
+                <ul class="layout-checks expand-container">
+                    {{#each specs}}
+                        {{renderLayoutCheck this}}
+                    {{/each}}
+                    {{#each specGroups}}
+                    <li>
+                        <a class="layout-specgroup icon-sprite-before expand-link contains-children-true" href="#">{{name}}</a>
+                        <ul class="layout-checks expand-container">
+                            {{#each specs}}
+                                {{renderLayoutCheck this}}
+                            {{/each}}
+                        </ul>
+                    </li>
+                    {{/each}}
+                </ul>
+            </li>
+        </script>
+        <script id="report-layout-check-tpl" type="text/x-handlebars-template">
+            <li>
+            <a class="layout-check icon-sprite-before layout-check-status-{{status}}" href="#"
+                data-highlight-objects="{{commaSeparated highlight}}"
+                title="{{place.filePath}}#{{place.lineNumber}}"
+                >{{name}}</a>
+
+                {{#if errors}}
+                    <div class="layout-check-error-message">
+                        {{#if imageComparison}}
+                        <a class="image-comparison-link"
+                            data-actual-image="{{imageComparison.actualImage}}"
+                            data-expected-image="{{imageComparison.expectedImage}}"
+                            data-map-image="{{imageComparison.comparisonMapImage}}"
+                            href="#">Show image comparison</a>
+                        {{/if}}
+                        <div class="layout-check-error-message-text">
+                            <ul>
+                            {{#each errors}}
+                                <li>{{this}}</li>
+                            {{/each}}
+                        </ul>
+                    </div>
+                </div>
+                {{/if}}
+
+                {{#if subLayout}}
+                {{renderSublayout subLayout}}
+                {{/if}}
+            </li>
+        </script>
+        <script id="screenshot-popup-tpl" type="text/x-handlebars-template">
+            <div class="screenshot-canvas">
+                {{#if screenshot}}
+                <img src="{{screenshot}}"/>
+                {{else}}
+                <div class="empty-screenshot" style="width: {{width}}; height: {{height}};"></div>
+                {{/if}}
+                {{#each objects}}
+                <div class="canvas-rect" style="left: {{area.left}}px; top: {{area.top}}px; width: {{area.width}}px; height: {{area.height}}px; {{#if drawBorder}}border-color: {{color}};{{else}}border:none;{{/if}}{{#if fillBackground}}background: {{color}};{{else}}background:none;{{/if}}">
+                    <div class="canvas-rect-wrapper">
+                        <div class="canvas-rect-hint" style="background: {{color}};">{{name}}</div>
+                    </div>
+                </div>
+                {{/each}}
+            </div>
+        </script>
+        <script id="image-comparison-tpl" type="text/x-handlebars-template">
+            <div class="image-comparison image-comparison-layout-{{layout}}">
+                <div class="actual-image">
+                    <h5>Actual</h5>
+                    <img src="{{actual}}"/>
+                </div>
+
+                <div class="expected-image">
+                    <h5>Expected</h5>
+                    <img src="{{expected}}"/>
+                </div>
+
+                <div class="comparison-map">
+                    <h5>Comparison map</h5>
+                    <img src="{{map}}"/>
+                </div>
+            </div>
+        </script>
+        <script id="node-extras-tpl" type="text/x-handlebars-template">
+            <div class="node-extras">
+                <a class="node-extras" href="#">extras</a>
+                <div class="node-extras-content">
+                    <table class="node-extras-table">
+                        <tbody>
+                        {{#each this}}
+                        <tr>
+                            <td><label>{{@key}}</label></td>
+                            {{#ifCond type 'text'}}
+                            <td>{{value}}</td>
+                            {{/ifCond}}
+                            {{#ifCond type 'link'}}
+                            <td><a href="{{value}}">{{value}}</a></td>
+                            {{/ifCond}}
+                            {{#ifCond type 'image'}}
+                            <td><a href="{{value}}"><img src="{{value}}"/></a></td>
+                            {{/ifCond}}
+                        </tr>
+                        {{/each}}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </script>
+
+
+
+        <div id="menu">
+            <ul>
+                <li><a href="report.html">Back to Test Overview</a></li>
+                <li><a class="menu-op-expand-all" href="#">Expand All</a></li>
+                <li><a class="menu-op-collapse-all" href="#">Collapse All</a></li>
+                <li><a class="menu-op-expand-errors" href="#">Expand Errors</a></li>
+            </ul>
+        </div>
+        <h2>cadillac_C.gspec</h2>
+        <div id="main"></div>
+        <div id="screen-shadow"></div>
+        <div id="popup" class="popup">
+            <div class="popup-wrapper">
+                <a class="popup-close-link" href="#">close</a>
+                <div class="popup-content"></div>
+            </div>
+        </div>
+        <div id="notification" class="notification">
+            <div class="notification-wrapper">
+                <a class="notification-close-link" href="#">close</a>
+                <div class="notification-summary"></div>
+                <div class="notification-message"></div>
+            </div>
+        </div>
+    </body>
+</html>

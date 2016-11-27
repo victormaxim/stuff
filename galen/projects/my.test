@@ -1,0 +1,4 @@
+Home page on a small mobile device
+    "http://emails.cadillac.com/w/webView?cid=14501196792&mid=1147226886&pid=479634&vid=13684&ee=dGVhbS5tcm1AaG90bWFpbC5jb20_&si=1&mv=H&bv=H&oc=H&sc=&k=14OKi6"     1024x768
+        inject  test.js
+        check   testA.gspec

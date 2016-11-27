@@ -1,0 +1,9 @@
+@objects
+    image-* table
+
+
+= Imageborders =
+    image-2:
+        css src is "1"
+        width > 1000px
+

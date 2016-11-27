@@ -1,0 +1,35 @@
+@objects
+    menu_item-*     body>table>tbody>tr>td>table:nth-child(2) td
+    view-all-veh    (//a[contains(@description, 'F_BTN_VIEW')])
+# bottom menus count varies. so it selects the above td for Locate a vehicle (which surely is present) as parent, then all its children
+    bottom_menu-*   (//img[contains(@alt, 'Locate')])/../../../td
+    tables-*          body>table>tbody>tr>td:nth-of-type(2)>table
+
+= Top menu items =
+    @forEach [menu_item-*] as menuItem, next as nextMenu
+        ${menuItem}:
+            @on desktop
+                visible
+                left-of ${nextMenu} 0px
+                aligned horizontally all ${nextMenu}
+
+= View all vehicles button: exists on all templates =
+    view-all-veh:
+        visible
+
+= LAV, LAD, Chat =
+    @forEach [bottom_menu-*] as menuItem, next as nextMenu
+        ${menuItem}:
+            @on desktop
+                visible
+                left-of ${nextMenu} 0px
+                aligned horizontally all ${nextMenu}
+
+= Tables: width and alignment =
+
+@forEach [tables-*] as table, next as nextTable
+    ${menuItem}:
+        @on desktop
+            visible
+            left-of ${nextMenu} 0px
+            aligned horizontally all ${nextMenu}

@@ -1,0 +1,646 @@
+{
+  "testId" : "1-chevy.gspec",
+  "name" : "chevy.gspec",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Simple check",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "check  chevy.gspec --url file:///C:/work/GM/Chevy/2016%20Chevy%20Colorado%20Duramax%20Diesel%20Trigger%20T1%20_15.12.2015/TEMPLATE.html --size 600x480 --htmlreport reports --include mobile",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "Check layout: chevy.gspec included tags: mobile",
+          "status" : "info",
+          "time" : 1453136686316,
+          "includedTags" : [ "mobile" ],
+          "sections" : [ {
+            "name" : "Chevy Logo: visibility and image comparison",
+            "objects" : [ {
+              "name" : "bowtie_img",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "chevy.gspec",
+                  "lineNumber" : 27
+                },
+                "name" : "image file imgs/chevy.jpg, error 40%, tolerance 99",
+                "highlight" : [ "bowtie_img" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Masthead image: visibility and width",
+            "objects" : [ {
+              "name" : "masthead_img",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "chevy.gspec",
+                  "lineNumber" : 35
+                },
+                "name" : "visible",
+                "highlight" : [ "masthead_img" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "chevy.gspec",
+                  "lineNumber" : 36
+                },
+                "name" : "width 300px",
+                "highlight" : [ "masthead_img" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Call to action button: exists on all templates",
+            "objects" : [ {
+              "name" : "CTA_button",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "chevy.gspec",
+                  "lineNumber" : 40
+                },
+                "name" : "visible",
+                "highlight" : [ "CTA_button" ]
+              } ]
+            } ]
+          }, {
+            "name" : "LAV, LAD, Chat: visibility, alignment",
+            "objects" : [ {
+              "name" : "content_nav-1",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "chevy.gspec",
+                  "lineNumber" : 50
+                },
+                "name" : "visible",
+                "highlight" : [ "content_nav-1" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "chevy.gspec",
+                  "lineNumber" : 51
+                },
+                "name" : "above content_nav-2 18px",
+                "highlight" : [ "content_nav-1", "content_nav-2" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "chevy.gspec",
+                  "lineNumber" : 52
+                },
+                "name" : "aligned vertically all content_nav-2",
+                "highlight" : [ "content_nav-1", "content_nav-2" ]
+              } ]
+            }, {
+              "name" : "content_nav-2",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "chevy.gspec",
+                  "lineNumber" : 50
+                },
+                "name" : "visible",
+                "highlight" : [ "content_nav-2" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "chevy.gspec",
+                  "lineNumber" : 51
+                },
+                "name" : "above content_nav-3 18px",
+                "highlight" : [ "content_nav-2", "content_nav-3" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "chevy.gspec",
+                  "lineNumber" : 52
+                },
+                "name" : "aligned vertically all content_nav-3",
+                "highlight" : [ "content_nav-2", "content_nav-3" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Social icons: visibility and alignment",
+            "objects" : [ {
+              "name" : "social_icons-1",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "chevy.gspec",
+                  "lineNumber" : 62
+                },
+                "name" : "visible",
+                "highlight" : [ "social_icons-1" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "chevy.gspec",
+                  "lineNumber" : 63
+                },
+                "name" : "left-of social_icons-2 12px",
+                "highlight" : [ "social_icons-1", "social_icons-2" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "chevy.gspec",
+                  "lineNumber" : 64
+                },
+                "name" : "aligned horizontally all social_icons-2",
+                "highlight" : [ "social_icons-1", "social_icons-2" ]
+              } ]
+            }, {
+              "name" : "social_icons-2",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "chevy.gspec",
+                  "lineNumber" : 62
+                },
+                "name" : "visible",
+                "highlight" : [ "social_icons-2" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "chevy.gspec",
+                  "lineNumber" : 63
+                },
+                "name" : "left-of social_icons-3 12px",
+                "highlight" : [ "social_icons-2", "social_icons-3" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "chevy.gspec",
+                  "lineNumber" : 64
+                },
+                "name" : "aligned horizontally all social_icons-3",
+                "highlight" : [ "social_icons-2", "social_icons-3" ]
+              } ]
+            }, {
+              "name" : "social_icons-3",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "chevy.gspec",
+                  "lineNumber" : 62
+                },
+                "name" : "visible",
+                "highlight" : [ "social_icons-3" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "chevy.gspec",
+                  "lineNumber" : 63
+                },
+                "name" : "left-of social_icons-4 12px",
+                "highlight" : [ "social_icons-3", "social_icons-4" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "chevy.gspec",
+                  "lineNumber" : 64
+                },
+                "name" : "aligned horizontally all social_icons-4",
+                "highlight" : [ "social_icons-3", "social_icons-4" ]
+              } ]
+            }, {
+              "name" : "social_icons-4",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "chevy.gspec",
+                  "lineNumber" : 62
+                },
+                "name" : "visible",
+                "highlight" : [ "social_icons-4" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "chevy.gspec",
+                  "lineNumber" : 63
+                },
+                "name" : "left-of social_icons-5 12px",
+                "highlight" : [ "social_icons-4", "social_icons-5" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "chevy.gspec",
+                  "lineNumber" : 64
+                },
+                "name" : "aligned horizontally all social_icons-5",
+                "highlight" : [ "social_icons-4", "social_icons-5" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Tables: width and alignment",
+            "objects" : [ {
+              "name" : "tables-1",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "chevy.gspec",
+                  "lineNumber" : 76
+                },
+                "name" : "visible",
+                "highlight" : [ "tables-1" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "chevy.gspec",
+                  "lineNumber" : 77
+                },
+                "name" : "width 300px",
+                "highlight" : [ "tables-1" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "chevy.gspec",
+                  "lineNumber" : 78
+                },
+                "name" : "aligned vertically all tables-2",
+                "highlight" : [ "tables-1", "tables-2" ]
+              } ]
+            }, {
+              "name" : "tables-2",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "chevy.gspec",
+                  "lineNumber" : 76
+                },
+                "name" : "visible",
+                "highlight" : [ "tables-2" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "chevy.gspec",
+                  "lineNumber" : 77
+                },
+                "name" : "width 300px",
+                "highlight" : [ "tables-2" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "chevy.gspec",
+                  "lineNumber" : 78
+                },
+                "name" : "aligned vertically all tables-3",
+                "highlight" : [ "tables-2", "tables-3" ]
+              } ]
+            }, {
+              "name" : "tables-3",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "chevy.gspec",
+                  "lineNumber" : 76
+                },
+                "name" : "visible",
+                "highlight" : [ "tables-3" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "chevy.gspec",
+                  "lineNumber" : 77
+                },
+                "name" : "width 300px",
+                "highlight" : [ "tables-3" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "chevy.gspec",
+                  "lineNumber" : 78
+                },
+                "name" : "aligned vertically all tables-4",
+                "highlight" : [ "tables-3", "tables-4" ]
+              } ]
+            }, {
+              "name" : "tables-4",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "chevy.gspec",
+                  "lineNumber" : 76
+                },
+                "name" : "visible",
+                "highlight" : [ "tables-4" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "chevy.gspec",
+                  "lineNumber" : 77
+                },
+                "name" : "width 300px",
+                "highlight" : [ "tables-4" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "chevy.gspec",
+                  "lineNumber" : 78
+                },
+                "name" : "aligned vertically all tables-5",
+                "highlight" : [ "tables-4", "tables-5" ]
+              } ]
+            }, {
+              "name" : "tables-5",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "chevy.gspec",
+                  "lineNumber" : 76
+                },
+                "name" : "visible",
+                "highlight" : [ "tables-5" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "chevy.gspec",
+                  "lineNumber" : 77
+                },
+                "name" : "width 300px",
+                "highlight" : [ "tables-5" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "chevy.gspec",
+                  "lineNumber" : 78
+                },
+                "name" : "aligned vertically all tables-6",
+                "highlight" : [ "tables-5", "tables-6" ]
+              } ]
+            }, {
+              "name" : "tables-6",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "chevy.gspec",
+                  "lineNumber" : 76
+                },
+                "name" : "visible",
+                "highlight" : [ "tables-6" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "chevy.gspec",
+                  "lineNumber" : 77
+                },
+                "name" : "width 300px",
+                "highlight" : [ "tables-6" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "chevy.gspec",
+                  "lineNumber" : 78
+                },
+                "name" : "aligned vertically all tables-7",
+                "highlight" : [ "tables-6", "tables-7" ]
+              } ]
+            }, {
+              "name" : "tables-7",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "chevy.gspec",
+                  "lineNumber" : 76
+                },
+                "name" : "visible",
+                "highlight" : [ "tables-7" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "chevy.gspec",
+                  "lineNumber" : 77
+                },
+                "name" : "width 300px",
+                "highlight" : [ "tables-7" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "chevy.gspec",
+                  "lineNumber" : 78
+                },
+                "name" : "aligned vertically all tables-8",
+                "highlight" : [ "tables-7", "tables-8" ]
+              } ]
+            }, {
+              "name" : "tables-8",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "chevy.gspec",
+                  "lineNumber" : 76
+                },
+                "name" : "visible",
+                "highlight" : [ "tables-8" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "chevy.gspec",
+                  "lineNumber" : 77
+                },
+                "name" : "width 300px",
+                "highlight" : [ "tables-8" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "chevy.gspec",
+                  "lineNumber" : 78
+                },
+                "name" : "aligned vertically all tables-9",
+                "highlight" : [ "tables-8", "tables-9" ]
+              } ]
+            }, {
+              "name" : "tables-9",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "chevy.gspec",
+                  "lineNumber" : 76
+                },
+                "name" : "visible",
+                "highlight" : [ "tables-9" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "chevy.gspec",
+                  "lineNumber" : 77
+                },
+                "name" : "width 300px",
+                "highlight" : [ "tables-9" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "chevy.gspec",
+                  "lineNumber" : 78
+                },
+                "name" : "aligned vertically all tables-10",
+                "highlight" : [ "tables-9", "tables-10" ]
+              } ]
+            }, {
+              "name" : "tables-10",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "chevy.gspec",
+                  "lineNumber" : 76
+                },
+                "name" : "visible",
+                "highlight" : [ "tables-10" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "chevy.gspec",
+                  "lineNumber" : 77
+                },
+                "name" : "width 300px",
+                "highlight" : [ "tables-10" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "chevy.gspec",
+                  "lineNumber" : 78
+                },
+                "name" : "aligned vertically all tables-11",
+                "highlight" : [ "tables-10", "tables-11" ]
+              } ]
+            }, {
+              "name" : "tables-11",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "chevy.gspec",
+                  "lineNumber" : 76
+                },
+                "name" : "visible",
+                "highlight" : [ "tables-11" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "chevy.gspec",
+                  "lineNumber" : 77
+                },
+                "name" : "width 300px",
+                "highlight" : [ "tables-11" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "chevy.gspec",
+                  "lineNumber" : 78
+                },
+                "name" : "aligned vertically all tables-12",
+                "highlight" : [ "tables-11", "tables-12" ]
+              } ]
+            }, {
+              "name" : "tables-12",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "chevy.gspec",
+                  "lineNumber" : 76
+                },
+                "name" : "visible",
+                "highlight" : [ "tables-12" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "chevy.gspec",
+                  "lineNumber" : 77
+                },
+                "name" : "width 300px",
+                "highlight" : [ "tables-12" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "chevy.gspec",
+                  "lineNumber" : 78
+                },
+                "name" : "aligned vertically all tables-13",
+                "highlight" : [ "tables-12", "tables-13" ]
+              } ]
+            } ]
+          } ],
+          "objects" : {
+            "tables-10" : {
+              "area" : [ 135, 1697, 300, 20 ]
+            },
+            "content_nav-2" : {
+              "area" : [ 145, 1436, 280, 56 ]
+            },
+            "tables-1" : {
+              "area" : [ 135, 0, 300, 74 ]
+            },
+            "content_nav-3" : {
+              "area" : [ 145, 1510, 280, 56 ]
+            },
+            "CTA_button" : {
+              "area" : [ 156, 1278, 258, 44 ]
+            },
+            "tables-3" : {
+              "area" : [ 135, 130, 300, 154 ]
+            },
+            "content_nav-1" : {
+              "area" : [ 145, 1362, 280, 56 ]
+            },
+            "tables-2" : {
+              "area" : [ 135, 74, 300, 56 ]
+            },
+            "social_icons-2" : {
+              "area" : [ 202, 1631, 35, 35 ]
+            },
+            "tables-5" : {
+              "area" : [ 135, 1353, 300, 222 ]
+            },
+            "tables-13" : {
+              "area" : [ 135, 1752, 300, 592 ]
+            },
+            "social_icons-1" : {
+              "area" : [ 155, 1631, 35, 35 ]
+            },
+            "tables-4" : {
+              "area" : [ 135, 284, 300, 1069 ]
+            },
+            "social_icons-4" : {
+              "area" : [ 296, 1631, 49, 35 ]
+            },
+            "tables-7" : {
+              "area" : [ 135, 1599, 300, 67 ]
+            },
+            "tables-11" : {
+              "area" : [ 135, 1717, 300, 15 ]
+            },
+            "social_icons-3" : {
+              "area" : [ 249, 1631, 35, 35 ]
+            },
+            "tables-6" : {
+              "area" : [ 135, 1575, 300, 24 ]
+            },
+            "tables-12" : {
+              "area" : [ 135, 1732, 300, 20 ]
+            },
+            "tables-9" : {
+              "area" : [ 135, 1696, 300, 1 ]
+            },
+            "social_icons-5" : {
+              "area" : [ 357, 1631, 35, 35 ]
+            },
+            "tables-8" : {
+              "area" : [ 135, 1666, 300, 30 ]
+            },
+            "masthead_img" : {
+              "area" : [ 135, 130, 300, 154 ]
+            },
+            "bowtie_img" : {
+              "area" : [ 145, 74, 193, 26 ]
+            }
+          },
+          "screenshot" : "layout-1-screenshot.png",
+          "type" : "layout"
+        } ],
+        "time" : 1453136681179,
+        "type" : "node"
+      } ],
+      "time" : 1453136671079,
+      "type" : "node"
+    } ]
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "testId" : "1-homepage-on-desktop",
+  "name" : "Homepage on desktop",
+  "report" : {
+    "nodes" : [ {
+      "name" : "file:///C:/work/GM/Cadillac/CRM_2015_Cadillac_November_eNewsletter/Template_Owners_that_are_XT5_Handraisers.html\t1024x768",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "check cadillac.gspec --include desktop",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "Check layout: cadillac.gspec included tags: desktop",
+          "status" : "error",
+          "time" : 1454409980308,
+          "includedTags" : [ "desktop" ],
+          "excludedTags" : [ ],
+          "sections" : [ {
+            "name" : "Logo: Image comparison (with original)",
+            "objects" : [ {
+              "name" : "caddy_logo_img",
+              "specs" : [ {
+                "status" : "error",
+                "place" : {
+                  "filePath" : "cadillac.gspec",
+                  "lineNumber" : 61
+                },
+                "name" : "image file imgs/logo.jpg, error 12px",
+                "errors" : [ "\"caddy_logo_img\" is absent on page" ],
+                "highlight" : [ ]
+              } ]
+            } ]
+          }, {
+            "name" : "Masthead: Image width",
+            "objects" : [ {
+              "name" : "masthead_img",
+              "specs" : [ {
+                "status" : "error",
+                "place" : {
+                  "filePath" : "cadillac.gspec",
+                  "lineNumber" : 68
+                },
+                "name" : "width 600px",
+                "errors" : [ "\"masthead_img\" is absent on page" ],
+                "highlight" : [ ]
+              } ]
+            } ]
+          }, {
+            "name" : "App Icons: Visibility and alignment",
+            "objects" : [ {
+              "name" : "app_icon-1",
+              "specs" : [ {
+                "status" : "error",
+                "place" : {
+                  "filePath" : "cadillac.gspec",
+                  "lineNumber" : 76
+                },
+                "name" : "aligned horizontally all app_icon-2",
+                "errors" : [ "Cannot find locator for \"app_icon-1\" in page spec" ],
+                "highlight" : [ ]
+              } ]
+            } ]
+          }, {
+            "name" : "Container tables: width, alignment and visibility",
+            "objects" : [ {
+              "name" : "navbar_table",
+              "specs" : [ {
+                "status" : "error",
+                "place" : {
+                  "filePath" : "cadillac.gspec",
+                  "lineNumber" : 109
+                },
+                "name" : "width 650px",
+                "errors" : [ "\"navbar_table\" is absent on page" ],
+                "highlight" : [ ]
+              }, {
+                "status" : "error",
+                "place" : {
+                  "filePath" : "cadillac.gspec",
+                  "lineNumber" : 115
+                },
+                "name" : "aligned vertically all bottomNavBar_table",
+                "errors" : [ "\"navbar_table\" is absent on page" ],
+                "highlight" : [ ]
+              } ]
+            } ]
+          } ],
+          "objects" : { },
+          "screenshot" : "layout-1-screenshot.png",
+          "type" : "layout"
+        } ],
+        "time" : 1454409979354,
+        "type" : "node"
+      } ],
+      "time" : 1454409968513,
+      "type" : "node"
+    } ]
+  }
+}

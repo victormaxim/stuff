@@ -1,0 +1,25 @@
+{
+  "testId" : "1-mail-test.gspec",
+  "name" : "mail-test.gspec",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Simple check",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "check  mail-test.gspec --url http://testapp.galenframework.com/ --size 1024x768 --htmlreport reports -include desktop",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "FileSyntaxException: Unknown statement: image-1:\n    in mail-test.gspec:8",
+          "status" : "error",
+          "time" : 1448036298283,
+          "stacktrace" : "com.galenframework.parser.FileSyntaxException: Unknown statement: image-1:\n    in mail-test.gspec:8\r\n\tat com.galenframework.speclang2.reader.pagespec.PageSpecReader.read(PageSpecReader.java:78)\r\n\tat com.galenframework.speclang2.reader.pagespec.PageSpecReader.read(PageSpecReader.java:48)\r\n\tat com.galenframework.api.Galen.checkLayout(Galen.java:72)\r\n\tat com.galenframework.api.Galen.checkLayout(Galen.java:63)\r\n\tat com.galenframework.suite.actions.GalenPageActionCheck.execute(GalenPageActionCheck.java:54)\r\n\tat com.galenframework.runner.GalenPageRunner.executeAction(GalenPageRunner.java:84)\r\n\tat com.galenframework.runner.GalenPageRunner.run(GalenPageRunner.java:76)\r\n\tat com.galenframework.runner.GalenBasicTestRunner.runTest(GalenBasicTestRunner.java:76)\r\n\tat com.galenframework.tests.GalenBasicTest.execute(GalenBasicTest.java:55)\r\n\tat com.galenframework.TestRunnable.runTest(TestRunnable.java:75)\r\n\tat com.galenframework.TestRunnable.run(TestRunnable.java:101)\r\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)\r\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)\r\n\tat java.lang.Thread.run(Unknown Source)\r\nCaused by: com.galenframework.parser.SyntaxException: Unknown statement: image-1:\r\n\tat com.galenframework.speclang2.reader.pagespec.PostProcessor.processNode(PostProcessor.java:43)\r\n\tat com.galenframework.speclang2.reader.pagespec.PostProcessor.process(PostProcessor.java:35)\r\n\tat com.galenframework.speclang2.reader.pagespec.PageSpecReader.read(PageSpecReader.java:66)\r\n\t... 13 more\r\n",
+          "type" : "node"
+        } ],
+        "time" : 1448036297397,
+        "type" : "node"
+      } ],
+      "time" : 1448036261190,
+      "type" : "node"
+    } ]
+  }
+}

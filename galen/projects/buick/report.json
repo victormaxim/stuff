@@ -1,0 +1,17 @@
+{
+  "tests" : [ {
+    "name" : "Buick.gspec",
+    "startedAt" : 1454341251038,
+    "endedAt" : 1454341270634,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 90,
+      "errors" : 25,
+      "warnings" : 0,
+      "total" : 115
+    },
+    "testId" : "1-buick.gspec",
+    "failed" : true,
+    "duration" : 19596
+  } ]
+}

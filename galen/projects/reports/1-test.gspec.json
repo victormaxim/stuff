@@ -1,0 +1,49 @@
+{
+  "testId" : "1-test.gspec",
+  "name" : "test.gspec",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Simple check",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "check  test.gspec --url http://testapp.galenframework.com/ --size 500x768 --htmlreport reports -include mobile",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "Check layout: test.gspec included tags: mobile",
+          "status" : "info",
+          "time" : 1448020917747,
+          "includedTags" : [ "mobile" ],
+          "sections" : [ {
+            "name" : "Header",
+            "objects" : [ {
+              "name" : "header-logo",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "test.gspec",
+                  "lineNumber" : 8
+                },
+                "name" : "left-of header-text ~20 px",
+                "highlight" : [ "header-logo", "header-text" ]
+              } ]
+            } ]
+          } ],
+          "objects" : {
+            "header-text" : {
+              "area" : [ 70, 20, 261, 40 ]
+            },
+            "header-logo" : {
+              "area" : [ 0, 13, 48, 48 ]
+            }
+          },
+          "screenshot" : "layout-1-screenshot.png",
+          "type" : "layout"
+        } ],
+        "time" : 1448020916391,
+        "type" : "node"
+      } ],
+      "time" : 1448020904086,
+      "type" : "node"
+    } ]
+  }
+}

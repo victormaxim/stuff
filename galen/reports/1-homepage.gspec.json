@@ -1,0 +1,25 @@
+{
+  "testId" : "1-homepage.gspec",
+  "name" : "homepage.gspec",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Simple check",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "check  homepage.gspec --url http://testapp.galenframework.com/ --size 1024x768 --htmlreport reports",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "FileNotFoundException: homepage.gspec",
+          "status" : "error",
+          "time" : 1448370282730,
+          "stacktrace" : "java.io.FileNotFoundException: homepage.gspec\r\n\tat com.galenframework.speclang2.reader.pagespec.PageSpecReader.read(PageSpecReader.java:46)\r\n\tat com.galenframework.api.Galen.checkLayout(Galen.java:72)\r\n\tat com.galenframework.api.Galen.checkLayout(Galen.java:63)\r\n\tat com.galenframework.suite.actions.GalenPageActionCheck.execute(GalenPageActionCheck.java:54)\r\n\tat com.galenframework.runner.GalenPageRunner.executeAction(GalenPageRunner.java:84)\r\n\tat com.galenframework.runner.GalenPageRunner.run(GalenPageRunner.java:76)\r\n\tat com.galenframework.runner.GalenBasicTestRunner.runTest(GalenBasicTestRunner.java:76)\r\n\tat com.galenframework.tests.GalenBasicTest.execute(GalenBasicTest.java:55)\r\n\tat com.galenframework.TestRunnable.runTest(TestRunnable.java:75)\r\n\tat com.galenframework.TestRunnable.run(TestRunnable.java:101)\r\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)\r\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)\r\n\tat java.lang.Thread.run(Unknown Source)\r\n",
+          "type" : "node"
+        } ],
+        "time" : 1448370282723,
+        "type" : "node"
+      } ],
+      "time" : 1448370273461,
+      "type" : "node"
+    } ]
+  }
+}

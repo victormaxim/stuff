@@ -1,0 +1,66 @@
+@objects
+    # navbar_item-*       xpath   (//comment()[contains(.,'Inicio nav')])[1]/following-sibling::table[1]/tbody/tr/td[2]/table
+    navbar_b-*          .nav_bar .nav_item a
+    caddy_logo          .bowtie
+    caddy_logo_img      .bowtie>a>img
+    masthead            xpath   (//comment()[contains(.,'Inicio Masthead')])/following-sibling::*[1]
+    masthead_img        .masthead_img_full img
+    app_icon-*          .app_icon
+    navbar_table        .nav_bar
+    navbar_item-*       .nav_bar td .nav_item td td
+    container_table-*   .container_module
+    social_icons-*      .inner_content tbody tr td table:nth-child(3) tbody td table a img
+    
+    # .inner_content tbody tr td table:nth-child(3) tbody td table:nth-child(5) img
+
+@groups
+    modules     container_table-*, navbar_table
+
+@set
+    desktopWidth 650px
+    mobileWidth 320 to 334px
+
+= Navbar =
+
+    navbar_item-*:
+        @on desktop
+            visible
+        @on mobile
+            absent
+
+    @forEach [navbar_item-*] as navBar, next as nextNavBar
+        ${navBar}:
+            @on desktop
+                left-of ${nextNavBar} 0px
+                aligned horizontally all ${nextNavBar}
+
+= App Icons =
+    app_icon-*:
+        visible
+
+= Logo =
+    caddy_logo_img:
+        image file imgs/logo_bad.jpg, error 12px
+
+= Masthead =
+    masthead_img:
+        @on desktop
+            width ${desktopWidth}
+        @on mobile
+            width ${mobileWidth}
+
+= Tables =
+    container_table-*:
+        @on desktop
+            width ${desktopWidth}
+        @on mobile
+            width ${mobileWidth}
+    navbar_table:
+        @on desktop
+            width ${desktopWidth}
+        @on mobile
+            absent
+    @forEach [&modules] as module, next as nextModule
+        ${module}:
+            @on desktop
+            aligned vertically all ${nextModule}

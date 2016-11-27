@@ -1,0 +1,126 @@
+{
+  "testId" : "1-testd.gspec",
+  "name" : "testD.gspec",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Simple check",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "check  testD.gspec --url http://www.buick.com/ --size 1024x768 --htmlreport reports",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "Check layout: testD.gspec included tags: ",
+          "status" : "error",
+          "time" : 1462868021736,
+          "sections" : [ {
+            "name" : "Global Nav",
+            "objects" : [ {
+              "name" : "navbar_item-1",
+              "specs" : [ {
+                "status" : "error",
+                "place" : {
+                  "filePath" : "testD.gspec",
+                  "lineNumber" : 7
+                },
+                "name" : "left-of navbar_item-2 12px",
+                "errors" : [ "\"navbar_item-1\" is 8px left of \"navbar_item-2\" instead of 12px" ],
+                "highlight" : [ "navbar_item-1", "navbar_item-2" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "testD.gspec",
+                  "lineNumber" : 8
+                },
+                "name" : "aligned horizontally all navbar_item-2",
+                "highlight" : [ "navbar_item-1", "navbar_item-2" ]
+              } ]
+            }, {
+              "name" : "navbar_item-2",
+              "specs" : [ {
+                "status" : "error",
+                "place" : {
+                  "filePath" : "testD.gspec",
+                  "lineNumber" : 7
+                },
+                "name" : "left-of navbar_item-3 12px",
+                "errors" : [ "\"navbar_item-2\" is 2px left of \"navbar_item-3\" instead of 12px" ],
+                "highlight" : [ "navbar_item-2", "navbar_item-3" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "testD.gspec",
+                  "lineNumber" : 8
+                },
+                "name" : "aligned horizontally all navbar_item-3",
+                "highlight" : [ "navbar_item-2", "navbar_item-3" ]
+              } ]
+            }, {
+              "name" : "navbar_item-3",
+              "specs" : [ {
+                "status" : "error",
+                "place" : {
+                  "filePath" : "testD.gspec",
+                  "lineNumber" : 7
+                },
+                "name" : "left-of navbar_item-4 12px",
+                "errors" : [ "\"navbar_item-3\" is 2px left of \"navbar_item-4\" instead of 12px" ],
+                "highlight" : [ "navbar_item-3", "navbar_item-4" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "testD.gspec",
+                  "lineNumber" : 8
+                },
+                "name" : "aligned horizontally all navbar_item-4",
+                "highlight" : [ "navbar_item-3", "navbar_item-4" ]
+              } ]
+            }, {
+              "name" : "navbar_item-4",
+              "specs" : [ {
+                "status" : "error",
+                "place" : {
+                  "filePath" : "testD.gspec",
+                  "lineNumber" : 7
+                },
+                "name" : "left-of navbar_item-5 12px",
+                "errors" : [ "\"navbar_item-4\" is 2px left of \"navbar_item-5\" instead of 12px" ],
+                "highlight" : [ "navbar_item-4", "navbar_item-5" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "testD.gspec",
+                  "lineNumber" : 8
+                },
+                "name" : "aligned horizontally all navbar_item-5",
+                "highlight" : [ "navbar_item-4", "navbar_item-5" ]
+              } ]
+            } ]
+          } ],
+          "objects" : {
+            "navbar_item-2" : {
+              "area" : [ 275, 0, 106, 50 ]
+            },
+            "navbar_item-1" : {
+              "area" : [ 161, 0, 106, 50 ]
+            },
+            "navbar_item-5" : {
+              "area" : [ 599, 0, 106, 50 ]
+            },
+            "navbar_item-4" : {
+              "area" : [ 491, 0, 106, 50 ]
+            },
+            "navbar_item-3" : {
+              "area" : [ 383, 0, 106, 50 ]
+            }
+          },
+          "screenshot" : "layout-1-screenshot.png",
+          "type" : "layout"
+        } ],
+        "time" : 1462868017123,
+        "type" : "node"
+      } ],
+      "time" : 1462867995096,
+      "type" : "node"
+    } ]
+  }
+}

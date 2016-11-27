@@ -1,0 +1,78 @@
+@objects
+
+    bowtie_img      .bowtie a>img
+#    masthead_img    .masthead_img a>img
+    masthead_img    td .masthead_img
+    tables-*        body>table>tbody>tr>td>table>tbody>tr>td>table
+
+    CTA_button      xpath   //td[contains(@class, 'cta')]
+
+    content_nav-*   tr>.content_nav
+    social_icons-*  table.social a
+
+@set
+    desktopWidth 600px
+    m_img_desktop_Width 564px
+    m_img_mobile_Width 564px
+    mobileWidth 300px
+    socialDiff_D 9px
+    socialDiff_M 12px
+
+= Chevy Logo: visibility and image comparison =
+    bowtie_img:
+        @on desktop
+            image file imgs/chevy.jpg, error 40%, tolerance 99
+
+        @on mobile
+            image file imgs/chevy.jpg, error 40%, tolerance 99
+
+= Masthead image: visibility and width =
+    masthead_img:
+        @on desktop
+            visible
+            width ${m_img_desktop_Width}
+        @on mobile
+            visible
+            width ${mobileWidth}
+
+= Call to action button: exists on all templates =
+    CTA_button:
+        visible
+
+= LAV, LAD, Chat: visibility, alignment =
+    @forEach [content_nav-*] as menuItem, next as nextMenu
+        ${menuItem}:
+            @on desktop
+                visible
+                left-of ${nextMenu} 0px
+                aligned horizontally all ${nextMenu}
+            @on mobile
+                visible
+                above ${nextMenu} 18px
+                aligned vertically all ${nextMenu}
+
+= Social icons: visibility and alignment =
+    @forEach [social_icons-*] as social, next as nextSocial
+        ${social}:
+            @on desktop
+                visible
+                left-of ${nextSocial} 9px
+                aligned horizontally all ${nextSocial}
+            @on mobile
+                visible
+                left-of ${nextSocial} 12px
+                aligned horizontally all ${nextSocial}
+
+
+= Tables: width and alignment =
+
+    @forEach [tables-*] as table, next as nextTable
+        ${table}:
+            @on desktop
+                visible
+                width ${desktopWidth}
+                % aligned vertically all ${nextTable}
+            @on mobile
+                visible
+                width ${mobileWidth}
+                % aligned vertically all ${nextTable}

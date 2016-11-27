@@ -1,0 +1,17 @@
+{
+  "tests" : [ {
+    "name" : "“projects/cadillac.gspec”",
+    "startedAt" : 1454412245803,
+    "endedAt" : 1454412264102,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 0,
+      "errors" : 1,
+      "warnings" : 0,
+      "total" : 1
+    },
+    "testId" : "1--projects-cadillac.gspec-",
+    "failed" : true,
+    "duration" : 18299
+  } ]
+}

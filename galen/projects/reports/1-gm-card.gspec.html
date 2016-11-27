@@ -1,0 +1,852 @@
+<html>
+    <head>
+        <title>Galen Reports</title>
+        <link rel="stylesheet" type="text/css" href="report.css"></link>
+        <script src="jquery-1.11.2.min.js"></script>
+        <script src="handlebars-v2.0.0.js"></script>
+        <script src="galen-report.js"></script>
+        <script>
+var reportData = {
+  "testId" : "1-gm-card.gspec",
+  "name" : "GM_Card.gspec",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Simple check",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "check  GM_Card.gspec --url file:///C:/work/GM/GM%20Card/CRM_GM_Card_Inactive_Retail_Offer_EM3/Template_Inactive_EM3_BG.html --size 1024x768 --htmlreport reports --include desktop",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "Check layout: GM_Card.gspec included tags: desktop",
+          "status" : "error",
+          "time" : 1454426955752,
+          "includedTags" : [ "desktop" ],
+          "sections" : [ {
+            "name" : "View in browser: visibility and color",
+            "objects" : [ {
+              "name" : "view_web",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GM_Card.gspec",
+                  "lineNumber" : 36
+                },
+                "name" : "visible",
+                "highlight" : [ "view_web" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GM_Card.gspec",
+                  "lineNumber" : 37
+                },
+                "name" : "css font-size is \"10px\"",
+                "highlight" : [ "view_web" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Footer logos: visibility, alignment and image comparison",
+            "objects" : [ {
+              "name" : "F_logos",
+              "specs" : [ {
+                "status" : "error",
+                "place" : {
+                  "filePath" : "GM_Card.gspec",
+                  "lineNumber" : 43
+                },
+                "name" : "image file imgs/multilogos.jpg, error 40%, tolerance 99",
+                "errors" : [ "\"F_logos\" is absent on page" ],
+                "highlight" : [ ]
+              }, {
+                "status" : "error",
+                "place" : {
+                  "filePath" : "GM_Card.gspec",
+                  "lineNumber" : 44
+                },
+                "name" : "centered horizontally inside viewport",
+                "errors" : [ "\"F_logos\" is absent on page" ],
+                "highlight" : [ ]
+              } ]
+            } ]
+          }, {
+            "name" : "Masthead image: visibility and width",
+            "objects" : [ {
+              "name" : "masthead_img-1",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GM_Card.gspec",
+                  "lineNumber" : 49
+                },
+                "name" : "visible",
+                "highlight" : [ "masthead_img-1" ]
+              }, {
+                "status" : "error",
+                "place" : {
+                  "filePath" : "GM_Card.gspec",
+                  "lineNumber" : 50
+                },
+                "name" : "width 600px",
+                "errors" : [ "\"masthead_img-1\" width is 283px instead of 600px" ],
+                "highlight" : [ "masthead_img-1" ]
+              }, {
+                "status" : "error",
+                "place" : {
+                  "filePath" : "GM_Card.gspec",
+                  "lineNumber" : 51
+                },
+                "name" : "centered horizontally inside viewport",
+                "errors" : [ "\"masthead_img-1\" is not centered horizontally inside \"viewport\". Offset is 283px" ],
+                "highlight" : [ "masthead_img-1", "viewport" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Call to action button: alignment on page and between them, visibility. Exists on all templates",
+            "objects" : [ {
+              "name" : "CTA_button-1",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GM_Card.gspec",
+                  "lineNumber" : 73
+                },
+                "name" : "visible",
+                "highlight" : [ "CTA_button-1" ]
+              }, {
+                "status" : "error",
+                "place" : {
+                  "filePath" : "GM_Card.gspec",
+                  "lineNumber" : 74
+                },
+                "name" : "css background-color is \"#86b012\"",
+                "errors" : [ "\"CTA_button-1\" css property \"background-color\" is \"rgba(134, 176, 18, 1)\" but should be \"#86b012\"" ],
+                "highlight" : [ "CTA_button-1" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Tables: width and alignment",
+            "objects" : [ {
+              "name" : "tables-1",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GM_Card.gspec",
+                  "lineNumber" : 86
+                },
+                "name" : "visible",
+                "highlight" : [ "tables-1" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GM_Card.gspec",
+                  "lineNumber" : 87
+                },
+                "name" : "width 600px",
+                "highlight" : [ "tables-1" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GM_Card.gspec",
+                  "lineNumber" : 88
+                },
+                "name" : "aligned vertically all tables-2",
+                "highlight" : [ "tables-1", "tables-2" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GM_Card.gspec",
+                  "lineNumber" : 89
+                },
+                "name" : "centered horizontally inside viewport",
+                "highlight" : [ "tables-1", "viewport" ]
+              } ]
+            }, {
+              "name" : "tables-2",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GM_Card.gspec",
+                  "lineNumber" : 86
+                },
+                "name" : "visible",
+                "highlight" : [ "tables-2" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GM_Card.gspec",
+                  "lineNumber" : 87
+                },
+                "name" : "width 600px",
+                "highlight" : [ "tables-2" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GM_Card.gspec",
+                  "lineNumber" : 88
+                },
+                "name" : "aligned vertically all tables-3",
+                "highlight" : [ "tables-2", "tables-3" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GM_Card.gspec",
+                  "lineNumber" : 89
+                },
+                "name" : "centered horizontally inside viewport",
+                "highlight" : [ "tables-2", "viewport" ]
+              } ]
+            }, {
+              "name" : "tables-3",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GM_Card.gspec",
+                  "lineNumber" : 86
+                },
+                "name" : "visible",
+                "highlight" : [ "tables-3" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GM_Card.gspec",
+                  "lineNumber" : 87
+                },
+                "name" : "width 600px",
+                "highlight" : [ "tables-3" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GM_Card.gspec",
+                  "lineNumber" : 88
+                },
+                "name" : "aligned vertically all tables-4",
+                "highlight" : [ "tables-3", "tables-4" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GM_Card.gspec",
+                  "lineNumber" : 89
+                },
+                "name" : "centered horizontally inside viewport",
+                "highlight" : [ "tables-3", "viewport" ]
+              } ]
+            }, {
+              "name" : "tables-4",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GM_Card.gspec",
+                  "lineNumber" : 86
+                },
+                "name" : "visible",
+                "highlight" : [ "tables-4" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GM_Card.gspec",
+                  "lineNumber" : 87
+                },
+                "name" : "width 600px",
+                "highlight" : [ "tables-4" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GM_Card.gspec",
+                  "lineNumber" : 88
+                },
+                "name" : "aligned vertically all tables-5",
+                "highlight" : [ "tables-4", "tables-5" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GM_Card.gspec",
+                  "lineNumber" : 89
+                },
+                "name" : "centered horizontally inside viewport",
+                "highlight" : [ "tables-4", "viewport" ]
+              } ]
+            }, {
+              "name" : "tables-5",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GM_Card.gspec",
+                  "lineNumber" : 86
+                },
+                "name" : "visible",
+                "highlight" : [ "tables-5" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GM_Card.gspec",
+                  "lineNumber" : 87
+                },
+                "name" : "width 600px",
+                "highlight" : [ "tables-5" ]
+              }, {
+                "status" : "warn",
+                "place" : {
+                  "filePath" : "GM_Card.gspec",
+                  "lineNumber" : 88
+                },
+                "name" : "aligned vertically all tables-6",
+                "errors" : [ "\"tables-6\" is not aligned vertically all with \"tables-5\". Offset is 35px" ],
+                "highlight" : [ "tables-5", "tables-6" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GM_Card.gspec",
+                  "lineNumber" : 89
+                },
+                "name" : "centered horizontally inside viewport",
+                "highlight" : [ "tables-5", "viewport" ]
+              } ]
+            }, {
+              "name" : "tables-6",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GM_Card.gspec",
+                  "lineNumber" : 86
+                },
+                "name" : "visible",
+                "highlight" : [ "tables-6" ]
+              }, {
+                "status" : "error",
+                "place" : {
+                  "filePath" : "GM_Card.gspec",
+                  "lineNumber" : 87
+                },
+                "name" : "width 600px",
+                "errors" : [ "\"tables-6\" width is 565px instead of 600px" ],
+                "highlight" : [ "tables-6" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GM_Card.gspec",
+                  "lineNumber" : 88
+                },
+                "name" : "aligned vertically all tables-7",
+                "highlight" : [ "tables-6", "tables-7" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GM_Card.gspec",
+                  "lineNumber" : 89
+                },
+                "name" : "centered horizontally inside viewport",
+                "highlight" : [ "tables-6", "viewport" ]
+              } ]
+            }, {
+              "name" : "tables-7",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GM_Card.gspec",
+                  "lineNumber" : 86
+                },
+                "name" : "visible",
+                "highlight" : [ "tables-7" ]
+              }, {
+                "status" : "error",
+                "place" : {
+                  "filePath" : "GM_Card.gspec",
+                  "lineNumber" : 87
+                },
+                "name" : "width 600px",
+                "errors" : [ "\"tables-7\" width is 565px instead of 600px" ],
+                "highlight" : [ "tables-7" ]
+              }, {
+                "status" : "warn",
+                "place" : {
+                  "filePath" : "GM_Card.gspec",
+                  "lineNumber" : 88
+                },
+                "name" : "aligned vertically all tables-8",
+                "errors" : [ "\"tables-8\" is not aligned vertically all with \"tables-7\". Offset is 35px" ],
+                "highlight" : [ "tables-7", "tables-8" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GM_Card.gspec",
+                  "lineNumber" : 89
+                },
+                "name" : "centered horizontally inside viewport",
+                "highlight" : [ "tables-7", "viewport" ]
+              } ]
+            }, {
+              "name" : "tables-8",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GM_Card.gspec",
+                  "lineNumber" : 86
+                },
+                "name" : "visible",
+                "highlight" : [ "tables-8" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GM_Card.gspec",
+                  "lineNumber" : 87
+                },
+                "name" : "width 600px",
+                "highlight" : [ "tables-8" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GM_Card.gspec",
+                  "lineNumber" : 88
+                },
+                "name" : "aligned vertically all tables-9",
+                "highlight" : [ "tables-8", "tables-9" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GM_Card.gspec",
+                  "lineNumber" : 89
+                },
+                "name" : "centered horizontally inside viewport",
+                "highlight" : [ "tables-8", "viewport" ]
+              } ]
+            }, {
+              "name" : "tables-9",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GM_Card.gspec",
+                  "lineNumber" : 86
+                },
+                "name" : "visible",
+                "highlight" : [ "tables-9" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GM_Card.gspec",
+                  "lineNumber" : 87
+                },
+                "name" : "width 600px",
+                "highlight" : [ "tables-9" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GM_Card.gspec",
+                  "lineNumber" : 88
+                },
+                "name" : "aligned vertically all tables-10",
+                "highlight" : [ "tables-9", "tables-10" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GM_Card.gspec",
+                  "lineNumber" : 89
+                },
+                "name" : "centered horizontally inside viewport",
+                "highlight" : [ "tables-9", "viewport" ]
+              } ]
+            }, {
+              "name" : "tables-10",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GM_Card.gspec",
+                  "lineNumber" : 86
+                },
+                "name" : "visible",
+                "highlight" : [ "tables-10" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GM_Card.gspec",
+                  "lineNumber" : 87
+                },
+                "name" : "width 600px",
+                "highlight" : [ "tables-10" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GM_Card.gspec",
+                  "lineNumber" : 88
+                },
+                "name" : "aligned vertically all tables-11",
+                "highlight" : [ "tables-10", "tables-11" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GM_Card.gspec",
+                  "lineNumber" : 89
+                },
+                "name" : "centered horizontally inside viewport",
+                "highlight" : [ "tables-10", "viewport" ]
+              } ]
+            }, {
+              "name" : "tables-11",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GM_Card.gspec",
+                  "lineNumber" : 86
+                },
+                "name" : "visible",
+                "highlight" : [ "tables-11" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GM_Card.gspec",
+                  "lineNumber" : 87
+                },
+                "name" : "width 600px",
+                "highlight" : [ "tables-11" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GM_Card.gspec",
+                  "lineNumber" : 88
+                },
+                "name" : "aligned vertically all tables-12",
+                "highlight" : [ "tables-11", "tables-12" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GM_Card.gspec",
+                  "lineNumber" : 89
+                },
+                "name" : "centered horizontally inside viewport",
+                "highlight" : [ "tables-11", "viewport" ]
+              } ]
+            }, {
+              "name" : "tables-12",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GM_Card.gspec",
+                  "lineNumber" : 86
+                },
+                "name" : "visible",
+                "highlight" : [ "tables-12" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GM_Card.gspec",
+                  "lineNumber" : 87
+                },
+                "name" : "width 600px",
+                "highlight" : [ "tables-12" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GM_Card.gspec",
+                  "lineNumber" : 88
+                },
+                "name" : "aligned vertically all tables-13",
+                "highlight" : [ "tables-12", "tables-13" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GM_Card.gspec",
+                  "lineNumber" : 89
+                },
+                "name" : "centered horizontally inside viewport",
+                "highlight" : [ "tables-12", "viewport" ]
+              } ]
+            } ]
+          } ],
+          "objects" : {
+            "tables-10" : {
+              "area" : [ 197, 890, 600, 21 ]
+            },
+            "tables-1" : {
+              "area" : [ 197, 0, 600, 15 ]
+            },
+            "tables-3" : {
+              "area" : [ 197, 57, 600, 20 ]
+            },
+            "tables-2" : {
+              "area" : [ 197, 15, 600, 42 ]
+            },
+            "CTA_button-1" : {
+              "area" : [ 234, 289, 122, 34 ]
+            },
+            "tables-5" : {
+              "area" : [ 197, 115, 600, 10 ]
+            },
+            "tables-13" : {
+              "area" : [ 197, 990, 600, 426 ]
+            },
+            "masthead_img-1" : {
+              "area" : [ 497, 149, 283, 200 ]
+            },
+            "tables-4" : {
+              "area" : [ 197, 77, 600, 38 ]
+            },
+            "tables-7" : {
+              "area" : [ 215, 149, 565, 200 ]
+            },
+            "tables-11" : {
+              "area" : [ 197, 911, 600, 30 ]
+            },
+            "tables-6" : {
+              "area" : [ 215, 125, 565, 24 ]
+            },
+            "tables-12" : {
+              "area" : [ 197, 941, 600, 49 ]
+            },
+            "tables-9" : {
+              "area" : [ 197, 374, 600, 516 ]
+            },
+            "tables-8" : {
+              "area" : [ 197, 349, 600, 25 ]
+            },
+            "viewport" : {
+              "area" : [ 0, 0, 994, 675 ]
+            },
+            "view_web" : {
+              "area" : [ 709, 17, 73, 12 ]
+            }
+          },
+          "screenshot" : "layout-1-screenshot.png",
+          "type" : "layout"
+        } ],
+        "time" : 1454426951974,
+        "type" : "node"
+      } ],
+      "time" : 1454426942128,
+      "type" : "node"
+    } ]
+  }
+};
+        </script>
+        <script>
+
+            $(function () {
+                var galenReport = createGalenReport();
+                galenReport.render("main", reportData);
+            });
+        </script>
+    </head>
+    <body>
+        <script id="report-tpl" type="text/x-handlebars-template">
+            <ul class="report-nodes">
+            {{#each report.nodes}}
+                {{renderNode this}}
+            {{/each}}
+            </ul>
+        </script>
+        <script id="report-node-tpl" type="text/x-handlebars-template">
+            <li>
+                <span class="report-time">{{formatReportTime time}}</span>
+                <a class="expand-link node-expand-button node-status-{{status}} contains-children-{{hasChildElements nodes}} collapsed" href="#">{{status}}</a>
+                <div class="node-name node-status-{{status}}">{{name}}</div>
+                {{#if extras}}
+                    {{renderNodeExtras extras}}
+                {{/if}}
+                {{#if stacktrace}}
+                    <div class="stacktrace">{{stacktrace}}</div>
+                {{/if}}
+                {{#if attachments}}
+                    <ul class="report-node-attachments">
+                        {{#each attachments}}
+                            <li>
+                                <a class="icon-sprite-before node-attachment" href="{{this}}">{{this}}</a>
+                            </li>
+                        {{/each}}
+                    </ul>
+                {{/if}}
+                <div class="node-details expand-container">
+                    {{#if nodes}}
+                        <ul class="report-nodes">
+                            {{#each nodes}}
+                                {{renderNode this}}
+                            {{/each}}
+                        </ul>
+                    {{/if}}
+                </div>
+            </li>
+        </script>
+        <script id="report-node-text-tpl" type="text/x-handlebars-template">
+            <li>
+                <div class="node-simple-text">
+                    {{name}}
+                </div>
+            </li>
+        </script>
+        <script id="report-layout-tpl" type="text/x-handlebars-template">
+            <li>
+                <span class="report-time">{{formatReportTime time}}</span>
+                <a class="expand-link node-expand-button node-status-label node-status-info contains-children-true collapsed" href="#">LAYOUT</a>
+                <div class="node-name">{{name}}</div>
+                <div class="node-horizontal-menu" data-layout-id="{{layoutId}}"><a class="layout-heatmap-link" href="#">Heat Map</a></div>
+                <div class="node-details expand-container">
+                    {{renderSublayout this}}
+                </div>
+            </li>
+        </script>
+        <script id="report-layout-sublayout-tpl" type="text/x-handlebars-template">
+            <div class="layout-report" data-layout-id="{{layoutId}}" data-screenshot="{{screenshot}}">
+                <ul class="layout-sections">
+                    {{#each sections}}
+                        {{renderLayoutSection this}}
+                    {{/each}}
+                </ul>
+            </div>
+        </script>
+        <script id="report-layout-section-tpl" type="text/x-handlebars-template">
+            <li>
+                <a class="layout-section icon-sprite-before expand-link contains-children-true" href="#">{{name}}</a>
+                <div class="layout-details expand-container">
+                    {{#if sections}}
+                        <ul class="layout-sections">
+                        {{#each sections}}
+                            {{renderLayoutSection this}}
+                        {{/each}}
+                        </ul>
+                    {{/if}}
+                    {{#if objects}}
+                        <ul class="layout-objects">
+                            {{#each objects}}
+                                {{renderLayoutObject this}}
+                            {{/each}}
+                        </ul>
+                    {{/if}}
+                </div>
+            </li>
+        </script>
+
+        <script id="report-layout-object-tpl" type="text/x-handlebars-template">
+            <li>
+                <a class="layout-object icon-sprite-before expand-link contains-children-true" href="#">{{name}}</a>
+                <ul class="layout-checks expand-container">
+                    {{#each specs}}
+                        {{renderLayoutCheck this}}
+                    {{/each}}
+                    {{#each specGroups}}
+                    <li>
+                        <a class="layout-specgroup icon-sprite-before expand-link contains-children-true" href="#">{{name}}</a>
+                        <ul class="layout-checks expand-container">
+                            {{#each specs}}
+                                {{renderLayoutCheck this}}
+                            {{/each}}
+                        </ul>
+                    </li>
+                    {{/each}}
+                </ul>
+            </li>
+        </script>
+        <script id="report-layout-check-tpl" type="text/x-handlebars-template">
+            <li>
+            <a class="layout-check icon-sprite-before layout-check-status-{{status}}" href="#"
+                data-highlight-objects="{{commaSeparated highlight}}"
+                title="{{place.filePath}}#{{place.lineNumber}}"
+                >{{name}}</a>
+
+                {{#if errors}}
+                    <div class="layout-check-error-message">
+                        {{#if imageComparison}}
+                        <a class="image-comparison-link"
+                            data-actual-image="{{imageComparison.actualImage}}"
+                            data-expected-image="{{imageComparison.expectedImage}}"
+                            data-map-image="{{imageComparison.comparisonMapImage}}"
+                            href="#">Show image comparison</a>
+                        {{/if}}
+                        <div class="layout-check-error-message-text">
+                            <ul>
+                            {{#each errors}}
+                                <li>{{this}}</li>
+                            {{/each}}
+                        </ul>
+                    </div>
+                </div>
+                {{/if}}
+
+                {{#if subLayout}}
+                {{renderSublayout subLayout}}
+                {{/if}}
+            </li>
+        </script>
+        <script id="screenshot-popup-tpl" type="text/x-handlebars-template">
+            <div class="screenshot-canvas">
+                {{#if screenshot}}
+                <img src="{{screenshot}}"/>
+                {{else}}
+                <div class="empty-screenshot" style="width: {{width}}; height: {{height}};"></div>
+                {{/if}}
+                {{#each objects}}
+                <div class="canvas-rect" style="left: {{area.left}}px; top: {{area.top}}px; width: {{area.width}}px; height: {{area.height}}px; {{#if drawBorder}}border-color: {{color}};{{else}}border:none;{{/if}}{{#if fillBackground}}background: {{color}};{{else}}background:none;{{/if}}">
+                    <div class="canvas-rect-wrapper">
+                        <div class="canvas-rect-hint" style="background: {{color}};">{{name}}</div>
+                    </div>
+                </div>
+                {{/each}}
+            </div>
+        </script>
+        <script id="image-comparison-tpl" type="text/x-handlebars-template">
+            <div class="image-comparison image-comparison-layout-{{layout}}">
+                <div class="actual-image">
+                    <h5>Actual</h5>
+                    <img src="{{actual}}"/>
+                </div>
+
+                <div class="expected-image">
+                    <h5>Expected</h5>
+                    <img src="{{expected}}"/>
+                </div>
+
+                <div class="comparison-map">
+                    <h5>Comparison map</h5>
+                    <img src="{{map}}"/>
+                </div>
+            </div>
+        </script>
+        <script id="node-extras-tpl" type="text/x-handlebars-template">
+            <div class="node-extras">
+                <a class="node-extras" href="#">extras</a>
+                <div class="node-extras-content">
+                    <table class="node-extras-table">
+                        <tbody>
+                        {{#each this}}
+                        <tr>
+                            <td><label>{{@key}}</label></td>
+                            {{#ifCond type 'text'}}
+                            <td>{{value}}</td>
+                            {{/ifCond}}
+                            {{#ifCond type 'link'}}
+                            <td><a href="{{value}}">{{value}}</a></td>
+                            {{/ifCond}}
+                            {{#ifCond type 'image'}}
+                            <td><a href="{{value}}"><img src="{{value}}"/></a></td>
+                            {{/ifCond}}
+                        </tr>
+                        {{/each}}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </script>
+
+
+
+        <div id="menu">
+            <ul>
+                <li><a href="report.html">Back to Test Overview</a></li>
+                <li><a class="menu-op-expand-all" href="#">Expand All</a></li>
+                <li><a class="menu-op-collapse-all" href="#">Collapse All</a></li>
+                <li><a class="menu-op-expand-errors" href="#">Expand Errors</a></li>
+            </ul>
+        </div>
+        <h2>GM_Card.gspec</h2>
+        <div id="main"></div>
+        <div id="screen-shadow"></div>
+        <div id="popup" class="popup">
+            <div class="popup-wrapper">
+                <a class="popup-close-link" href="#">close</a>
+                <div class="popup-content"></div>
+            </div>
+        </div>
+        <div id="notification" class="notification">
+            <div class="notification-wrapper">
+                <a class="notification-close-link" href="#">close</a>
+                <div class="notification-summary"></div>
+                <div class="notification-message"></div>
+            </div>
+        </div>
+    </body>
+</html>

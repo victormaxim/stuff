@@ -1,0 +1,61 @@
+@objects
+#    menu_item-*    body>table>tbody>tr>td>table:nth-child(2) td
+    menu_item-*     xpath   (//a[contains(@description, 'GMC')]/img)/../../../td
+
+    gmc_logo        //a[contains(@description, 'GMC')]/img
+
+    view-all-veh    xpath   (//a[contains(@description, 'F_BTN_VIEW')])
+# bottom menus count varies. so it selects the above td for Locate a vehicle (which surely is present) as parent, then all its children
+    bottom_menu-*   xpath   (//img[contains(@alt, 'Locate')])/../../../td
+    tables-*        body>table>tbody>tr>td:nth-of-type(2)>table
+    social_icons-*  xpath   //a/img[contains(@src, 'social')]
+
+@set
+    desktopWidth 600px
+    mobileWidth 320px
+
+
+= Top menu items: visibility and alignment =
+    @forEach [menu_item-*] as menuItem, next as nextMenu
+        ${menuItem}:
+            @on desktop
+                visible
+                left-of ${nextMenu} 0px
+                aligned horizontally all ${nextMenu}
+
+= GMC Logo: image comparison =
+    gmc_logo:
+        @on desktop
+            image file imgs/bowtie_gmc.jpg, error 12px
+
+        @on mobile
+            image file imgs/bowtie_gmc.jpg, error 12px
+
+= View all vehicles button: exists on all templates =
+    view-all-veh:
+        visible
+
+= LAV, LAD, Chat: visibility, alignment =
+    @forEach [bottom_menu-*] as menuItem, next as nextMenu
+        ${menuItem}:
+            @on desktop
+                visible
+                left-of ${nextMenu} 0px
+                aligned horizontally all ${nextMenu}
+
+= Social icons: visibility and alignment =
+    @forEach [social_icons-*] as social, next as nextSocial
+        ${social}:
+            @on desktop
+                visible
+                left-of ${nextSocial} 0px
+                aligned horizontally all ${nextSocial}
+
+= Tables: width and alignment =
+
+    @forEach [tables-*] as table, next as nextTable
+        ${table}:
+            @on desktop
+                visible
+                width ${desktopWidth}
+                aligned vertically all ${nextTable}

@@ -1,0 +1,461 @@
+{
+  "testId" : "1-cadillac-c.gspec",
+  "name" : "cadillac_C.gspec",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Simple check",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "check  cadillac_C.gspec --url file:///C:/work/GM/Cadillac/CRM_2015_Cadillac_November_eNewsletter/Template_Owners_that_are_XT5_Handraisers.html --size 1024x768 --htmlreport reports --include desktop",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "Check layout: cadillac_C.gspec included tags: desktop",
+          "status" : "error",
+          "time" : 1452530305103,
+          "includedTags" : [ "desktop" ],
+          "sections" : [ {
+            "name" : "Navbar",
+            "objects" : [ {
+              "name" : "navbar_item-1",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "cadillac_C.gspec",
+                  "lineNumber" : 24
+                },
+                "name" : "visible",
+                "highlight" : [ "navbar_item-1" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "cadillac_C.gspec",
+                  "lineNumber" : 31
+                },
+                "name" : "left-of navbar_item-2 0px",
+                "highlight" : [ "navbar_item-1", "navbar_item-2" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "cadillac_C.gspec",
+                  "lineNumber" : 32
+                },
+                "name" : "aligned horizontally all navbar_item-2",
+                "highlight" : [ "navbar_item-1", "navbar_item-2" ]
+              } ]
+            }, {
+              "name" : "navbar_item-2",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "cadillac_C.gspec",
+                  "lineNumber" : 24
+                },
+                "name" : "visible",
+                "highlight" : [ "navbar_item-2" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "cadillac_C.gspec",
+                  "lineNumber" : 31
+                },
+                "name" : "left-of navbar_item-3 0px",
+                "highlight" : [ "navbar_item-2", "navbar_item-3" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "cadillac_C.gspec",
+                  "lineNumber" : 32
+                },
+                "name" : "aligned horizontally all navbar_item-3",
+                "highlight" : [ "navbar_item-2", "navbar_item-3" ]
+              } ]
+            }, {
+              "name" : "navbar_item-3",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "cadillac_C.gspec",
+                  "lineNumber" : 24
+                },
+                "name" : "visible",
+                "highlight" : [ "navbar_item-3" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "cadillac_C.gspec",
+                  "lineNumber" : 31
+                },
+                "name" : "left-of navbar_item-4 0px",
+                "highlight" : [ "navbar_item-3", "navbar_item-4" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "cadillac_C.gspec",
+                  "lineNumber" : 32
+                },
+                "name" : "aligned horizontally all navbar_item-4",
+                "highlight" : [ "navbar_item-3", "navbar_item-4" ]
+              } ]
+            }, {
+              "name" : "navbar_item-4",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "cadillac_C.gspec",
+                  "lineNumber" : 24
+                },
+                "name" : "visible",
+                "highlight" : [ "navbar_item-4" ]
+              } ]
+            } ]
+          }, {
+            "name" : "App Icons",
+            "objects" : [ {
+              "name" : "app_icon-1",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "cadillac_C.gspec",
+                  "lineNumber" : 36
+                },
+                "name" : "visible",
+                "highlight" : [ "app_icon-1" ]
+              } ]
+            }, {
+              "name" : "app_icon-2",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "cadillac_C.gspec",
+                  "lineNumber" : 36
+                },
+                "name" : "visible",
+                "highlight" : [ "app_icon-2" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Logo",
+            "objects" : [ {
+              "name" : "caddy_logo_img",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "cadillac_C.gspec",
+                  "lineNumber" : 40
+                },
+                "name" : "image file imgs/logo.jpg, error 12px",
+                "highlight" : [ "caddy_logo_img" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Masthead",
+            "objects" : [ {
+              "name" : "masthead_img",
+              "specs" : [ {
+                "status" : "error",
+                "place" : {
+                  "filePath" : "cadillac_C.gspec",
+                  "lineNumber" : 45
+                },
+                "name" : "width 650px",
+                "errors" : [ "\"masthead_img\" width is 600px instead of 650px" ],
+                "highlight" : [ "masthead_img" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Tables",
+            "objects" : [ {
+              "name" : "container_table-1",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "cadillac_C.gspec",
+                  "lineNumber" : 52
+                },
+                "name" : "width 650px",
+                "highlight" : [ "container_table-1" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "cadillac_C.gspec",
+                  "lineNumber" : 63
+                },
+                "name" : "aligned vertically all container_table-2",
+                "highlight" : [ "container_table-1", "container_table-2" ]
+              } ]
+            }, {
+              "name" : "container_table-2",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "cadillac_C.gspec",
+                  "lineNumber" : 52
+                },
+                "name" : "width 650px",
+                "highlight" : [ "container_table-2" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "cadillac_C.gspec",
+                  "lineNumber" : 63
+                },
+                "name" : "aligned vertically all container_table-3",
+                "highlight" : [ "container_table-2", "container_table-3" ]
+              } ]
+            }, {
+              "name" : "container_table-3",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "cadillac_C.gspec",
+                  "lineNumber" : 52
+                },
+                "name" : "width 650px",
+                "highlight" : [ "container_table-3" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "cadillac_C.gspec",
+                  "lineNumber" : 63
+                },
+                "name" : "aligned vertically all container_table-4",
+                "highlight" : [ "container_table-3", "container_table-4" ]
+              } ]
+            }, {
+              "name" : "container_table-4",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "cadillac_C.gspec",
+                  "lineNumber" : 52
+                },
+                "name" : "width 650px",
+                "highlight" : [ "container_table-4" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "cadillac_C.gspec",
+                  "lineNumber" : 63
+                },
+                "name" : "aligned vertically all container_table-5",
+                "highlight" : [ "container_table-4", "container_table-5" ]
+              } ]
+            }, {
+              "name" : "container_table-5",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "cadillac_C.gspec",
+                  "lineNumber" : 52
+                },
+                "name" : "width 650px",
+                "highlight" : [ "container_table-5" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "cadillac_C.gspec",
+                  "lineNumber" : 63
+                },
+                "name" : "aligned vertically all container_table-6",
+                "highlight" : [ "container_table-5", "container_table-6" ]
+              } ]
+            }, {
+              "name" : "container_table-6",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "cadillac_C.gspec",
+                  "lineNumber" : 52
+                },
+                "name" : "width 650px",
+                "highlight" : [ "container_table-6" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "cadillac_C.gspec",
+                  "lineNumber" : 63
+                },
+                "name" : "aligned vertically all container_table-7",
+                "highlight" : [ "container_table-6", "container_table-7" ]
+              } ]
+            }, {
+              "name" : "container_table-7",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "cadillac_C.gspec",
+                  "lineNumber" : 52
+                },
+                "name" : "width 650px",
+                "highlight" : [ "container_table-7" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "cadillac_C.gspec",
+                  "lineNumber" : 63
+                },
+                "name" : "aligned vertically all container_table-8",
+                "highlight" : [ "container_table-7", "container_table-8" ]
+              } ]
+            }, {
+              "name" : "container_table-8",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "cadillac_C.gspec",
+                  "lineNumber" : 52
+                },
+                "name" : "width 650px",
+                "highlight" : [ "container_table-8" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "cadillac_C.gspec",
+                  "lineNumber" : 63
+                },
+                "name" : "aligned vertically all container_table-9",
+                "highlight" : [ "container_table-8", "container_table-9" ]
+              } ]
+            }, {
+              "name" : "container_table-9",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "cadillac_C.gspec",
+                  "lineNumber" : 52
+                },
+                "name" : "width 650px",
+                "highlight" : [ "container_table-9" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "cadillac_C.gspec",
+                  "lineNumber" : 63
+                },
+                "name" : "aligned vertically all container_table-10",
+                "highlight" : [ "container_table-9", "container_table-10" ]
+              } ]
+            }, {
+              "name" : "container_table-10",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "cadillac_C.gspec",
+                  "lineNumber" : 52
+                },
+                "name" : "width 650px",
+                "highlight" : [ "container_table-10" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "cadillac_C.gspec",
+                  "lineNumber" : 63
+                },
+                "name" : "aligned vertically all container_table-11",
+                "highlight" : [ "container_table-10", "container_table-11" ]
+              } ]
+            }, {
+              "name" : "container_table-11",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "cadillac_C.gspec",
+                  "lineNumber" : 52
+                },
+                "name" : "width 650px",
+                "highlight" : [ "container_table-11" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "cadillac_C.gspec",
+                  "lineNumber" : 63
+                },
+                "name" : "aligned vertically all navbar_table",
+                "highlight" : [ "container_table-11", "navbar_table" ]
+              } ]
+            }, {
+              "name" : "navbar_table",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "cadillac_C.gspec",
+                  "lineNumber" : 57
+                },
+                "name" : "width 650px",
+                "highlight" : [ "navbar_table" ]
+              } ]
+            } ]
+          } ],
+          "objects" : {
+            "navbar_item-2" : {
+              "area" : [ 384, 62, 125, 40 ]
+            },
+            "navbar_item-1" : {
+              "area" : [ 244, 62, 140, 40 ]
+            },
+            "container_table-2" : {
+              "area" : [ 172, 103, 650, 379 ]
+            },
+            "container_table-1" : {
+              "area" : [ 172, 0, 650, 62 ]
+            },
+            "container_table-4" : {
+              "area" : [ 172, 882, 650, 230 ]
+            },
+            "container_table-11" : {
+              "area" : [ 172, 2602, 650, 184 ]
+            },
+            "container_table-3" : {
+              "area" : [ 172, 482, 650, 400 ]
+            },
+            "container_table-10" : {
+              "area" : [ 172, 2462, 650, 62 ]
+            },
+            "container_table-6" : {
+              "area" : [ 172, 1463, 650, 230 ]
+            },
+            "container_table-5" : {
+              "area" : [ 172, 1112, 650, 351 ]
+            },
+            "container_table-8" : {
+              "area" : [ 172, 2037, 650, 305 ]
+            },
+            "container_table-7" : {
+              "area" : [ 172, 1693, 650, 344 ]
+            },
+            "caddy_logo_img" : {
+              "area" : [ 246, 121, 272, 42 ]
+            },
+            "container_table-9" : {
+              "area" : [ 172, 2342, 650, 120 ]
+            },
+            "navbar_item-4" : {
+              "area" : [ 636, 62, 128, 40 ]
+            },
+            "navbar_item-3" : {
+              "area" : [ 509, 62, 127, 40 ]
+            },
+            "app_icon-2" : {
+              "area" : [ 409, 780, 122, 44 ]
+            },
+            "navbar_table" : {
+              "area" : [ 172, 62, 650, 41 ]
+            },
+            "app_icon-1" : {
+              "area" : [ 276, 780, 122, 44 ]
+            },
+            "masthead_img" : {
+              "area" : [ 197, 180, 600, 302 ]
+            }
+          },
+          "screenshot" : "layout-1-screenshot.png",
+          "type" : "layout"
+        } ],
+        "time" : 1452530299358,
+        "type" : "node"
+      } ],
+      "time" : 1452530290328,
+      "type" : "node"
+    } ]
+  }
+}

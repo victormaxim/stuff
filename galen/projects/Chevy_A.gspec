@@ -1,0 +1,73 @@
+@objects
+
+    bowtie_img      .bowtie a>img
+    masthead_img    .masthead_img a>img
+    tables-*        body>table>tbody>tr>td>table>tbody>tr>td>table
+
+    CTA_button      xpath   //td[contains(@class, 'cta')]
+
+    content_nav-*   tr>.content_nav
+    social_icons-*  table.social a
+
+@set
+    desktopWidth 498px
+    mobileWidth 320px
+
+
+= Top menu items: visibility and alignment =
+    @forEach [menu_item-*] as menuItem, next as nextMenu
+        ${menuItem}:
+            @on desktop
+                visible
+                left-of ${nextMenu} 0px
+                aligned horizontally all ${nextMenu}
+
+= Chevy Logo: visibility and image comparison =
+    bowtie_img:
+        @on desktop
+            image file imgs/chevy.jpg, error 20%, tolerance 99
+
+        @on mobile
+            image file imgs/chevy.jpg, error 20%, tolerance 99
+
+= Masthead image: visibility and width =
+    masthead_img:
+        @on desktop
+            visible
+            width ${desktopWidth}
+        @on mobile
+            visible
+            width ${mobileWidth}
+
+= Call to action button: exists on all templates =
+    CTA_button:
+        visible
+
+= LAV, LAD, Chat: visibility, alignment =
+    @forEach [bottom_menu-*] as menuItem, next as nextMenu
+        ${menuItem}:
+            @on desktop
+                visible
+                left-of ${nextMenu} 0px
+                aligned horizontally all ${nextMenu}
+            @on desktop
+                visible
+                above ${nextMenu} 0px
+                aligned vertically all ${nextMenu}
+
+= Social icons: visibility and alignment =
+    @forEach [social_icons-*] as social, next as nextSocial
+        ${social}:
+            @on desktop
+                visible
+                left-of ${nextSocial} 37px
+                aligned horizontally all ${nextSocial}
+
+= Tables: width and alignment =
+
+    @forEach [tables-*] as table, next as nextTable
+        ${table}:
+            @on desktop
+                visible
+                width ${desktopWidth}
+                aligned vertically all ${nextTable}

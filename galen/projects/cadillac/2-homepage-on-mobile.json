@@ -1,0 +1,127 @@
+{
+  "testId" : "2-homepage-on-mobile",
+  "name" : "Homepage on mobile",
+  "report" : {
+    "nodes" : [ {
+      "name" : "file:///C:/work/GM/Cadillac/CRM_2015_Cadillac_November_eNewsletter/Template_Owners_that_are_XT5_Handraisers.html\t600x400",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "check cadillac.gspec --include mobile",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "Check layout: cadillac.gspec included tags: mobile",
+          "status" : "error",
+          "time" : 1454409993032,
+          "includedTags" : [ "mobile" ],
+          "excludedTags" : [ ],
+          "sections" : [ {
+            "name" : "Logo: Image comparison (with original)",
+            "objects" : [ {
+              "name" : "caddy_logo_img",
+              "specs" : [ {
+                "status" : "error",
+                "place" : {
+                  "filePath" : "cadillac.gspec",
+                  "lineNumber" : 63
+                },
+                "name" : "image file imgs/logo_mobile.jpg, error 12px",
+                "errors" : [ "\"caddy_logo_img\" is absent on page" ],
+                "highlight" : [ ]
+              } ]
+            } ]
+          }, {
+            "name" : "Masthead: Image width",
+            "objects" : [ {
+              "name" : "masthead_img",
+              "specs" : [ {
+                "status" : "error",
+                "place" : {
+                  "filePath" : "cadillac.gspec",
+                  "lineNumber" : 70
+                },
+                "name" : "width 320px",
+                "errors" : [ "\"masthead_img\" is absent on page" ],
+                "highlight" : [ ]
+              } ]
+            } ]
+          }, {
+            "name" : "App Icons: Visibility and alignment",
+            "objects" : [ {
+              "name" : "app_icon-1",
+              "specs" : [ {
+                "status" : "error",
+                "place" : {
+                  "filePath" : "cadillac.gspec",
+                  "lineNumber" : 76
+                },
+                "name" : "aligned horizontally all app_icon-2",
+                "errors" : [ "Cannot find locator for \"app_icon-1\" in page spec" ],
+                "highlight" : [ ]
+              } ]
+            } ]
+          }, {
+            "name" : "Social Icons: alignment ( special case 4 x 3 grid on mobile )",
+            "objects" : [ {
+              "name" : "social_icons-1",
+              "specs" : [ {
+                "status" : "error",
+                "place" : {
+                  "filePath" : "cadillac.gspec",
+                  "lineNumber" : 87
+                },
+                "name" : "left-of social_icons-2 20px",
+                "errors" : [ "Cannot find locator for \"social_icons-1\" in page spec" ],
+                "highlight" : [ ]
+              } ]
+            }, {
+              "name" : "social_icons-2",
+              "specs" : [ {
+                "status" : "error",
+                "place" : {
+                  "filePath" : "cadillac.gspec",
+                  "lineNumber" : 87
+                },
+                "name" : "left-of social_icons-3 20px",
+                "errors" : [ "Cannot find locator for \"social_icons-2\" in page spec" ],
+                "highlight" : [ ]
+              } ]
+            }, {
+              "name" : "social_icons-3",
+              "specs" : [ {
+                "status" : "error",
+                "place" : {
+                  "filePath" : "cadillac.gspec",
+                  "lineNumber" : 87
+                },
+                "name" : "left-of social_icons-4 20px",
+                "errors" : [ "Cannot find locator for \"social_icons-3\" in page spec" ],
+                "highlight" : [ ]
+              } ]
+            } ]
+          }, {
+            "name" : "Container tables: width, alignment and visibility",
+            "objects" : [ {
+              "name" : "navbar_table",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "cadillac.gspec",
+                  "lineNumber" : 111
+                },
+                "name" : "absent",
+                "highlight" : [ ]
+              } ]
+            } ]
+          } ],
+          "objects" : { },
+          "screenshot" : "layout-2-screenshot.png",
+          "type" : "layout"
+        } ],
+        "time" : 1454409991765,
+        "type" : "node"
+      } ],
+      "time" : 1454409981900,
+      "type" : "node"
+    } ]
+  }
+}

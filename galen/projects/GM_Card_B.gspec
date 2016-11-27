@@ -1,0 +1,76 @@
+@objects
+    view_web    xpath   //a[contains(@description,'VIEW_WEB')]/..
+
+    logo_img        .bowtie>img
+    masthead_img-*  img[src*="masthead"]:not([alt=""])
+    # 1st: width centered
+
+    menu_item-*     table[class *= "nav_item"]
+
+    tables-*        .wrapper>tbody>tr>td>table
+
+    F_logos         img[alt*="GMC"][alt*="Cadillac"]
+
+    CTA_button-*    xpath   (//table[@class="full_cta"])[1]
+
+# tables-*        //table[contains(@width,'500')]
+#    social_icons-*  //a[contains(@description,'BN_IMG')and not(contains(@href, 'CODE'))]
+#    view_lineup     xpath   //a[contains(@description,'LINEUP')][contains(@description,'BTN')]
+#    masthead_img    .masthead_img a>img
+#    logo_img      tr:nth-child(2) td>table:nth-child(1) tr>td:nth-child(2) img
+#   logo_img    xpath       //table[1]/tbody/tr/td[2]/a/img
+#  menu_item-*   xpath     //table[2]/tbody/tr/td
+#  masthead_img-*  xpath   //table[3]/tbody/tr/td/a/img
+
+@set
+    desktopWidth 500px
+    img_desktop_Width 500px
+    img_mobile_Width 564px
+    mobileWidth 300px
+    socialDiff_D 9px
+    socialDiff_M 12px
+
+= Footer logos: visibility, alignment and image comparison =
+    F_logos:
+        image file imgs/buick.jpg, error 40%, tolerance 99
+        centered horizontally inside viewport
+
+= Masthead image: visibility and width =
+    masthead_img-1:
+        visible
+        width ${img_desktop_Width}
+        centered horizontally inside viewport
+
+
+= Menu items: visibility, alignment =
+    @forEach [menu_item-*] as menuItem, next as nextMenu
+        ${menuItem}:
+            visible
+            left-of ${nextMenu} 0px
+            aligned horizontally all ${nextMenu}
+
+= Call to action button: alignment on page and between them, visibility. Exists on all templates =
+
+        @forEach [CTA_button-*] as cta, next as nextCta
+            ${cta}:
+                visible
+                above ${nextCta} 20px
+                aligned vertically all ${nextCta}
+                centered horizontally inside viewport
+
+
+= Social icons: visibility and alignment =
+    @forEach [social_icons-*] as social, next as nextSocial
+        ${social}:
+                visible
+                left-of ${nextSocial} 35px
+                aligned horizontally all ${nextSocial}
+
+= Tables: width and alignment =
+
+    @forEach [tables-*] as table, next as nextTable
+        ${table}:
+            visible
+            width ${desktopWidth}
+            % aligned vertically all ${nextTable}
+            centered horizontally inside viewport

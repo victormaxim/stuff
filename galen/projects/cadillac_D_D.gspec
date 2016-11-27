@@ -1,0 +1,121 @@
+@objects
+    navbar_item-*       .nav_bar td .nav_item td td
+    bottomNavBar_item-* .container_nav .inner_content .nav_item>tbody
+    caddy_logo          .bowtie
+    caddy_logo_img      .bowtie>a>img
+    masthead_img        .masthead_img_full img
+    app_icon-*          .app_icon
+
+    container_table-*   .container_module
+    navbar_table        .nav_bar
+    bottomNavBar_table  .container_nav
+
+    contact-*           .contact_inner_content
+    social_icons-*      .inner_content tbody tr td table:nth-child(3) tbody td table a img
+
+# navbar_b-*          .nav_bar .nav_item a
+# .inner_content tbody tr td table:nth-child(3) tbody td table:nth-child(5) img
+# navbar_item-*       xpath   (//comment()[contains(.,'Inicio nav')])[1]/following-sibling::table[1]/tbody/tr/td[2]/table
+# masthead            xpath   (//comment()[contains(.,'Inicio Masthead')])/following-sibling::*[1]
+
+@groups
+    tables          container_table-*, navbar_table, bottomNavBar_table
+    tables_mobile   container_table-*, bottomNavBar_table
+
+
+# container widths
+@set
+    desktopWidth 650px
+    mobileWidth 320px
+
+= Navigation bar menu items =
+
+    = Top: visible only on desktop. alignment and position =
+        navbar_item-*:
+            @on desktop
+                visible
+            @on mobile
+                "check that top Nav Bar items are displayed and aligned on mobile and absent for mobile"    absent
+
+        @forEach [navbar_item-*] as navBar, next as nextNavBar
+            ${navBar}:
+                @on desktop
+                    left-of ${nextNavBar} 0px
+                    aligned horizontally all ${nextNavBar}
+
+    = Bottom: position and alignment =
+        bottomNavBar_item-*:
+            visible
+        @forEach [bottomNavBar_item-*] as bottomNavBar, next as nextNavBar
+            ${bottomNavBar}:
+                @on desktop
+                    left-of ${nextNavBar} 0px
+                    aligned horizontally all ${nextNavBar}
+                @on mobile
+                    above ${nextNavBar} 0px
+                    aligned vertically all ${nextNavBar}
+
+= Logo: Image comparison (with original) =
+    caddy_logo_img:
+        @on desktop
+            image file imgs/logo.jpg, error 12px
+        @on mobile
+            image file imgs/logo_mobile.jpg, error 12px
+
+= Masthead =
+    masthead_img:
+        @on desktop
+            width 600px
+        @on mobile
+            width ${mobileWidth}
+
+= App Icons: Visibility and alignment =
+    app_icon-*:
+        visible
+    app_icon-1:
+        aligned horizontally all app_icon-2
+
+= Social Icons: alignment ( special case 4 x 3 grid on mobile ) =
+    @forEach [social_icons-*] as socialIcon, next as nextSocialIcon
+        ${socialIcon}:
+            @on desktop
+                left-of ${nextSocialIcon} 12px
+                aligned horizontally all ${nextSocialIcon}
+    @for [1-3] as index
+        social_icons-${index}:
+            @on mobile
+                left-of social_icons-${index + 1} 20px
+
+= Contact icons: visibility and alignment =
+    @forEach [contact-*] as contact, next as nextContact
+        ${contact}:
+            @on desktop
+                visible
+                left-of ${nextContact} 12px
+                aligned horizontally all ${nextContact}
+            @on mobile
+                visible
+                above ${nextContact} 12px
+                aligned vertically all ${nextContact}
+
+= Container tables: alignment =
+    container_table-*:
+        @on desktop
+            width ${desktopWidth}
+        @on mobile
+            % width ${mobileWidth}
+    navbar_table:
+        @on desktop
+            width ${desktopWidth}
+        @on mobile
+            absent
+    @forEach [&tables] as module, next as nextModule
+        ${module}:
+            @on desktop
+                aligned vertically all ${nextModule}
+
+    @forEach [&tables_mobile] as module, next as nextModule
+        ${module}:
+            @on mobile
+                aligned vertically all ${nextModule}
+

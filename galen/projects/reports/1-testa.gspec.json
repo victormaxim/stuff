@@ -1,0 +1,55 @@
+{
+  "testId" : "1-testa.gspec",
+  "name" : "testA.gspec",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Simple check",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "check  testA.gspec --url http://emails.cadillac.com/w/webView?cid=14501196792&mid=1147226886&pid=479634&vid=13684&ee=dGVhbS5tcm1AaG90bWFpbC5jb20_&si=1&mv=H&bv=H&oc=H&sc=&k=14OKi6 --size 1024x768 --htmlreport reports --javascript test.js",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "Check layout: testA.gspec included tags: ",
+          "status" : "error",
+          "time" : 1448382745692,
+          "sections" : [ {
+            "name" : "Imageborders",
+            "objects" : [ {
+              "name" : "image-2",
+              "specs" : [ {
+                "status" : "error",
+                "place" : {
+                  "filePath" : "testA.gspec",
+                  "lineNumber" : 7
+                },
+                "name" : "css src is \"1\"",
+                "errors" : [ "\"image-2\" css property \"src\" is \"\" but should be \"1\"" ],
+                "highlight" : [ "image-2" ]
+              }, {
+                "status" : "error",
+                "place" : {
+                  "filePath" : "testA.gspec",
+                  "lineNumber" : 8
+                },
+                "name" : "width > 1000px",
+                "errors" : [ "\"image-2\" width is 650px but it should be greater than 1000px" ],
+                "highlight" : [ "image-2" ]
+              } ]
+            } ]
+          } ],
+          "objects" : {
+            "image-2" : {
+              "area" : [ 172, 0, 650, 1583 ]
+            }
+          },
+          "screenshot" : "layout-1-screenshot.png",
+          "type" : "layout"
+        } ],
+        "time" : 1448382743216,
+        "type" : "node"
+      } ],
+      "time" : 1448382731005,
+      "type" : "node"
+    } ]
+  }
+}

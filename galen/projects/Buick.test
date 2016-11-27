@@ -1,0 +1,8 @@
+Homepage on desktop
+        file:///C:/work/GM/Cadillac/CRM_2015_Cadillac_November_eNewsletter/Template_Owners_that_are_XT5_Handraisers.html	1024x768
+			check cadillac.gspec --include desktop
+
+Homepage on mobile
+        file:///C:/work/GM/Cadillac/CRM_2015_Cadillac_November_eNewsletter/Template_Owners_that_are_XT5_Handraisers.html	600x400
+			check cadillac.gspec --include mobile
+

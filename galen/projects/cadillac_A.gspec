@@ -1,0 +1,22 @@
+@objects
+    navbar-*            xpath   (//comment()[contains(.,'Inicio nav')])[1]/following-sibling::table[1]/tbody/tr/td[2]/table
+    caddy_logo          .bowtie
+    masthead            xpath   (//comment()[contains(.,'Inicio Masthead')])/following-sibling::*[1]
+    app_icon-*          .app_icon
+    navbar_table        .nav_bar
+    container_table-*   .container_module
+
+= Navbar =
+    navbar-*:
+        visible
+
+    @forEach [navbar-*] as navBar, next as nextNavBar
+        ${navBar}:
+            left-of ${nextNavBar} 0px
+            aligned horizontally all ${nextNavBar}
+
+= App Icons =
+    app_icon-*:
+        visible
+
+

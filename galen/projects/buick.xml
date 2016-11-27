@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results>
+    <suite name="Galen Suite">
+                <test name="Buick.gspec">
+            <class name="Buick.gspec">
+                <test-method status="FAIL" signature="Buick.gspec" name="Buick.gspec" duration-ms="22567" started-at="2016-02-01T17:38:41Z" finished-at="2016-02-01T17:39:03Z" description="">
+                </test-method>
+            </class>
+        </test>
+    </suite>
+</testng-results>

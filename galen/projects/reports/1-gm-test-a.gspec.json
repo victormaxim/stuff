@@ -1,0 +1,62 @@
+{
+  "testId" : "1-gm-test-a.gspec",
+  "name" : "GM_test_A.gspec",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Simple check",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "check  GM_test_A.gspec --url file:///C:/work/GM/CRM_GM_Card_November_EU_EM2/Template_Nov_EUEM2_BP.html --size 1024x768 --htmlreport reports --include desktop",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "Check layout: GM_test_A.gspec included tags: desktop",
+          "status" : "error",
+          "time" : 1450173966579,
+          "includedTags" : [ "desktop" ],
+          "sections" : [ {
+            "name" : "Header",
+            "objects" : [ {
+              "name" : "bowtie",
+              "specs" : [ {
+                "status" : "error",
+                "place" : {
+                  "filePath" : "GM_test_A.gspec",
+                  "lineNumber" : 7
+                },
+                "name" : "width 20px",
+                "errors" : [ "\"bowtie\" width is 600px instead of 20px" ],
+                "highlight" : [ "bowtie" ]
+              } ]
+            }, {
+              "name" : "bowtie.tables-1",
+              "specs" : [ {
+                "status" : "error",
+                "place" : {
+                  "filePath" : "GM_test_A.gspec",
+                  "lineNumber" : 9
+                },
+                "name" : "width 25px",
+                "errors" : [ "\"bowtie.tables-1\" width is 20px instead of 25px" ],
+                "highlight" : [ "bowtie.tables-1" ]
+              } ]
+            } ]
+          } ],
+          "objects" : {
+            "bowtie.tables-1" : {
+              "area" : [ 197, 83, 20, 41 ]
+            },
+            "bowtie" : {
+              "area" : [ 197, 83, 600, 41 ]
+            }
+          },
+          "screenshot" : "layout-1-screenshot.png",
+          "type" : "layout"
+        } ],
+        "time" : 1450173964308,
+        "type" : "node"
+      } ],
+      "time" : 1450173951078,
+      "type" : "node"
+    } ]
+  }
+}

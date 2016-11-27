@@ -1,0 +1,10 @@
+@objects
+    bowtie          xpath   *//comment()[contains(.,'BOWTIE')][1]/following-sibling::table[1]
+        tables-*    td
+
+= Header =
+    bowtie:
+        width 20px
+    bowtie.tables-1:
+        width 25px
+

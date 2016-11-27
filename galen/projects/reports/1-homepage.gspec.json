@@ -1,0 +1,108 @@
+{
+  "testId" : "1-homepage.gspec",
+  "name" : "homepage.gspec",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Simple check",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "check  homepage.gspec --url file:///C:/work/GM/GMC/2016%20GMC%20Canyon%20Denali%20Email%20_06.11.2015/TEMPLATE_2016_GMC_Canyon_Denali_Email.html --size 1024x768 --htmlreport reports",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "Check layout: homepage.gspec included tags: ",
+          "status" : "error",
+          "time" : 1452181803029,
+          "sections" : [ {
+            "name" : "Header",
+            "objects" : [ {
+              "name" : "header.logo",
+              "specs" : [ {
+                "status" : "error",
+                "place" : {
+                  "filePath" : "homepage.gspec",
+                  "lineNumber" : 17
+                },
+                "name" : "inside header 0px left, 8 to 15px top bottom",
+                "errors" : [ "\"header.logo\" is absent on page" ],
+                "highlight" : [ ]
+              }, {
+                "status" : "error",
+                "place" : {
+                  "filePath" : "homepage.gspec",
+                  "lineNumber" : 18
+                },
+                "name" : "width 48px",
+                "errors" : [ "\"header.logo\" is absent on page" ],
+                "highlight" : [ ]
+              }, {
+                "status" : "error",
+                "place" : {
+                  "filePath" : "homepage.gspec",
+                  "lineNumber" : 19
+                },
+                "name" : "height 48px",
+                "errors" : [ "\"header.logo\" is absent on page" ],
+                "highlight" : [ ]
+              } ]
+            }, {
+              "name" : "header.caption",
+              "specs" : [ {
+                "status" : "error",
+                "place" : {
+                  "filePath" : "homepage.gspec",
+                  "lineNumber" : 22
+                },
+                "name" : "right-of header.logo ~22px",
+                "errors" : [ "\"header.caption\" is absent on page" ],
+                "highlight" : [ ]
+              } ]
+            } ]
+          }, {
+            "name" : "Menu",
+            "objects" : [ {
+              "name" : "menu",
+              "specs" : [ {
+                "status" : "error",
+                "place" : {
+                  "filePath" : "homepage.gspec",
+                  "lineNumber" : 30
+                },
+                "name" : "below header 0px",
+                "errors" : [ "\"menu\" is absent on page" ],
+                "highlight" : [ ]
+              }, {
+                "status" : "error",
+                "place" : {
+                  "filePath" : "homepage.gspec",
+                  "lineNumber" : 31
+                },
+                "name" : "aligned vertically all header",
+                "errors" : [ "\"menu\" is absent on page" ],
+                "highlight" : [ ]
+              } ]
+            }, {
+              "name" : "menu.item-1",
+              "specs" : [ {
+                "status" : "error",
+                "place" : {
+                  "filePath" : "homepage.gspec",
+                  "lineNumber" : 37
+                },
+                "name" : "inside menu ~ 1px left top",
+                "errors" : [ "Cannot find locator for \"menu.item-1\" in page spec" ],
+                "highlight" : [ ]
+              } ]
+            } ]
+          } ],
+          "objects" : { },
+          "screenshot" : "layout-1-screenshot.png",
+          "type" : "layout"
+        } ],
+        "time" : 1452181801035,
+        "type" : "node"
+      } ],
+      "time" : 1452181792742,
+      "type" : "node"
+    } ]
+  }
+}

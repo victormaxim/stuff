@@ -1,0 +1,10 @@
+@objects
+    header-logo    #header-logo
+    header-text    #header h1
+
+
+= Header =
+    header-logo:
+        left-of header-text ~20 px
+
+

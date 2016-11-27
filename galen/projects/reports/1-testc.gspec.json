@@ -1,0 +1,25 @@
+{
+  "testId" : "1-testc.gspec",
+  "name" : "testC.gspec",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Simple check",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "check  testC.gspec --url file:///C:/work/GM/GMC/2016%20GMC%20Canyon%20Denali%20Email%20_06.11.2015/TEMPLATE_2016_GMC_Canyon_Denali_Email.html --size 1024x768 --htmlreport reports",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "RuntimeException: Could not load script: .\\allEven.js",
+          "status" : "error",
+          "time" : 1452775205168,
+          "stacktrace" : "java.lang.RuntimeException: Could not load script: .\\allEven.js\r\n\tat com.galenframework.javascript.JsFunctionLoad.load(JsFunctionLoad.java:118)\r\n\tat com.galenframework.javascript.GalenJsExecutor.runJavaScriptFromFile(GalenJsExecutor.java:165)\r\n\tat com.galenframework.speclang2.pagespec.PageSpecHandler.runJavaScriptFromFile(PageSpecHandler.java:432)\r\n\tat com.galenframework.speclang2.pagespec.ScriptProcessor.process(ScriptProcessor.java:50)\r\n\tat com.galenframework.speclang2.pagespec.MacroProcessor.processMacroStatement(MacroProcessor.java:200)\r\n\tat com.galenframework.speclang2.pagespec.MacroProcessor.process(MacroProcessor.java:80)\r\n\tat com.galenframework.speclang2.pagespec.PageSpecReader.read(PageSpecReader.java:64)\r\n\tat com.galenframework.speclang2.pagespec.PageSpecReader.read(PageSpecReader.java:47)\r\n\tat com.galenframework.api.Galen.checkLayout(Galen.java:68)\r\n\tat com.galenframework.api.Galen.checkLayout(Galen.java:59)\r\n\tat com.galenframework.suite.actions.GalenPageActionCheck.execute(GalenPageActionCheck.java:53)\r\n\tat com.galenframework.runner.GalenPageRunner.executeAction(GalenPageRunner.java:84)\r\n\tat com.galenframework.runner.GalenPageRunner.run(GalenPageRunner.java:76)\r\n\tat com.galenframework.runner.GalenBasicTestRunner.runTest(GalenBasicTestRunner.java:76)\r\n\tat com.galenframework.tests.GalenBasicTest.execute(GalenBasicTest.java:55)\r\n\tat com.galenframework.TestRunnable.runTest(TestRunnable.java:75)\r\n\tat com.galenframework.TestRunnable.run(TestRunnable.java:101)\r\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)\r\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)\r\n\tat java.lang.Thread.run(Unknown Source)\r\nCaused by: org.mozilla.javascript.EcmaError: ReferenceError: \"document\" is not defined. (C:\\work\\GM\\auto\\galen\\projects\\.\\allEven.js#1)\r\n\tat org.mozilla.javascript.ScriptRuntime.constructError(ScriptRuntime.java:3689)\r\n\tat org.mozilla.javascript.ScriptRuntime.constructError(ScriptRuntime.java:3667)\r\n\tat org.mozilla.javascript.ScriptRuntime.notFoundError(ScriptRuntime.java:3752)\r\n\tat org.mozilla.javascript.ScriptRuntime.name(ScriptRuntime.java:1727)\r\n\tat org.mozilla.javascript.gen.C__work_GM_auto_galen_projects___allEven_js_18._c_script_0(C:\\work\\GM\\auto\\galen\\projects\\.\\allEven.js:1)\r\n\tat org.mozilla.javascript.gen.C__work_GM_auto_galen_projects___allEven_js_18.call(C:\\work\\GM\\auto\\galen\\projects\\.\\allEven.js)\r\n\tat org.mozilla.javascript.ContextFactory.doTopCall(ContextFactory.java:394)\r\n\tat org.mozilla.javascript.ScriptRuntime.doTopCall(ScriptRuntime.java:3090)\r\n\tat org.mozilla.javascript.gen.C__work_GM_auto_galen_projects___allEven_js_18.call(C:\\work\\GM\\auto\\galen\\projects\\.\\allEven.js)\r\n\tat org.mozilla.javascript.gen.C__work_GM_auto_galen_projects___allEven_js_18.exec(C:\\work\\GM\\auto\\galen\\projects\\.\\allEven.js)\r\n\tat org.mozilla.javascript.Context.evaluateReader(Context.java:1110)\r\n\tat com.galenframework.javascript.JsFunctionLoad.load(JsFunctionLoad.java:110)\r\n\t... 19 more\r\n",
+          "type" : "node"
+        } ],
+        "time" : 1452775204646,
+        "type" : "node"
+      } ],
+      "time" : 1452775195496,
+      "type" : "node"
+    } ]
+  }
+}

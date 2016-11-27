@@ -1,0 +1,741 @@
+{
+  "testId" : "1-gmc-b.gspec",
+  "name" : "GMC_B.gspec",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Simple check",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "check  GMC_B.gspec --url file:///C:/work/GM/GMC/2016%20GMC%20Canyon%20Denali%20Email%20_06.11.2015/TEMPLATE_2016_GMC_Canyon_Denali_Email.html --size 1024x768 --htmlreport reports --include desktop",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "Check layout: GMC_B.gspec included tags: desktop",
+          "status" : "info",
+          "time" : 1452861183998,
+          "includedTags" : [ "desktop" ],
+          "sections" : [ {
+            "name" : "Top menu items: visibility and alignment",
+            "objects" : [ {
+              "name" : "menu_item-1",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GMC_B.gspec",
+                  "lineNumber" : 22
+                },
+                "name" : "visible",
+                "highlight" : [ "menu_item-1" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GMC_B.gspec",
+                  "lineNumber" : 23
+                },
+                "name" : "left-of menu_item-2 0px",
+                "highlight" : [ "menu_item-1", "menu_item-2" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GMC_B.gspec",
+                  "lineNumber" : 24
+                },
+                "name" : "aligned horizontally all menu_item-2",
+                "highlight" : [ "menu_item-1", "menu_item-2" ]
+              } ]
+            }, {
+              "name" : "menu_item-2",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GMC_B.gspec",
+                  "lineNumber" : 22
+                },
+                "name" : "visible",
+                "highlight" : [ "menu_item-2" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GMC_B.gspec",
+                  "lineNumber" : 23
+                },
+                "name" : "left-of menu_item-3 0px",
+                "highlight" : [ "menu_item-2", "menu_item-3" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GMC_B.gspec",
+                  "lineNumber" : 24
+                },
+                "name" : "aligned horizontally all menu_item-3",
+                "highlight" : [ "menu_item-2", "menu_item-3" ]
+              } ]
+            }, {
+              "name" : "menu_item-3",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GMC_B.gspec",
+                  "lineNumber" : 22
+                },
+                "name" : "visible",
+                "highlight" : [ "menu_item-3" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GMC_B.gspec",
+                  "lineNumber" : 23
+                },
+                "name" : "left-of menu_item-4 0px",
+                "highlight" : [ "menu_item-3", "menu_item-4" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GMC_B.gspec",
+                  "lineNumber" : 24
+                },
+                "name" : "aligned horizontally all menu_item-4",
+                "highlight" : [ "menu_item-3", "menu_item-4" ]
+              } ]
+            }, {
+              "name" : "menu_item-4",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GMC_B.gspec",
+                  "lineNumber" : 22
+                },
+                "name" : "visible",
+                "highlight" : [ "menu_item-4" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GMC_B.gspec",
+                  "lineNumber" : 23
+                },
+                "name" : "left-of menu_item-5 0px",
+                "highlight" : [ "menu_item-4", "menu_item-5" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GMC_B.gspec",
+                  "lineNumber" : 24
+                },
+                "name" : "aligned horizontally all menu_item-5",
+                "highlight" : [ "menu_item-4", "menu_item-5" ]
+              } ]
+            } ]
+          }, {
+            "name" : "GMC Logo: image comparison",
+            "objects" : [ {
+              "name" : "gmc_logo",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GMC_B.gspec",
+                  "lineNumber" : 29
+                },
+                "name" : "image file imgs/bowtie_gmc_b.png, error 20%, tolerance 99",
+                "highlight" : [ "gmc_logo" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Call to action button: exists on all templates",
+            "objects" : [ {
+              "name" : "CTA_button",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GMC_B.gspec",
+                  "lineNumber" : 36
+                },
+                "name" : "visible",
+                "highlight" : [ "CTA_button" ]
+              } ]
+            } ]
+          }, {
+            "name" : "LAV, LAD, Chat: visibility, alignment",
+            "objects" : [ {
+              "name" : "bottom_menu-1",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GMC_B.gspec",
+                  "lineNumber" : 42
+                },
+                "name" : "visible",
+                "highlight" : [ "bottom_menu-1" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GMC_B.gspec",
+                  "lineNumber" : 43
+                },
+                "name" : "left-of bottom_menu-2 0px",
+                "highlight" : [ "bottom_menu-1", "bottom_menu-2" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GMC_B.gspec",
+                  "lineNumber" : 44
+                },
+                "name" : "aligned horizontally all bottom_menu-2",
+                "highlight" : [ "bottom_menu-1", "bottom_menu-2" ]
+              } ]
+            }, {
+              "name" : "bottom_menu-2",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GMC_B.gspec",
+                  "lineNumber" : 42
+                },
+                "name" : "visible",
+                "highlight" : [ "bottom_menu-2" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GMC_B.gspec",
+                  "lineNumber" : 43
+                },
+                "name" : "left-of bottom_menu-3 0px",
+                "highlight" : [ "bottom_menu-2", "bottom_menu-3" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GMC_B.gspec",
+                  "lineNumber" : 44
+                },
+                "name" : "aligned horizontally all bottom_menu-3",
+                "highlight" : [ "bottom_menu-2", "bottom_menu-3" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Tables: width and alignment",
+            "objects" : [ {
+              "name" : "tables-1",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GMC_B.gspec",
+                  "lineNumber" : 59
+                },
+                "name" : "visible",
+                "highlight" : [ "tables-1" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GMC_B.gspec",
+                  "lineNumber" : 60
+                },
+                "name" : "width 600px",
+                "highlight" : [ "tables-1" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GMC_B.gspec",
+                  "lineNumber" : 61
+                },
+                "name" : "aligned vertically all tables-2",
+                "highlight" : [ "tables-1", "tables-2" ]
+              } ]
+            }, {
+              "name" : "tables-2",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GMC_B.gspec",
+                  "lineNumber" : 59
+                },
+                "name" : "visible",
+                "highlight" : [ "tables-2" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GMC_B.gspec",
+                  "lineNumber" : 60
+                },
+                "name" : "width 600px",
+                "highlight" : [ "tables-2" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GMC_B.gspec",
+                  "lineNumber" : 61
+                },
+                "name" : "aligned vertically all tables-3",
+                "highlight" : [ "tables-2", "tables-3" ]
+              } ]
+            }, {
+              "name" : "tables-3",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GMC_B.gspec",
+                  "lineNumber" : 59
+                },
+                "name" : "visible",
+                "highlight" : [ "tables-3" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GMC_B.gspec",
+                  "lineNumber" : 60
+                },
+                "name" : "width 600px",
+                "highlight" : [ "tables-3" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GMC_B.gspec",
+                  "lineNumber" : 61
+                },
+                "name" : "aligned vertically all tables-4",
+                "highlight" : [ "tables-3", "tables-4" ]
+              } ]
+            }, {
+              "name" : "tables-4",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GMC_B.gspec",
+                  "lineNumber" : 59
+                },
+                "name" : "visible",
+                "highlight" : [ "tables-4" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GMC_B.gspec",
+                  "lineNumber" : 60
+                },
+                "name" : "width 600px",
+                "highlight" : [ "tables-4" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GMC_B.gspec",
+                  "lineNumber" : 61
+                },
+                "name" : "aligned vertically all tables-5",
+                "highlight" : [ "tables-4", "tables-5" ]
+              } ]
+            }, {
+              "name" : "tables-5",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GMC_B.gspec",
+                  "lineNumber" : 59
+                },
+                "name" : "visible",
+                "highlight" : [ "tables-5" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GMC_B.gspec",
+                  "lineNumber" : 60
+                },
+                "name" : "width 600px",
+                "highlight" : [ "tables-5" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GMC_B.gspec",
+                  "lineNumber" : 61
+                },
+                "name" : "aligned vertically all tables-6",
+                "highlight" : [ "tables-5", "tables-6" ]
+              } ]
+            }, {
+              "name" : "tables-6",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GMC_B.gspec",
+                  "lineNumber" : 59
+                },
+                "name" : "visible",
+                "highlight" : [ "tables-6" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GMC_B.gspec",
+                  "lineNumber" : 60
+                },
+                "name" : "width 600px",
+                "highlight" : [ "tables-6" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GMC_B.gspec",
+                  "lineNumber" : 61
+                },
+                "name" : "aligned vertically all tables-7",
+                "highlight" : [ "tables-6", "tables-7" ]
+              } ]
+            }, {
+              "name" : "tables-7",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GMC_B.gspec",
+                  "lineNumber" : 59
+                },
+                "name" : "visible",
+                "highlight" : [ "tables-7" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GMC_B.gspec",
+                  "lineNumber" : 60
+                },
+                "name" : "width 600px",
+                "highlight" : [ "tables-7" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GMC_B.gspec",
+                  "lineNumber" : 61
+                },
+                "name" : "aligned vertically all tables-8",
+                "highlight" : [ "tables-7", "tables-8" ]
+              } ]
+            }, {
+              "name" : "tables-8",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GMC_B.gspec",
+                  "lineNumber" : 59
+                },
+                "name" : "visible",
+                "highlight" : [ "tables-8" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GMC_B.gspec",
+                  "lineNumber" : 60
+                },
+                "name" : "width 600px",
+                "highlight" : [ "tables-8" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GMC_B.gspec",
+                  "lineNumber" : 61
+                },
+                "name" : "aligned vertically all tables-9",
+                "highlight" : [ "tables-8", "tables-9" ]
+              } ]
+            }, {
+              "name" : "tables-9",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GMC_B.gspec",
+                  "lineNumber" : 59
+                },
+                "name" : "visible",
+                "highlight" : [ "tables-9" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GMC_B.gspec",
+                  "lineNumber" : 60
+                },
+                "name" : "width 600px",
+                "highlight" : [ "tables-9" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GMC_B.gspec",
+                  "lineNumber" : 61
+                },
+                "name" : "aligned vertically all tables-10",
+                "highlight" : [ "tables-9", "tables-10" ]
+              } ]
+            }, {
+              "name" : "tables-10",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GMC_B.gspec",
+                  "lineNumber" : 59
+                },
+                "name" : "visible",
+                "highlight" : [ "tables-10" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GMC_B.gspec",
+                  "lineNumber" : 60
+                },
+                "name" : "width 600px",
+                "highlight" : [ "tables-10" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GMC_B.gspec",
+                  "lineNumber" : 61
+                },
+                "name" : "aligned vertically all tables-11",
+                "highlight" : [ "tables-10", "tables-11" ]
+              } ]
+            }, {
+              "name" : "tables-11",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GMC_B.gspec",
+                  "lineNumber" : 59
+                },
+                "name" : "visible",
+                "highlight" : [ "tables-11" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GMC_B.gspec",
+                  "lineNumber" : 60
+                },
+                "name" : "width 600px",
+                "highlight" : [ "tables-11" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GMC_B.gspec",
+                  "lineNumber" : 61
+                },
+                "name" : "aligned vertically all tables-12",
+                "highlight" : [ "tables-11", "tables-12" ]
+              } ]
+            }, {
+              "name" : "tables-12",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GMC_B.gspec",
+                  "lineNumber" : 59
+                },
+                "name" : "visible",
+                "highlight" : [ "tables-12" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GMC_B.gspec",
+                  "lineNumber" : 60
+                },
+                "name" : "width 600px",
+                "highlight" : [ "tables-12" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GMC_B.gspec",
+                  "lineNumber" : 61
+                },
+                "name" : "aligned vertically all tables-13",
+                "highlight" : [ "tables-12", "tables-13" ]
+              } ]
+            }, {
+              "name" : "tables-13",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GMC_B.gspec",
+                  "lineNumber" : 59
+                },
+                "name" : "visible",
+                "highlight" : [ "tables-13" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GMC_B.gspec",
+                  "lineNumber" : 60
+                },
+                "name" : "width 600px",
+                "highlight" : [ "tables-13" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GMC_B.gspec",
+                  "lineNumber" : 61
+                },
+                "name" : "aligned vertically all tables-14",
+                "highlight" : [ "tables-13", "tables-14" ]
+              } ]
+            }, {
+              "name" : "tables-14",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GMC_B.gspec",
+                  "lineNumber" : 59
+                },
+                "name" : "visible",
+                "highlight" : [ "tables-14" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GMC_B.gspec",
+                  "lineNumber" : 60
+                },
+                "name" : "width 600px",
+                "highlight" : [ "tables-14" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GMC_B.gspec",
+                  "lineNumber" : 61
+                },
+                "name" : "aligned vertically all tables-15",
+                "highlight" : [ "tables-14", "tables-15" ]
+              } ]
+            }, {
+              "name" : "tables-15",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GMC_B.gspec",
+                  "lineNumber" : 59
+                },
+                "name" : "visible",
+                "highlight" : [ "tables-15" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GMC_B.gspec",
+                  "lineNumber" : 60
+                },
+                "name" : "width 600px",
+                "highlight" : [ "tables-15" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GMC_B.gspec",
+                  "lineNumber" : 61
+                },
+                "name" : "aligned vertically all tables-16",
+                "highlight" : [ "tables-15", "tables-16" ]
+              } ]
+            }, {
+              "name" : "tables-16",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GMC_B.gspec",
+                  "lineNumber" : 59
+                },
+                "name" : "visible",
+                "highlight" : [ "tables-16" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GMC_B.gspec",
+                  "lineNumber" : 60
+                },
+                "name" : "width 600px",
+                "highlight" : [ "tables-16" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "GMC_B.gspec",
+                  "lineNumber" : 61
+                },
+                "name" : "aligned vertically all tables-17",
+                "highlight" : [ "tables-16", "tables-17" ]
+              } ]
+            } ]
+          } ],
+          "objects" : {
+            "menu_item-3" : {
+              "area" : [ 318, 48, 119, 41 ]
+            },
+            "menu_item-2" : {
+              "area" : [ 191, 48, 127, 41 ]
+            },
+            "bottom_menu-1" : {
+              "area" : [ 9, 1482, 205, 35 ]
+            },
+            "tables-10" : {
+              "area" : [ 9, 1271, 600, 96 ]
+            },
+            "menu_item-5" : {
+              "area" : [ 560, 48, 49, 41 ]
+            },
+            "menu_item-4" : {
+              "area" : [ 437, 48, 123, 41 ]
+            },
+            "tables-17" : {
+              "area" : [ 9, 1791, 600, 10 ]
+            },
+            "CTA_button" : {
+              "area" : [ 221, 1403, 176, 39 ]
+            },
+            "tables-15" : {
+              "area" : [ 9, 1517, 600, 164 ]
+            },
+            "tables-16" : {
+              "area" : [ 9, 1681, 600, 110 ]
+            },
+            "tables-13" : {
+              "area" : [ 9, 1442, 600, 40 ]
+            },
+            "tables-14" : {
+              "area" : [ 9, 1482, 600, 35 ]
+            },
+            "menu_item-1" : {
+              "area" : [ 9, 48, 182, 41 ]
+            },
+            "bottom_menu-2" : {
+              "area" : [ 214, 1482, 230, 35 ]
+            },
+            "tables-11" : {
+              "area" : [ 9, 1367, 600, 36 ]
+            },
+            "bottom_menu-3" : {
+              "area" : [ 444, 1482, 165, 35 ]
+            },
+            "tables-12" : {
+              "area" : [ 9, 1403, 600, 39 ]
+            },
+            "gmc_logo" : {
+              "area" : [ 9, 48, 182, 41 ]
+            },
+            "tables-1" : {
+              "area" : [ 9, 9, 600, 39 ]
+            },
+            "tables-3" : {
+              "area" : [ 9, 89, 600, 744 ]
+            },
+            "tables-2" : {
+              "area" : [ 9, 48, 600, 41 ]
+            },
+            "tables-5" : {
+              "area" : [ 9, 982, 600, 10 ]
+            },
+            "tables-4" : {
+              "area" : [ 9, 833, 600, 149 ]
+            },
+            "tables-7" : {
+              "area" : [ 9, 1044, 600, 74 ]
+            },
+            "tables-6" : {
+              "area" : [ 9, 992, 600, 52 ]
+            },
+            "tables-9" : {
+              "area" : [ 9, 1135, 600, 136 ]
+            },
+            "tables-8" : {
+              "area" : [ 9, 1118, 600, 17 ]
+            }
+          },
+          "screenshot" : "layout-1-screenshot.png",
+          "type" : "layout"
+        } ],
+        "time" : 1452861179114,
+        "type" : "node"
+      } ],
+      "time" : 1452861166735,
+      "type" : "node"
+    } ]
+  }
+}

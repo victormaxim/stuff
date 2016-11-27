@@ -1,0 +1,8 @@
+@objects
+    image-* img
+
+
+= Imageborders =
+    @forEach [image-*] as imageB
+        ${imageB}:
+            width < 10px

@@ -1,0 +1,9 @@
+@script allEven.js
+
+@objects
+    menu_item-*     xpath   (//a[contains(@description, 'GMC')]/img)/../../../td
+
+= test =
+    @for [${allEven("menu_item-*")}] as index
+        menu_item-${index}:
+            height 100px
