@@ -21,7 +21,8 @@ static WebDriver driver = new FirefoxDriver();
 		driver.findElement(By.id("product_111_submit_button")).click();
 		driver.findElement(By.xpath("//*[@id='cart-widget-links']/a")).click();
 		driver.findElement(By.id("log")).sendKeys("kvl");
-		
+
+		//inca un rand
 		
 	//	driver.findElement(By.tagName("element html tag name"));
 		
