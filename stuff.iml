@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="ecommerce-hybris-testing" level="project" />
+    <orderEntry type="library" name="OlivePressApp" level="project" />
+    <orderEntry type="library" name="libs" level="project" />
+    <orderEntry type="library" name="ooxml-lib1" level="project" />
+    <orderEntry type="library" name="commons-io-2.1" level="project" />
+    <orderEntry type="library" name="OlivePressApp2" level="project" />
+    <orderEntry type="library" name="ooxml-lib" level="project" />
+    <orderEntry type="library" name="galen" level="project" />
+    <orderEntry type="library" name="OlivePressApp1" level="project" />
+    <orderEntry type="library" name="libs1" level="project" />
+    <orderEntry type="library" name="selenium1" level="project" />
+    <orderEntry type="library" name="CreateJAR" level="project" />
+    <orderEntry type="library" name="graphwalker" level="project" />
+    <orderEntry type="library" name="curs11Proiect1" level="project" />
+    <orderEntry type="library" name="lib2" level="project" />
+    <orderEntry type="library" name="OlivePressApp3" level="project" />
+    <orderEntry type="library" name="selenium" level="project" />
+    <orderEntry type="library" name="lib1" level="project" />
+    <orderEntry type="library" name="lib3" level="project" />
+    <orderEntry type="library" name="galen1" level="project" />
+    <orderEntry type="library" name="lib" level="project" />
+  </component>
+</module>

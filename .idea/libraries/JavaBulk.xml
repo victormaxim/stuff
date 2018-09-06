@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="JavaBulk">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/JavaBulk/Moon-lander_source-code.zip!/" />
+      <root url="jar://$PROJECT_DIR$/JavaBulk/spaceinvaders.zip!/" />
+      <root url="jar://$PROJECT_DIR$/JavaBulk/Moon-lander.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

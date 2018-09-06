@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="galen1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/galen/galen.jar!/" />
+      <root url="jar://$PROJECT_DIR$/galen/galen-bin-2.2.0.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

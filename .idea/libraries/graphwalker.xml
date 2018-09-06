@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="graphwalker">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/graphwalker/graphwalker.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

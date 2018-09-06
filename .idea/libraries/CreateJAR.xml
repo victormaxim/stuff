@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="CreateJAR">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Eclipse/Exercise Files/Solutions/12_Deployment/CreateJAR/OlivePressApp - Copy.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Eclipse/Exercise Files/Solutions/12_Deployment/CreateJAR/OlivePressApp.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="lib2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Eclipse/Diverse/lib/junit-4.11.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Eclipse/Diverse/lib/selenium-java-2.43.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Eclipse/Diverse/lib/selenium-server-standalone-2.43.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="ecommerce-hybris-testing">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/ecommerce-hybris-testing/ecommerce-hybris-testing/settings.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ecommerce-hybris-testing/ecommerce-hybris-testing/selenium-server-standalone-2.41.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

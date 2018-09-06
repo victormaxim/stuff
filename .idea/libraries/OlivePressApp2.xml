@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="OlivePressApp2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Eclipse/Exercise Files/12_Deployment/ClassPath/OlivePressApp.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

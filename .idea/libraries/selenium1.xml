@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="selenium1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/JavaBulk/POMExample/selenium/selenium-java-2.41.0-srcs.jar!/" />
+      <root url="jar://$PROJECT_DIR$/JavaBulk/POMExample/selenium/selenium-java-2.41.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
