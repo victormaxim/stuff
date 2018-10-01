@@ -1,14 +1,10 @@
 package com.selenium;
-import java.util.List;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
-import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import pageobject.Dashboard;
 import pageobject.Login;
-import pageobject.RegistrationVechi;
 
 
 public class PageObjectEcs extends SelTestCase {

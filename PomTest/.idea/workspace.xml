@@ -2,293 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a171d250-cd28-4032-b4c5-5c8e48c7d4b6" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../Bomberman/@PSC_ReadMe_2186_2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/BomberBGM.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/BomberBomb.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/BomberBonus.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/BomberConfigDialog$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/BomberConfigDialog$GetKeyDialog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/BomberConfigDialog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/BomberFire.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/BomberGame.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/BomberImageButton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/BomberKeyConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/BomberKeyConfig.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/BomberKeyQueue$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/BomberKeyQueue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/BomberMain$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/BomberMain$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/BomberMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/BomberMap$Bomb.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/BomberMap$Bonus.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/BomberMap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/BomberMenu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/BomberPlayer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/BomberRandInt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/BomberSndEffect.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/Bomberman (Win2k).bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/Bomberman (Win9x).bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/ErrorDialog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/Readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/Screen Shot.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/SoundPlayer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/BomberBombs/1.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/BomberBombs/2.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/BomberBonuses/B1.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/BomberBonuses/B2.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/BomberBonuses/F1.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/BomberBonuses/F2.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/BomberBricks/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/BomberBricks/2.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/BomberEndGame/Draw.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/BomberEndGame/Enter to Continue.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/BomberEndGame/Player 1 Wins.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/BomberEndGame/Player 2 Wins.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/BomberEndGame/Player 3 Wins.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/BomberEndGame/Player 4 Wins.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/BomberFireBricks/11.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/BomberFireBricks/12.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/BomberFireBricks/13.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/BomberFireBricks/14.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/BomberFireBricks/15.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/BomberFireBricks/16.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/BomberFireBricks/17.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/BomberFireBricks/18.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/BomberFireBricks/21.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/BomberFireBricks/22.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/BomberFireBricks/23.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/BomberFireBricks/24.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/BomberFireBricks/25.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/BomberFireBricks/26.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/BomberFireBricks/27.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/BomberFireBricks/28.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/BomberFires/C1.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/BomberFires/C2.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/BomberFires/C3.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/BomberFires/C4.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/BomberFires/C5.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/BomberFires/C6.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/BomberFires/C7.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/BomberFires/C8.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/BomberFires/E1.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/BomberFires/E2.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/BomberFires/E3.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/BomberFires/E4.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/BomberFires/E5.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/BomberFires/E6.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/BomberFires/E7.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/BomberFires/E8.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/BomberFires/H1.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/BomberFires/H2.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/BomberFires/H3.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/BomberFires/H4.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/BomberFires/H5.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/BomberFires/H6.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/BomberFires/H7.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/BomberFires/H8.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/BomberFires/N1.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/BomberFires/N2.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/BomberFires/N3.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/BomberFires/N4.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/BomberFires/N5.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/BomberFires/N6.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/BomberFires/N7.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/BomberFires/N8.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/BomberFires/S1.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/BomberFires/S2.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/BomberFires/S3.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/BomberFires/S4.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/BomberFires/S5.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/BomberFires/S6.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/BomberFires/S7.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/BomberFires/S8.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/BomberFires/V1.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/BomberFires/V2.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/BomberFires/V3.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/BomberFires/V4.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/BomberFires/V5.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/BomberFires/V6.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/BomberFires/V7.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/BomberFires/V8.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/BomberFires/W1.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/BomberFires/W2.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/BomberFires/W3.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/BomberFires/W4.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/BomberFires/W5.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/BomberFires/W6.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/BomberFires/W7.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/BomberFires/W8.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/BomberFloors/2.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/BomberMenu/2 Player Game Down.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/BomberMenu/2 Player Game Up.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/BomberMenu/3 Player Game Down.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/BomberMenu/3 Player Game Up.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/BomberMenu/4 Player Game Down.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/BomberMenu/4 Player Game Up.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/BomberMenu/Background.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/BomberMenu/Control Setup Down.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/BomberMenu/Control Setup Up.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/BomberMenu/Exit Down.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/BomberMenu/Exit Up.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/BomberWalls/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/BomberWalls/2.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/Bomberman.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/Bombermans/Player 1/01.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/Bombermans/Player 1/02.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/Bombermans/Player 1/03.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/Bombermans/Player 1/04.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/Bombermans/Player 1/05.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/Bombermans/Player 1/11.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/Bombermans/Player 1/12.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/Bombermans/Player 1/13.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/Bombermans/Player 1/14.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/Bombermans/Player 1/15.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/Bombermans/Player 1/21.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/Bombermans/Player 1/22.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/Bombermans/Player 1/23.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/Bombermans/Player 1/24.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/Bombermans/Player 1/25.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/Bombermans/Player 1/31.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/Bombermans/Player 1/32.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/Bombermans/Player 1/33.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/Bombermans/Player 1/34.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/Bombermans/Player 1/35.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/Bombermans/Player 1/41.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/Bombermans/Player 1/42.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/Bombermans/Player 1/43.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/Bombermans/Player 1/44.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/Bombermans/Player 1/45.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/Bombermans/Player 2/01.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/Bombermans/Player 2/02.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/Bombermans/Player 2/03.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/Bombermans/Player 2/04.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/Bombermans/Player 2/05.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/Bombermans/Player 2/11.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/Bombermans/Player 2/12.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/Bombermans/Player 2/13.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/Bombermans/Player 2/14.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/Bombermans/Player 2/15.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/Bombermans/Player 2/21.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/Bombermans/Player 2/22.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/Bombermans/Player 2/23.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/Bombermans/Player 2/24.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/Bombermans/Player 2/25.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/Bombermans/Player 2/31.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/Bombermans/Player 2/32.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/Bombermans/Player 2/33.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/Bombermans/Player 2/34.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/Bombermans/Player 2/35.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/Bombermans/Player 2/41.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/Bombermans/Player 2/42.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/Bombermans/Player 2/43.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/Bombermans/Player 2/44.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/Bombermans/Player 2/45.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/Bombermans/Player 3/01.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/Bombermans/Player 3/02.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/Bombermans/Player 3/03.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/Bombermans/Player 3/04.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/Bombermans/Player 3/05.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/Bombermans/Player 3/11.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/Bombermans/Player 3/12.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/Bombermans/Player 3/13.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/Bombermans/Player 3/14.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/Bombermans/Player 3/15.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/Bombermans/Player 3/21.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/Bombermans/Player 3/22.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/Bombermans/Player 3/23.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/Bombermans/Player 3/24.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/Bombermans/Player 3/25.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/Bombermans/Player 3/31.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/Bombermans/Player 3/32.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/Bombermans/Player 3/33.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/Bombermans/Player 3/34.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/Bombermans/Player 3/35.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/Bombermans/Player 3/41.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/Bombermans/Player 3/42.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/Bombermans/Player 3/43.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/Bombermans/Player 3/44.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/Bombermans/Player 3/45.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/Bombermans/Player 4/01.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/Bombermans/Player 4/02.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/Bombermans/Player 4/03.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/Bombermans/Player 4/04.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/Bombermans/Player 4/05.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/Bombermans/Player 4/11.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/Bombermans/Player 4/12.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/Bombermans/Player 4/13.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/Bombermans/Player 4/14.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/Bombermans/Player 4/15.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/Bombermans/Player 4/21.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/Bombermans/Player 4/22.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/Bombermans/Player 4/23.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/Bombermans/Player 4/24.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/Bombermans/Player 4/25.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/Bombermans/Player 4/31.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/Bombermans/Player 4/32.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/Bombermans/Player 4/33.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/Bombermans/Player 4/34.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/Bombermans/Player 4/35.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/Bombermans/Player 4/41.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/Bombermans/Player 4/42.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/Bombermans/Player 4/43.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/Bombermans/Player 4/44.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/images/Bombermans/Player 4/45.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/sounds/BomberBGM/Battle.mid" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/sounds/BomberSndEffects/Bonus.mid" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/sounds/BomberSndEffects/Die.mid" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/sounds/BomberSndEffects/Explosion.mid" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/src/BomberBGM.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/src/BomberBomb.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/src/BomberBonus.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/src/BomberConfigDialog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/src/BomberFire.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/src/BomberGame.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/src/BomberImageButton.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/src/BomberKeyConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/src/BomberKeyQueue.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/src/BomberMain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/src/BomberMap.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/src/BomberMenu.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/src/BomberPlayer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/src/BomberRandInt.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/src/BomberSndEffect.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/src/ErrorDialog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bomberman/bomberman/src/SoundPlayer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/org_seleniumhq_selenium_selenium_htmlunit_driver_2_8_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/org_seleniumhq_selenium_selenium_htmlunit_driver_2_8_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PomTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PomTest.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/compare/abc - Copy.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/compare/abc.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/compare/compare.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/diverse/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/diverse/dateformat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/diverse/getElement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/diverse/variableMethod.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/observer/CurrentConditionsDisplay.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/observer/DisplayElement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/observer/ForecastDisplay.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/observer/HeatIndexDisplay.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/observer/Observer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/observer/StatisticsDisplay.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/observer/Subject.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/observer/WeatherData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/observer/WeatherStation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/observer/WeatherStationHeatIndex.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Car.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FileReader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FileReaderB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FileReaderC.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ReadTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RevString.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Vitezometru.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/propi.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test.properties" beforeDir="false" />
     </list>
     <ignored path="PomTest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -313,8 +27,10 @@
     <session id="582771143">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
     </session>
@@ -382,8 +98,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -413,13 +127,15 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536264240695" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536264542464" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="uTest" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../myWork" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -783,16 +499,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Learn" />
-      <window_info id="Capture Tool" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25426438" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25692964" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Palette&#9;" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Learn" order="5" />
+      <window_info id="Image Layers" order="6" />
+      <window_info id="Capture Tool" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286334" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.35" />
@@ -804,14 +519,14 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.30930233" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Theme Preview" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Designer" order="4" />
       <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -839,52 +554,16 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/Vitezometru.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Car.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/FileReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="19" selection-start-line="12" selection-start-column="2" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/propi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Vitezometru.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/Car.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/FileReader.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/propi.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/src.zip!/java/lang/Object.java" />
     <entry file="file://$PROJECT_DIR$/PomTest.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ReadTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ReadTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/Test.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -895,76 +574,16 @@
     <entry file="file://$PROJECT_DIR$/config.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/RevString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/compare/compare.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/FileReaderC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/FileReaderB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/diverse/dateformat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="21" column="50" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/diverse/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/diverse/getElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/observer/WeatherStation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="28" column="24" lean-forward="true" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/diverse/variableMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/RevString.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/compare/compare.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/FileReaderC.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/FileReaderB.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/diverse/dateformat.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/diverse/Test.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/diverse/getElement.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/observer/WeatherStation.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/diverse/variableMethod.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/test.properties" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/test.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -1029,6 +648,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
