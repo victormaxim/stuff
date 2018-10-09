@@ -1,3 +1,4 @@
+package JavaBulk.Curs8.src;
 
 public class test2 {
 int x =10;
