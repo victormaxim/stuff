@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="aeedc489-ceb6-4725-8ddc-18531e884734" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/.idea/copyright/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/minicraft.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/out/production/Java/CH04/designpatterns/decorator/io/InputTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/out/production/Java/CH04/designpatterns/decorator/io/LowerCaseInputStream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/out/production/Java/CH04/designpatterns/decorator/io/test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/out/production/Java/CH04/designpatterns/decorator/starbuzz/Beverage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/out/production/Java/CH04/designpatterns/decorator/starbuzz/CondimentDecorator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/out/production/Java/CH04/designpatterns/decorator/starbuzz/DarkRoast.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/out/production/Java/CH04/designpatterns/decorator/starbuzz/Decaf.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/out/production/Java/CH04/designpatterns/decorator/starbuzz/Espresso.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/out/production/Java/CH04/designpatterns/decorator/starbuzz/HouseBlend.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/out/production/Java/CH04/designpatterns/decorator/starbuzz/Milk.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/out/production/Java/CH04/designpatterns/decorator/starbuzz/Mocha.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/out/production/Java/CH04/designpatterns/decorator/starbuzz/Soy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/out/production/Java/CH04/designpatterns/decorator/starbuzz/StarbuzzCoffee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/out/production/Java/CH04/designpatterns/decorator/starbuzz/Whip.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/out/production/Java/CH04/test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/src/CH04/designpatterns/decorator/io/InputTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/src/CH04/designpatterns/decorator/io/LowerCaseInputStream.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/src/CH04/designpatterns/decorator/io/test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/src/CH04/designpatterns/decorator/starbuzz/Beverage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/src/CH04/designpatterns/decorator/starbuzz/CondimentDecorator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/src/CH04/designpatterns/decorator/starbuzz/DarkRoast.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/src/CH04/designpatterns/decorator/starbuzz/Decaf.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/src/CH04/designpatterns/decorator/starbuzz/Espresso.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/src/CH04/designpatterns/decorator/starbuzz/HouseBlend.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/src/CH04/designpatterns/decorator/starbuzz/Milk.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/src/CH04/designpatterns/decorator/starbuzz/Mocha.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/src/CH04/designpatterns/decorator/starbuzz/Soy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/src/CH04/designpatterns/decorator/starbuzz/StarbuzzCoffee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/src/CH04/designpatterns/decorator/starbuzz/Whip.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/src/CH04/test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Curs8/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Curs8/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Curs8/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Curs8/bin/Fereastra3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Curs8/bin/Frames.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Curs8/bin/Minesweeper$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Curs8/bin/Minesweeper$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Curs8/bin/Minesweeper$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Curs8/bin/Minesweeper$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Curs8/bin/Minesweeper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Curs8/bin/Minesweeper2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Curs8/bin/Minesweeper2$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Curs8/bin/Minesweeper2$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Curs8/bin/Minesweeper2$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Curs8/bin/Minesweeper2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Curs8/bin/Test$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Curs8/bin/Test$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Curs8/bin/Test$MyLabel$PopupTriggerListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Curs8/bin/Test$MyLabel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Curs8/bin/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Curs8/bin/mine.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Curs8/bin/mine.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Curs8/bin/pros.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Curs8/bin/test2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Curs8/flag.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Curs8/flag.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Curs8/mine.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Curs8/mine.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Curs8/pros.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Curs8/src/Fereastra3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Curs8/src/Frames.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Curs8/src/Minesweeper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Curs8/src/Minesweeper2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Curs8/src/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Curs8/src/mine.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Curs8/src/mine.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Curs8/src/pros.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Curs8/src/test2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Curs8/tile.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diverse/src/Frama.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diverse/src/Frames.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diverse/src/Masina.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercitii/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercitii/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercitii/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../first_modi/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../first_modi/manifest.mf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../first_modi/nbproject/build-impl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../first_modi/nbproject/genfiles.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../first_modi/nbproject/private/private.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../first_modi/nbproject/private/private.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../first_modi/nbproject/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../first_modi/nbproject/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../first_modi/src/beans/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../first_modi/src/first/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../first_modi/src/first/useri.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../first_modi/src/gui/LoginFrame.form" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../first_modi/src/gui/LoginFrame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../first_modi/src/gui/SignUpFrame.form" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../first_modi/src/gui/SignUpFrame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../first_modi/src/login/LoginContainer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../first_modi/useri.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../joc/resources/images/Thumbs.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../joc/resources/images/background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../joc/resources/images/landing_area.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../joc/resources/images/menu.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../joc/resources/images/red_border.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../joc/resources/images/rocket.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../joc/resources/images/rocket_crashed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../joc/resources/images/rocket_fire.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../joc/resources/images/rocket_landed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../joc/src/Canvas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../joc/src/Framework.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../joc/src/Game.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../joc/src/LandingArea.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../joc/src/PlayerRocket.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../joc/src/Window.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/mojang/ld22/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/mojang/ld22/Game.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/mojang/ld22/GameApplet.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/mojang/ld22/GameApplet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/mojang/ld22/InputHandler$Key.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/mojang/ld22/InputHandler$Key.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/mojang/ld22/InputHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/mojang/ld22/InputHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/mojang/ld22/crafting/Crafting.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/mojang/ld22/crafting/Crafting.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/mojang/ld22/crafting/FurnitureRecipe.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/mojang/ld22/crafting/FurnitureRecipe.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/mojang/ld22/crafting/Recipe.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/mojang/ld22/crafting/Recipe.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/mojang/ld22/crafting/ResourceRecipe.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/mojang/ld22/crafting/ResourceRecipe.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/mojang/ld22/crafting/ToolRecipe.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/mojang/ld22/crafting/ToolRecipe.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/mojang/ld22/entity/AirWizard.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/mojang/ld22/entity/AirWizard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/mojang/ld22/entity/Anvil.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/mojang/ld22/entity/Anvil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/mojang/ld22/entity/Chest.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/mojang/ld22/entity/Chest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/mojang/ld22/entity/Entity.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/mojang/ld22/entity/Entity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/mojang/ld22/entity/Furnace.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/mojang/ld22/entity/Furnace.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/mojang/ld22/entity/Furniture.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/mojang/ld22/entity/Furniture.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/mojang/ld22/entity/Inventory.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/mojang/ld22/entity/Inventory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/mojang/ld22/entity/ItemEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/mojang/ld22/entity/ItemEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/mojang/ld22/entity/Lantern.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/mojang/ld22/entity/Lantern.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/mojang/ld22/entity/Mob.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/mojang/ld22/entity/Mob.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/mojang/ld22/entity/Oven.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/mojang/ld22/entity/Oven.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/mojang/ld22/entity/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/mojang/ld22/entity/Player.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/mojang/ld22/entity/Slime.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/mojang/ld22/entity/Slime.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/mojang/ld22/entity/Spark.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/mojang/ld22/entity/Spark.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/mojang/ld22/entity/Workbench.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/mojang/ld22/entity/Workbench.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/mojang/ld22/entity/Zombie.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/mojang/ld22/entity/Zombie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/mojang/ld22/entity/particle/Particle.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/mojang/ld22/entity/particle/Particle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/mojang/ld22/entity/particle/SmashParticle.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/mojang/ld22/entity/particle/SmashParticle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/mojang/ld22/entity/particle/TextParticle.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/mojang/ld22/entity/particle/TextParticle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/mojang/ld22/gfx/Color.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/mojang/ld22/gfx/Color.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/mojang/ld22/gfx/Font.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/mojang/ld22/gfx/Font.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/mojang/ld22/gfx/Screen.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/mojang/ld22/gfx/Screen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/mojang/ld22/gfx/Sprite.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/mojang/ld22/gfx/Sprite.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/mojang/ld22/gfx/SpriteSheet.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/mojang/ld22/gfx/SpriteSheet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/mojang/ld22/item/FurnitureItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/mojang/ld22/item/FurnitureItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/mojang/ld22/item/Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/mojang/ld22/item/Item.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/mojang/ld22/item/PowerGloveItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/mojang/ld22/item/PowerGloveItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/mojang/ld22/item/ResourceItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/mojang/ld22/item/ResourceItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/mojang/ld22/item/ToolItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/mojang/ld22/item/ToolItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/mojang/ld22/item/ToolType.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/mojang/ld22/item/ToolType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/mojang/ld22/item/resource/FoodResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/mojang/ld22/item/resource/FoodResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/mojang/ld22/item/resource/PlantableResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/mojang/ld22/item/resource/PlantableResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/mojang/ld22/item/resource/Resource.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/mojang/ld22/item/resource/Resource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/mojang/ld22/level/Level$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/mojang/ld22/level/Level$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/mojang/ld22/level/Level.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/mojang/ld22/level/Level.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/mojang/ld22/level/levelgen/LevelGen.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/mojang/ld22/level/levelgen/LevelGen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/mojang/ld22/level/tile/CactusTile.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/mojang/ld22/level/tile/CactusTile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/mojang/ld22/level/tile/CloudCactusTile.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/mojang/ld22/level/tile/CloudCactusTile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/mojang/ld22/level/tile/CloudTile.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/mojang/ld22/level/tile/CloudTile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/mojang/ld22/level/tile/DirtTile.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/mojang/ld22/level/tile/DirtTile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/mojang/ld22/level/tile/FarmTile.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/mojang/ld22/level/tile/FarmTile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/mojang/ld22/level/tile/FlowerTile.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/mojang/ld22/level/tile/FlowerTile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/mojang/ld22/level/tile/GrassTile.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/mojang/ld22/level/tile/GrassTile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/mojang/ld22/level/tile/HardRockTile.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/mojang/ld22/level/tile/HardRockTile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/mojang/ld22/level/tile/HoleTile.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/mojang/ld22/level/tile/HoleTile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/mojang/ld22/level/tile/InfiniteFallTile.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/mojang/ld22/level/tile/InfiniteFallTile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/mojang/ld22/level/tile/LavaTile.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/mojang/ld22/level/tile/LavaTile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/mojang/ld22/level/tile/OreTile.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/mojang/ld22/level/tile/OreTile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/mojang/ld22/level/tile/RockTile.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/mojang/ld22/level/tile/RockTile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/mojang/ld22/level/tile/SandTile.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/mojang/ld22/level/tile/SandTile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/mojang/ld22/level/tile/SaplingTile.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/mojang/ld22/level/tile/SaplingTile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/mojang/ld22/level/tile/StairsTile.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/mojang/ld22/level/tile/StairsTile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/mojang/ld22/level/tile/StoneTile.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/mojang/ld22/level/tile/StoneTile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/mojang/ld22/level/tile/Tile.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/mojang/ld22/level/tile/Tile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/mojang/ld22/level/tile/TreeTile.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/mojang/ld22/level/tile/TreeTile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/mojang/ld22/level/tile/WaterTile.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/mojang/ld22/level/tile/WaterTile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/mojang/ld22/level/tile/WheatTile.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/mojang/ld22/level/tile/WheatTile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/mojang/ld22/screen/AboutMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/mojang/ld22/screen/AboutMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/mojang/ld22/screen/ContainerMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/mojang/ld22/screen/ContainerMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/mojang/ld22/screen/CraftingMenu$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/mojang/ld22/screen/CraftingMenu$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/mojang/ld22/screen/CraftingMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/mojang/ld22/screen/CraftingMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/mojang/ld22/screen/DeadMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/mojang/ld22/screen/DeadMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/mojang/ld22/screen/InstructionsMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/mojang/ld22/screen/InstructionsMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/mojang/ld22/screen/InventoryMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/mojang/ld22/screen/InventoryMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/mojang/ld22/screen/LevelTransitionMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/mojang/ld22/screen/LevelTransitionMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/mojang/ld22/screen/ListItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/mojang/ld22/screen/ListItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/mojang/ld22/screen/Menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/mojang/ld22/screen/Menu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/mojang/ld22/screen/TitleMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/mojang/ld22/screen/TitleMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/mojang/ld22/screen/WonMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/mojang/ld22/screen/WonMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/mojang/ld22/sound/Bla.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/mojang/ld22/sound/Bla.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/mojang/ld22/sound/Sound$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/mojang/ld22/sound/Sound$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/mojang/ld22/sound/Sound.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/mojang/ld22/sound/Sound.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/java.policy.applet" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mojang/ld22/sound/Bla.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mojang/ld22/sound/Bla.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spaceinvaders/org/newdawn/spaceinvaders/AlienEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spaceinvaders/org/newdawn/spaceinvaders/Entity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spaceinvaders/org/newdawn/spaceinvaders/Game.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spaceinvaders/org/newdawn/spaceinvaders/ShipEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spaceinvaders/org/newdawn/spaceinvaders/ShotEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spaceinvaders/org/newdawn/spaceinvaders/Sprite.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spaceinvaders/org/newdawn/spaceinvaders/SpriteStore.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spaceinvaders/sprites/Thumbs.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spaceinvaders/sprites/alien.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spaceinvaders/sprites/ship.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spaceinvaders/sprites/shot.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demoprojectSelendroid/src/main/java/io/selendroid/demo/SelendroidIntegrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../demoprojectSelendroid/src/main/java/io/selendroid/demo/SelendroidIntegrationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ecommerce-hybris-testing/ecommerce-hybris-testing/src/main/java/pages/baseapp/Newpig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ecommerce-hybris-testing/ecommerce-hybris-testing/src/main/java/pages/baseapp/Newpig.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/bin/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="314704701">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="3" />
+          <entry key="png" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Image" value="2" />
+          <entry key="JAVA" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/mojang/ld22/Game.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="40" column="28" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/icons2.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/icons.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/mojang/ld22/sound/Bla.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/mojang/ld22/sound/Sound.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/com/mojang/ld22/sound/Bla.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1912" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="minicraft" type="b2602c69:ProjectViewProjectNode" />
+              <item name="minicraft" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="minicraft" type="b2602c69:ProjectViewProjectNode" />
+              <item name="minicraft" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="minicraft" type="b2602c69:ProjectViewProjectNode" />
+              <item name="minicraft" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ld22" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="minicraft" type="b2602c69:ProjectViewProjectNode" />
+              <item name="minicraft" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ld22" type="462c0819:PsiDirectoryNode" />
+              <item name="gfx" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="minicraft" type="b2602c69:ProjectViewProjectNode" />
+              <item name="minicraft" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ld22" type="462c0819:PsiDirectoryNode" />
+              <item name="sound" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539096101232" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Game" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mojang.ld22.Game" />
+      <module name="minicraft" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mojang.ld22.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Game" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aeedc489-ceb6-4725-8ddc-18531e884734" name="Default Changelist" comment="" />
+      <created>1539089822311</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1539089822311</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Learn" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.329718" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.329718" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/mojang/ld22/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="40" column="28" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/icons2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/icons.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mojang/ld22/sound/Bla.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mojang/ld22/sound/Sound.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

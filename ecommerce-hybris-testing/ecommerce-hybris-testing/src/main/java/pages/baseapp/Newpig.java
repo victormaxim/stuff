@@ -19,7 +19,7 @@ import pages.myaccount.*;
 import pages.pdp.PDP;
 import pages.ppc.PPC;
 import dg_homepage.*;
-import Dg
+//import Dg
 
 /**
  * Created by optaros on 5/7/15.

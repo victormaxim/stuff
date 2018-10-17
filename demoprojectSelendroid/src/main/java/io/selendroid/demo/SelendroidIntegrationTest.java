@@ -11,7 +11,7 @@
  * or implied. See the License for the specific language governing permissions and limitations under
  * the License.
  */
-package io.selendroid.demo;
+package demoprojectSelendroid.src.main.java.io.selendroid.demo;
 
 import io.selendroid.client.SelendroidDriver;
 import io.selendroid.common.SelendroidCapabilities;
