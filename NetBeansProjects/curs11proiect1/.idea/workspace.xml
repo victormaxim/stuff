@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6c75b3c2-10f3-4141-873f-fd6b6e16a7ff" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/NetBeansProjects.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/curs11proiect1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/Diverse/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/Diverse/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/Diverse/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/Diverse/bin/Alex.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/Diverse/bin/Frama$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/Diverse/bin/Frama.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/Diverse/bin/Frames.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/Diverse/bin/Masina.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/Diverse/bin/RoboDownload.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/Diverse/lib/junit-4.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/Diverse/lib/selenium-java-2.43.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/Diverse/lib/selenium-server-standalone-2.43.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/Diverse/src/Alex.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/Diverse/src/RoboDownload.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/Diverse/test-output/Default suite/Default test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/Diverse/test-output/Default suite/Default test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/Diverse/test-output/bullet_point.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/Diverse/test-output/collapseall.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/Diverse/test-output/emailable-report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/Diverse/test-output/failed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/Diverse/test-output/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/Diverse/test-output/jquery-1.7.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/Diverse/test-output/navigator-bullet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/Diverse/test-output/old/Default suite/Default test.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/Diverse/test-output/old/Default suite/classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/Diverse/test-output/old/Default suite/groups.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/Diverse/test-output/old/Default suite/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/Diverse/test-output/old/Default suite/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/Diverse/test-output/old/Default suite/methods-alphabetical.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/Diverse/test-output/old/Default suite/methods-not-run.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/Diverse/test-output/old/Default suite/methods.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/Diverse/test-output/old/Default suite/reporter-output.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/Diverse/test-output/old/Default suite/testng.xml.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/Diverse/test-output/old/Default suite/toc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/Diverse/test-output/old/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/Diverse/test-output/passed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/Diverse/test-output/skipped.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/Diverse/test-output/testng-reports.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/Diverse/test-output/testng-reports.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/Diverse/test-output/testng-results.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/Diverse/test-output/testng.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/Jewel/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/Jewel/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/Jewel/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/Jewel/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/Jewel/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/Jewel/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/Jewel/src/main/java/ro/alx/Test3/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/Jewel/src/test/java/com/selenium/SelTestCase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/Jewel/src/test/java/com/selenium/SelectDropDown.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/Jewel/src/test/java/com/selenium/WebDriverTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/Jewel/src/test/java/pageobject/Login.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/Jewel/src/test/java/pageobject/Testare.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/Jewel/target/classes/ro/alx/Test3/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/Jewel/target/test-classes/com/selenium/SelTestCase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/Jewel/target/test-classes/com/selenium/SelectDropDown.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/Jewel/target/test-classes/com/selenium/WebDriverTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/Jewel/target/test-classes/pageobject/Login.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/Jewel/target/test-classes/pageobject/Testare.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/Jewel/test-output/Default suite/Default test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/Jewel/test-output/Default suite/Default test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/Jewel/test-output/Default suite/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/Jewel/test-output/bullet_point.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/Jewel/test-output/collapseall.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/Jewel/test-output/emailable-report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/Jewel/test-output/failed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/Jewel/test-output/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/Jewel/test-output/jquery-1.7.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/Jewel/test-output/junitreports/TEST-com.selenium.SelectDropDown.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/Jewel/test-output/junitreports/TEST-com.selenium.WebDriverTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/Jewel/test-output/junitreports/TEST-ro.alx.Test3.Test3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/Jewel/test-output/junitreports/TEST-ro.alx.Test3.Testulet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/Jewel/test-output/junitreports/TEST-ro.alx.Test3.weee.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/Jewel/test-output/navigator-bullet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/Jewel/test-output/old/Default suite/Default test.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/Jewel/test-output/old/Default suite/classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/Jewel/test-output/old/Default suite/groups.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/Jewel/test-output/old/Default suite/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/Jewel/test-output/old/Default suite/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/Jewel/test-output/old/Default suite/methods-alphabetical.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/Jewel/test-output/old/Default suite/methods-not-run.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/Jewel/test-output/old/Default suite/methods.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/Jewel/test-output/old/Default suite/reporter-output.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/Jewel/test-output/old/Default suite/testng.xml.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/Jewel/test-output/old/Default suite/toc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/Jewel/test-output/old/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/Jewel/test-output/passed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/Jewel/test-output/skipped.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/Jewel/test-output/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/Jewel/test-output/testng-reports.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/Jewel/test-output/testng-reports.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/Jewel/test-output/testng-results.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/Jewel/test-output/testng.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/Jewel/testng-customsuite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/Jewel/testng.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/tester/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/tester/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/tester/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/tester/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/tester/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/tester/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/tester/src/main/java/ro/alx/tester/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/tester/src/test/java/ro/alx/tester/Testul.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/tester/target/classes/ro/alx/tester/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/tester/target/test-classes/ro/alx/tester/Testul.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/tester/test-output/Default suite/Default test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/tester/test-output/Default suite/Default test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/tester/test-output/bullet_point.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/tester/test-output/collapseall.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/tester/test-output/emailable-report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/tester/test-output/failed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/tester/test-output/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/tester/test-output/jquery-1.7.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/tester/test-output/navigator-bullet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/tester/test-output/old/Default suite/Default test.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/tester/test-output/old/Default suite/classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/tester/test-output/old/Default suite/groups.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/tester/test-output/old/Default suite/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/tester/test-output/old/Default suite/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/tester/test-output/old/Default suite/methods-alphabetical.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/tester/test-output/old/Default suite/methods-not-run.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/tester/test-output/old/Default suite/methods.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/tester/test-output/old/Default suite/reporter-output.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/tester/test-output/old/Default suite/testng.xml.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/tester/test-output/old/Default suite/toc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/tester/test-output/old/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/tester/test-output/passed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/tester/test-output/skipped.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/tester/test-output/testng-reports.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/tester/test-output/testng-reports.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/tester/test-output/testng-results.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/tester/test-output/testng.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaBulk/tester/testng.xml" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1516389160">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/first/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#393#480#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="curs11proiect1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="curs11proiect1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="curs11proiect1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="curs11proiect1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="curs11proiect1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="curs11proiect1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="first" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="curs11proiect1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539882869387" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6c75b3c2-10f3-4141-873f-fd6b6e16a7ff" name="Default Changelist" comment="" />
+      <created>1539869527947</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1539869527947</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Learn" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Maven Projects" visible="true" weight="0.32995737" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/first/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#393#480#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -5,7 +5,6 @@ import org.apache.xpath.operations.String;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-package dg_homepage;
 
 import base.web.NewpigGenericPage;
 import org.apache.xpath.operations.String;
