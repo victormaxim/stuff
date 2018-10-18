@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/contentStack/contentStack.iml" filepath="$PROJECT_DIR$/contentStack/contentStack.iml" />
       <module fileurl="file://$PROJECT_DIR$/stuff.iml" filepath="$PROJECT_DIR$/stuff.iml" />
     </modules>
   </component>
