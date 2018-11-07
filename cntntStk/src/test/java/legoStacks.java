@@ -7,19 +7,20 @@ import io.restassured.http.Headers;
 import io.restassured.response.Response;
 import io.restassured.specification.MultiPartSpecification;
 import io.restassured.specification.RequestSpecification;
+import org.apache.commons.configuration.ConfigurationException;
+import org.apache.commons.configuration.PropertiesConfiguration;
 import org.json.simple.JSONObject;
 import org.junit.Assert;
 import org.junit.Ignore;
 import org.junit.Test;
 
-import java.io.File;
-import java.io.IOException;
-import java.io.PrintWriter;
+import java.io.*;
 import java.net.URISyntaxException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Properties;
 import java.util.concurrent.CountDownLatch;
 
 import static io.restassured.RestAssured.given;
@@ -37,20 +38,88 @@ public class legoStacks {
     private static final String ORG_ID = "bltc86da631848cae03";
     private static final String CUSTOM_STACK_API_KEY = new String();
     private static String STACK_API_KEY = new String();
+    private static String STACK_ACCESS_TOKEN = new String();
 
     private Stack stack;
     private String jsonBody;
     private RequestSpecification request;
     private String word;
+    private PropertiesConfiguration conf;
 
     public legoStacks() throws Exception {
         Config config = new Config();
         config.setHost("api.contentstack.io");
         stack = Contentstack.stack( DEFAULT_SITEAPIKEY_KEY, DEFAULT_ACCESS_TOKEN, DEFAULT_ENV);
         RestAssured.baseURI ="https://api.contentstack.io/v3";
-
+        conf = new PropertiesConfiguration("resources/config.properties");
     }
 
+    @Test
+    public void createStack() throws URISyntaxException, IOException, NullPointerException, ConfigurationException {
+        RestAssured.basePath="/stacks";
+        requestBody("bodyStackInfo.json");
+        requestHeaders("createStack");
+        Response response = request.post();
+        String successCode = response.body().asString();
+        System.out.println(response.getStatusLine());
+        System.out.println(response.asString());
+        STACK_API_KEY = response.jsonPath().get("stack.api_key").toString();
+        STACK_ACCESS_TOKEN = response.jsonPath().get("stack.discrete_variables.access_token").toString();
+        conf.setProperty("stack_api_key", STACK_API_KEY );
+        conf.setProperty("stack_access_token", STACK_ACCESS_TOKEN);
+        conf.save();
+
+        assertThat(successCode, containsString("Stack created successfully."));
+    }
+
+    @Test
+    public void createContentType() throws URISyntaxException, IOException, NullPointerException {
+        RestAssured.basePath="/content_types";
+        requestBody("bodyContentType.json");
+        requestHeaders("createContentType");
+        Response response = request.post();
+        String successCode = response.body().asString();
+        System.out.println(response.getStatusLine());
+        System.out.println(response.asString());
+
+        assertThat(successCode, containsString("Stack created successfully."));
+    }
+
+    @Test
+    public void uploadAsset() throws URISyntaxException, IOException, NullPointerException, ConfigurationException {
+        RestAssured.basePath="/assets?relative_urls=false";
+        requestHeaders("uploadAsset");
+        Response response = request.post();
+        String successCode = response.body().asString();
+        System.out.println(response.jsonPath().get("asset.uid").toString());
+        String assetUID = response.jsonPath().get("asset.uid").toString();
+        conf.setProperty("asset_ID", assetUID);
+        conf.save();
+
+        //read bodyEntryTemplate.json
+        jsonBody = new String(Files.readAllBytes(Paths.get(getClass().getResource("bodyEntryTemplate.json").toURI())));
+        //appends asset_UID
+        jsonBody += "\"" + assetUID + "\"}}";
+        //writes bodyEntry.json with asset UID
+        try (PrintWriter out = new PrintWriter("resources/bodyEntry.json")) {
+            out.println(jsonBody);
+        }
+
+        assertThat(successCode, containsString("Asset created successfully."));
+    }
+
+    @Test
+    public void createEntry() throws URISyntaxException, IOException, NullPointerException {
+        RestAssured.basePath="/content_types/productAsset/entries?locale=en-us";
+        requestBody("bodyEntry.json");
+        requestHeaders("createEntry");
+        Response response = request.post();
+        String successCode = response.body().asString();
+        System.out.println(response.getStatusLine());
+        System.out.println(response.asString());
+
+        assertThat(successCode, containsString("Stack created successfully."));
+    }
 
     @Test
     public void getStackContent() throws Exception {
@@ -74,78 +143,6 @@ public class legoStacks {
         return entry;
     }
 
-//    public void getStackContentOld() {
-//        final Entry entry = this.stack.contentType("firstpage").entry("bltc5823a54e23aeb41");
-//
-//        entry.fetch(new EntryResultCallBack() {
-//            public void onCompletion(ResponseType responseType, Error error) {
-//                if (error == null) {
-//                    System.out.println(entry.getLanguage());
-//                    System.out.println(entry.getTitle());
-//                }
-//            }
-//        });
-//    }
-
-
-
-    @Test
-    public void createStack() throws URISyntaxException, IOException, NullPointerException {
-        RestAssured.basePath="/stacks";
-        requestBody("bodyStackInfo3.json");
-        requestHeaders("createStack");
-        Response response = request.post();
-        String successCode = response.body().asString();
-        System.out.println(response.getStatusLine());
-        System.out.println(response.asString());
-        STACK_API_KEY = response.jsonPath().get("stack.api_key").toString();
-
-        //write stack ID to file so it can be deleted in another test
-        try (PrintWriter out = new PrintWriter("resources/stack_api_key")) {
-            out.println(STACK_API_KEY);
-        }
-        assertThat(successCode, containsString("Stack created successfully."));
-    }
-
-    @Test
-    public void createContentType() throws URISyntaxException, IOException, NullPointerException {
-        RestAssured.basePath="/content_types";
-        requestBody("contentType.json");
-        requestHeaders("createContentType");
-        Response response = request.post();
-        String successCode = response.body().asString();
-        System.out.println(response.getStatusLine());
-        System.out.println(response.asString());
-
-        assertThat(successCode, containsString("Stack created successfully."));
-    }
-
-    @Test
-    public void createEntry() throws URISyntaxException, IOException, NullPointerException {
-        RestAssured.basePath="/content_types/product/entries?locale=en-us";
-        requestBody("bodyEntry.json");
-        requestHeaders("createEntry");
-        Response response = request.post();
-        String successCode = response.body().asString();
-        System.out.println(response.getStatusLine());
-        System.out.println(response.asString());
-
-        assertThat(successCode, containsString("Stack created successfully."));
-    }
-
-    @Test
-    public void uploadAsset() throws URISyntaxException, IOException, NullPointerException {
-        RestAssured.basePath="/assets?relative_urls=false";
-//        requestBody("bodyEntry.json");
-        requestHeaders("uploadAsset");
-        Response response = request.post();
-        String successCode = response.body().asString();
-        System.out.println(response.getStatusLine());
-        System.out.println(response.asString());
-
-        assertThat(successCode, containsString("Stack created successfully."));
-    }
-
     @Test
     public void deleteStack() throws URISyntaxException, IOException, NullPointerException {
         RestAssured.basePath="/stacks";
@@ -165,11 +162,28 @@ public class legoStacks {
         }
     }
 
+    @Test
+    public void  readJson() throws URISyntaxException, IOException {
+        try {
+            jsonBody = new String(Files.readAllBytes(Paths.get(getClass().getResource("bodyEntryTemplate.json").toURI())));
+            System.out.println(jsonBody);
+        }
+        catch (NullPointerException e){
+            System.out.println(e);
+        }
+        jsonBody += "\"" + "bltd1ed6e89aa254042\"}}";
+        System.out.println(jsonBody);
+        try (PrintWriter out = new PrintWriter("resources/bodyEntry.json")) {
+            out.println(jsonBody);
+        }
+    }
+
     private RequestSpecification requestHeaders(String type) throws URISyntaxException, IOException {
         List<Header> headerList = new ArrayList<>();
         //reads the stack ID from a previous automatically created stack
         try {
-            STACK_API_KEY = new String(Files.readAllBytes(Paths.get(getClass().getResource("stack_api_key").toURI()))).trim();
+//            STACK_API_KEY = new String(Files.readAllBytes(Paths.get(getClass().getResource("stack_api_key").toURI()))).trim();
+            STACK_API_KEY = conf.getProperty("stack_api_key").toString();
         }
         catch (NullPointerException e){
             System.out.println(e);
@@ -203,7 +217,8 @@ public class legoStacks {
                 headerList.add(auth_token);
                 headerList.add(stack_api_key);
                 request.contentType("multipart/form-data")
-                .multiPart("asset[upload]", new File("lego_man.jpg"), "image/jpg");
+                .multiPart("asset[upload]", new File(conf.getProperty("asset_file_URI").toString()), "image/jpg")
+                .multiPart("asset[title]", "assetName");
 
                 break;
         }
@@ -212,16 +227,6 @@ public class legoStacks {
         request.headers(header);
 
         return request;
-    }
-
-    @Test
-    public void useVars(){
-        word="test";
-        System.out.println(conca());
-    }
-
-    public String conca(){
-        return word + "x";
     }
 
     @Test
@@ -243,7 +248,7 @@ public class legoStacks {
     }
 
     @Test
-    public void snippets() {
+    public void snippets() throws ConfigurationException {
         ContentType contentType = stack.contentType("content_type_uid");
         final Entry entry = contentType.entry("blt41217c3f7b805076");
 
@@ -264,6 +269,13 @@ public class legoStacks {
 
             }
         });
+
+        /**
+         * update properties file
+         */
+        conf.setProperty("site_api_key", "valueY");
+        conf.save();
+
     }
 
 

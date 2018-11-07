@@ -1,7 +1,7 @@
 {
   "content_type": {
-    "title": "product",
-    "uid": "product",
+    "title": "productAsset",
+    "uid": "productAsset",
     "schema": [
       {
         "display_name": "Title",
@@ -18,6 +18,16 @@
         "display_name": "URL",
         "uid": "url",
         "data_type": "text",
+        "field_metadata": {
+          "_default": true
+        },
+        "unique": false,
+        "multiple": false
+      },
+      {
+        "display_name": "Visuals",
+        "uid": "file",
+        "data_type": "file",
         "field_metadata": {
           "_default": true
         },
