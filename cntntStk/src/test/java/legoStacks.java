@@ -1,14 +1,18 @@
 import com.builtio.contentstack.*;
 import com.builtio.contentstack.Error;
 import io.restassured.RestAssured;
+import io.restassured.builder.MultiPartSpecBuilder;
 import io.restassured.http.Header;
 import io.restassured.http.Headers;
 import io.restassured.response.Response;
+import io.restassured.specification.MultiPartSpecification;
 import io.restassured.specification.RequestSpecification;
 import org.json.simple.JSONObject;
 import org.junit.Assert;
 import org.junit.Ignore;
 import org.junit.Test;
+
+import java.io.File;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.net.URISyntaxException;
@@ -17,6 +21,8 @@ import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.CountDownLatch;
+
+import static io.restassured.RestAssured.given;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.containsString;
 import static org.hamcrest.Matchers.is;
@@ -35,6 +41,7 @@ public class legoStacks {
     private Stack stack;
     private String jsonBody;
     private RequestSpecification request;
+    private String word;
 
     public legoStacks() throws Exception {
         Config config = new Config();
@@ -126,6 +133,18 @@ public class legoStacks {
         assertThat(successCode, containsString("Stack created successfully."));
     }
 
+    @Test
+    public void uploadAsset() throws URISyntaxException, IOException, NullPointerException {
+        RestAssured.basePath="/assets?relative_urls=false";
+//        requestBody("bodyEntry.json");
+        requestHeaders("uploadAsset");
+        Response response = request.post();
+        String successCode = response.body().asString();
+        System.out.println(response.getStatusLine());
+        System.out.println(response.asString());
+
+        assertThat(successCode, containsString("Stack created successfully."));
+    }
 
     @Test
     public void deleteStack() throws URISyntaxException, IOException, NullPointerException {
@@ -162,7 +181,7 @@ public class legoStacks {
         Header org_id = new Header("organization_uid", ORG_ID);
         headerList.clear();
 
-        request = RestAssured.given().request().
+        request = given().request().
                 contentType("application/json");
 
         switch (type){
@@ -180,12 +199,29 @@ public class legoStacks {
                 headerList.add(stack_api_key);
                 request.body(jsonBody);
                 break;
+            case "uploadAsset":
+                headerList.add(auth_token);
+                headerList.add(stack_api_key);
+                request.contentType("multipart/form-data")
+                .multiPart("asset[upload]", new File("lego_man.jpg"), "image/jpg");
+
+                break;
         }
 
         Headers header = new Headers(headerList);
         request.headers(header);
 
         return request;
+    }
+
+    @Test
+    public void useVars(){
+        word="test";
+        System.out.println(conca());
+    }
+
+    public String conca(){
+        return word + "x";
     }
 
     @Test

@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7078995c-3ea3-446b-bb0b-7a9c68609e4b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="7078995c-3ea3-446b-bb0b-7a9c68609e4b" name="Default Changelist" comment="adds upload asset test">
+      <change afterPath="$PROJECT_DIR$/lego_man.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/legoStacks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/legoStacks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/legoStacks$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/legoStacks$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/legoStacks$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/legoStacks$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/legoStacks$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/legoStacks$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/legoStacks$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/legoStacks$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/legoStacks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/legoStacks.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -89,37 +95,42 @@
     <session id="1120952598">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.51" value="1" />
+          <entry key="project.open.time.67" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.97" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="130" />
-          <entry key="txt" value="11" />
+          <entry key="java" value="623" />
+          <entry key="txt" value="80" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="130" />
-          <entry key="PLAIN_TEXT" value="11" />
+          <entry key="JAVA" value="623" />
+          <entry key="PLAIN_TEXT" value="80" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="2" />
-          <entry key="txt" value="1" />
+          <entry key="json" value="6" />
+          <entry key="stack_api_key" value="1" />
+          <entry key="txt" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="2" />
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="JSON" value="6" />
+          <entry key="PLAIN_TEXT" value="3" />
         </counts>
       </usages-collector>
     </session>
@@ -129,17 +140,41 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/legoStacks.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="536">
-              <caret line="339" selection-start-line="339" selection-end-line="339" />
+            <state relative-caret-position="884">
+              <caret line="213" column="23" lean-forward="true" selection-start-line="213" selection-start-column="23" selection-end-line="213" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2168#2472#0" expanded="true" />
-                <element signature="e#2471#2472#0" expanded="true" />
-                <element signature="e#7463#7998#0" expanded="true" />
-                <element signature="e#7997#7998#0" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/stack_api_key">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="18" selection-start-column="18" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/entryInfo.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/bodyEntry.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="5" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/bodyStackInfo3.json">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -152,50 +187,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/io/rest-assured/rest-assured/3.0.0/rest-assured-3.0.0.jar!/io/restassured/specification/RequestSpecification.class">
+        <entry file="file://$PROJECT_DIR$/resources/contentType.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3009">
-              <caret line="195" column="25" selection-start-line="195" selection-start-column="25" selection-end-line="195" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/resources/Contentstack-v1.2.0.jar!/com/builtio/contentstack/Entry.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="884">
-              <caret line="68" column="38" selection-start-line="68" selection-start-column="38" selection-end-line="68" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/resources/Contentstack-v1.2.0.jar!/com/builtio/contentstack/EntryResultCallBack.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/resources/Contentstack-v1.2.0.jar!/com/builtio/contentstack/QueryResultsCallBack.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/News.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-              <folding>
-                <element signature="e#405#940#0" expanded="true" />
-                <element signature="e#939#940#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="629">
+              <caret line="37" column="4" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -245,6 +240,7 @@
       <find>comple</find>
       <find>find</find>
       <find>onCompletion</find>
+      <find>jp</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -263,7 +259,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
+    <option name="x" value="1912" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
@@ -275,7 +271,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -311,11 +306,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="onCompletion&#9;PSI&#9;JAVA://null#onCompletion" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540988532973" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541601118495" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -339,20 +335,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.legoStacks.createStackEntry">
+  <component name="RunManager" selected="JUnit.legoStacks.useVars">
     <configuration name="News" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="News" />
       <module name="cntntStk" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="legoStacks.RegistrationSuccessful" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="cntntStk" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="legoStacks" />
-      <option name="METHOD_NAME" value="RegistrationSuccessful" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -377,30 +363,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="legoStacks.testA" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="legoStacks.uploadAsset" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="cntntStk" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="legoStacks" />
-      <option name="METHOD_NAME" value="testA" />
+      <option name="METHOD_NAME" value="uploadAsset" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="legoStacks.useVars" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cntntStk" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="legoStacks" />
+      <option name="METHOD_NAME" value="useVars" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.legoStacks.testA" />
-      <item itemvalue="JUnit.legoStacks.RegistrationSuccessful" />
       <item itemvalue="Application.News" />
       <item itemvalue="JUnit.legoStacks.legoD" />
       <item itemvalue="JUnit.legoStacks.createStackEntry" />
+      <item itemvalue="JUnit.legoStacks.uploadAsset" />
+      <item itemvalue="JUnit.legoStacks.useVars" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.legoStacks.useVars" />
+        <item itemvalue="JUnit.legoStacks.uploadAsset" />
         <item itemvalue="JUnit.legoStacks.createStackEntry" />
         <item itemvalue="JUnit.legoStacks.legoD" />
         <item itemvalue="Application.News" />
-        <item itemvalue="JUnit.legoStacks.RegistrationSuccessful" />
-        <item itemvalue="JUnit.legoStacks.testA" />
       </list>
     </recent_temporary>
   </component>
@@ -415,44 +411,53 @@
       <option name="presentableId" value="Default" />
       <updated>1539788438350</updated>
     </task>
+    <task id="LOCAL-00001" summary="adds more complete tests for contentstack">
+      <created>1540988621420</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1540988621420</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="legoStacks_RegistrationSuccessful - 2018.10.22 at 15h 10m 10s.xml">
-      <configuration name="legoStacks.RegistrationSuccessful" configurationId="JUnit" />
+    <history-entry file="legoStacks_uploadAsset - 2018.11.01 at 12h 19m 26s.xml">
+      <configuration name="legoStacks.uploadAsset" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="legoStacks_RegistrationSuccessful - 2018.10.22 at 15h 11m 51s.xml">
-      <configuration name="legoStacks.RegistrationSuccessful" configurationId="JUnit" />
+    <history-entry file="legoStacks_uploadAsset - 2018.11.01 at 12h 20m 06s.xml">
+      <configuration name="legoStacks.uploadAsset" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="legoStacks_RegistrationSuccessful - 2018.10.22 at 15h 13m 45s.xml">
-      <configuration name="legoStacks.RegistrationSuccessful" configurationId="JUnit" />
+    <history-entry file="legoStacks_uploadAsset - 2018.11.01 at 12h 22m 08s.xml">
+      <configuration name="legoStacks.uploadAsset" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="legoStacks_RegistrationSuccessful - 2018.10.22 at 15h 14m 13s.xml">
-      <configuration name="legoStacks.RegistrationSuccessful" configurationId="JUnit" />
+    <history-entry file="legoStacks_uploadAsset - 2018.11.01 at 12h 22m 54s.xml">
+      <configuration name="legoStacks.uploadAsset" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="legoStacks_RegistrationSuccessful - 2018.10.22 at 15h 14m 50s.xml">
-      <configuration name="legoStacks.RegistrationSuccessful" configurationId="JUnit" />
+    <history-entry file="legoStacks_uploadAsset - 2018.11.01 at 12h 27m 07s.xml">
+      <configuration name="legoStacks.uploadAsset" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="legoStacks_RegistrationSuccessful - 2018.10.22 at 15h 15m 41s.xml">
-      <configuration name="legoStacks.RegistrationSuccessful" configurationId="JUnit" />
+    <history-entry file="legoStacks_uploadAsset - 2018.11.01 at 12h 28m 52s.xml">
+      <configuration name="legoStacks.uploadAsset" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="legoStacks_RegistrationSuccessful - 2018.10.22 at 15h 15m 54s.xml">
-      <configuration name="legoStacks.RegistrationSuccessful" configurationId="JUnit" />
+    <history-entry file="legoStacks_uploadAsset - 2018.11.01 at 12h 32m 28s.xml">
+      <configuration name="legoStacks.uploadAsset" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="legoStacks_legoD - 2018.10.23 at 18h 02m 54s.xml">
-      <configuration name="legoStacks.legoD" configurationId="JUnit" />
+    <history-entry file="legoStacks_uploadAsset - 2018.11.01 at 12h 37m 41s.xml">
+      <configuration name="legoStacks.uploadAsset" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="legoStacks_legoD - 2018.10.23 at 18h 03m 46s.xml">
-      <configuration name="legoStacks.legoD" configurationId="JUnit" />
+    <history-entry file="legoStacks_uploadAsset - 2018.11.01 at 12h 56m 45s.xml">
+      <configuration name="legoStacks.uploadAsset" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="legoStacks_createStackEntry - 2018.10.23 at 20h 08m 29s.xml">
-      <configuration name="legoStacks.createStackEntry" configurationId="JUnit" />
+    <history-entry file="legoStacks_useVars - 2018.11.01 at 15h 59m 31s.xml">
+      <configuration name="legoStacks.useVars" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27132195" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2771855" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -462,12 +467,12 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.329718" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.43926248" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.329718" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.329718" />
@@ -489,6 +494,8 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
+    <MESSAGE value="adds more complete tests for contentstack" />
+    <option name="LAST_COMMIT_MESSAGE" value="adds more complete tests for contentstack" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$PROJECT_DIR$/resources/Contentstack-v1.2.0.jar!/com/builtio/contentstack/Query.class">
@@ -548,27 +555,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/legoStacks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="536">
-          <caret line="339" selection-start-line="339" selection-end-line="339" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2168#2472#0" expanded="true" />
-            <element signature="e#2471#2472#0" expanded="true" />
-            <element signature="e#7463#7998#0" expanded="true" />
-            <element signature="e#7997#7998#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/foo.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="1" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/io/rest-assured/rest-assured/3.0.0/rest-assured-3.0.0.jar!/io/restassured/specification/RequestSpecification.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3009">
@@ -601,10 +587,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-          <folding>
-            <element signature="e#405#940#0" expanded="true" />
-            <element signature="e#939#940#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -626,6 +608,50 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/contentType.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="4" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/bodyEntry.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/bodyStackInfo3.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/foo.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/entryInfo.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/stack_api_key">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/legoStacks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="213" column="23" lean-forward="true" selection-start-line="213" selection-start-column="23" selection-end-line="213" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
