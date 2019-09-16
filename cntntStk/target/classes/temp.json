@@ -1,0 +1,65 @@
+{
+  "notice": "Stack created successfully.",
+  "stack": {
+    "created_at": "2018-11-07T16:06:19.821Z",
+    "updated_at": "2018-11-07T16:06:20.833Z",
+    "uid": "blt7d7433eceb81b30f",
+    "name": "API 3 automation created stack",
+    "description": "My new test stack",
+    "org_uid": "bltc86da631848cae03",
+    "api_key": "blt8f32824442e57dd0",
+    "master_locale": "en-us",
+    "is_asset_download_public": true,
+    "owner_uid": "blt4e41c937b4473d86",
+    "user_uids": [
+      "blt4e41c937b4473d86"
+    ],
+    "settings": {
+      "version": "2017-10-14",
+      "rte_version": 3,
+      "webhook_enabled": false
+    },
+    "master_key": "blta76705987c06d30d",
+    "SYS_ACL": {
+      "others": {
+        "invite": false,
+        "sub_acl": {
+          "create": false,
+          "read": false,
+          "update": false,
+          "delete": false
+        }
+      },
+      "roles": [
+        {
+          "uid": "blt6e68990ee156a1ba",
+          "name": "Developer",
+          "invite": true,
+          "sub_acl": {
+            "create": true,
+            "read": true,
+            "update": true,
+            "delete": true
+          }
+        },
+        {
+          "uid": "bltf94495a0b5c07459",
+          "name": "Admin",
+          "invite": true,
+          "sub_acl": {
+            "create": true,
+            "read": true,
+            "update": true,
+            "delete": true
+          }
+        }
+      ]
+    },
+    "discrete_variables": {
+      "cms": true,
+      "_version": 3,
+      "access_token": "blt6c999c7175ef4e93",
+      "secret_key": "6e73fec33b55dd13078e84c87288822b3b9e95c9"
+    }
+  }
+}
